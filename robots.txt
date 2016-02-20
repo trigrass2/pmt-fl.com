@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /db/
+
+Sitemap: http://www.pmt-fl.com/sitemap.xml
