@@ -1,0 +1,26 @@
+Name,Company,Phone,Email,Subject,Msg,Date,Region,Type
+"Geoff Harris","Quadratec Ltd","01292424390","geoff.harris@quadratec-ltd.co.uk","","","2013-11-25","3","3"
+"Klaus Renner","Cooper Perkins","7815385536","renner@cooperperkins.com","","","2013-11-25","1","3"
+"asa","asd","123123123","sdf@sdf.ru","","","2013-11-26","3","3"
+"Tommy Mckinnon","","1 604 808 4677","admin@hyperevo.com","Using the TDC GP22 and getting timeout","Hello, I am using the TDCGP22 to measure the time between a pulse on start and a pulse on stop1. I am using measurement mode 1. I am testing the TDC by applying a square wave pulse with a period of 100ns. Every time I make a measurement it just gives me 0xFFFFFFFF which means that it timed out. Can you please help me figure out why it keeps timing out? My configuration registers are: 
+ 
+Register 0:1101100110000000000000 
+Register 1:10000010000101000000000000000 
+Register 2:100000000000000000000000000000 
+Register 3:111001000000000000000000000000 
+Register 4:10000000000000000000000000000 
+Register 5:0 
+Register 6:1000000001000000000000","2013-11-27","","1"
+"Tommy Mckinnon","no company","1 604 808 4677","admin@hyperevo.com","","","2013-11-27","1","3"
+"CH, Chen","IUT Technology Co., Ltd","+88635539199","ch@iut.com.tw","","","2013-11-28","3","3"
+"Jonathan Weston","BorgWarner","01274 470830","jweston@borgwarner.com","","","2013-11-28","3","3"
+"stevenq","shenzhen exsaf","0755-86186517","stevenq@163.com","","","2013-11-28","3","3"
+"GV","J;.LKM;\'","4652313674","VHKLJN@GMAIL.COM","","","2013-11-28","3","3"
+"daniel","Université de technoilogie de TROYES","33325715866","laurent.daniel@utt.fr","","","2013-11-28","3","3"
+"Andy Williams","LU","01509227651","a.m.williams@lboro.ac.uk","","","2013-11-28","3","3"
+"Andy Williams","LU","01509227651","a.m.williams@lboro.ac.uk","","","2013-11-28","3","3"
+"LECONTE","RBR Ltd.","16137931392","jean-michel.leconte@rbr-global.com","","","2013-11-28","1","3"
+"Jeff","Fmc","2549771476","Jeff.dahl@fmcti.com","","","2013-11-29","1","3"
+"Richard","UNE","6773 2441","noworries56@hotmail.com","","","2013-11-30","2","3"
+"JEff","fmc","2549771476","jeffdshell@yahoo.com","","","2013-11-30","1","3"
+"Uuuggg","Ug","2549771476","Jeffdshell@yahoo.com","","","2013-11-30","1","3"

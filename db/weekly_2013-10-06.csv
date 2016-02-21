@@ -1,0 +1,46 @@
+Name,Company,Phone,Email,Subject,Msg,Date,Region,Type
+"Michael Joseph","BorgWarner","8286507405","mjoseph@borgwarner.com","","","2013-09-30","1","3"
+"Robert S Myerly","Robert S Myerly","9155812270","rsmyerly_1999@yahoo.com","PS021","This is an RFQ for:
+A) 4 pieces of PN# MNR 1002 (PS021 in TQFP48 package)
+B) 1 piece of PN# MNR 984 (PSA21 -STD pcb).
+
+Thanks,
+
+Robert S Myerly","2013-09-30","","2"
+"Tuba Istvan","BandK Kft","+36309417739","tuba.istvan@digi-x.hu","","","2013-10-01","3","3"
+"Robert Agnes","Quanta Methods","2122556080","bob@visualdata.com","","","2013-10-01","1","3"
+"Mateusz Lisowski","AGH University of Science and Technology","+48506998587","mateuszl@agh.edu.pl","","","2013-10-02","3","3"
+"damien","pders","02079199800","damien.cleary@pders-lifts.co.uk","","","2013-10-02","3","3"
+"Tony Velasquez","Ball Aerospace","303 9394243","Avelasqu@ball.com","","","2013-10-02","1","3"
+"Amay Kumar","Self Design Inc.","8529517538","amaykumar@gmail.com","","","2013-10-02","3","3"
+"mohsen","","","mazroee@gmail.com","heat meter","hi dear I want a model of heat meter for a thirty apartment to measure
+ heating and cooling. the diameter pipes are 1in and 2 in. please offer me a
+ model and their costs thanks","2013-10-03","","1"
+"Steven Purcell","Korrigan Enterprises","206 426-5267","steve.purcell.k@gmail.com","","","2013-10-03","1","3"
+"Kirill","NRC KI","+7499 1969999","balygin@electronics.kiae.ru","","","2013-10-04","3","3"
+"hkh","hhhh","252565656544","fdhgfh@wp.pl","","","2013-10-04","3","3"
+"Anthony Nguyen","","","antnguyen17@gmail.com","Product Inquiry - Acam GP22 TDC","Hello,
+
+I am a student working on a project and have purchased a few of the Acam GP22 TDCs.  I am currently in the process of writing code and had a question about the logic of the generic example code provided in one of the GP22 documents:
+
+// Result_UP, TOF in µs
+    // RES_0 to RES_2 to be displayed only for evaluation purposes
+    // RES_3 will be used for e.g. flow calculation
+    Result_0_up = gp22_read_n_bytes(Bus_Type,4,0xB0,0x00,16)/CLKHS_freq_cal;
+    Result_1_up = gp22_read_n_bytes(Bus_Type,4,0xB0,0x01,16)/CLKHS_freq_cal;
+    Result_2_up = gp22_read_n_bytes(Bus_Type,4,0xB0,0x02,16)/CLKHS_freq_cal;
+    average_Result_up = gp22_read_n_bytes(Bus_Type,4,0xB0,0x03,16)/CLKHS_freq_cal;
+
+    gp22_send_1byte(Bus_Type, Init);
+
+    // Wait for INT Slot_x, DOWNSTREAM
+    if (Bus_Type==SPI1) while (GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_4)==1); 
+    if (Bus_Type==SPI2) while (GPIO_ReadInputDataBit(GPIOE, GPIO_Pin_11)==1);
+    
+    // Read the Status Register
+    status_","2013-10-04","","1"
+"asdf","asdf","asdf","asdfasdf@123123.com","","","2013-10-04","1","3"
+"wanjohi mugo","university of victoria","7789772865","wanjohi@gmail.com","","","2013-10-04","1","3"
+"Xiong Vang","CSUF","5593019695","vxs_2@hotmail.com","","","2013-10-05","1","3"
+"patrick temple","lcf enterprises","208 777 0555","ptemple@lcfamps.com","","","2013-10-05","1","3"
+"Alexander Bersenev","Analog Equipment Corp","+1(519)722-4565","bersenev.alexander51@gmail.com","TDC-GP22","Can you also quote a development kit?","2013-10-05","","2"
