@@ -1,0 +1,9 @@
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^pmt-fl.com$ [NC]
+RewriteRule ^(.*)$ http://www.pmt-fl.com/$1 [R=301,L]
+
+ErrorDocument 404 /404.php

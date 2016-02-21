@@ -1,0 +1,10 @@
+Name,Company,Phone,Email,Subject,Msg,Date,Region,Type
+"dbz","dfbdzbdb","123456789","wfasw@asweew.vf",""," - ","2015-08-11","1","3"
+"...","....","00000000000000000","tex@tex.ch","","DB_GP22-EVA_en.pdf - tdc_ds","2015-08-11","3","3"
+"Ken Burgess","Calchemy Software Inc","970.691.1933","kburgess@calchemy.com","","AN034_en.pdf - tdc_app","2015-08-12","1","3"
+"Aaron Costall","Imperial College London","+442075947186","a.costall@imperial.ac.uk","","DB_PT2G_e.pdf - ptu_ds","2015-08-13","3","3"
+"Cindy Ng","Linxens Singapore","6565791705","cindy.ng@linxens.com","","PCap02plus.zip - pca_soft","2015-08-14","3","3"
+"Peter Low","","604-718-8189","plow@westport.com","technical info for PicoCap","I  was reviewing some of the information of the picocap2 and I had a couple of questions regarding performance.
+It indicates that the sensor has compensation for internal and external parasitic capacitances, but I don't see anything in the data sheet to quantify this. Is there any information you can provide? e.g. capacitance error in relation to parallel resistance, leakage current to ground, serial resistance etc.
+
+thank you","2015-08-14","","1"
