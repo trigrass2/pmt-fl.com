@@ -1,194 +1,338 @@
+/**
+ * menu-aim is a jQuery plugin for dropdown menus that can differentiate
+ * between a user trying hover over a dropdown item vs trying to navigate into
+ * a submenu's contents.
+ *
+ * menu-aim assumes that you have are using a menu with submenus that expand
+ * to the menu's right. It will fire events when the user's mouse enters a new
+ * dropdown item *and* when that item is being intentionally hovered over.
+ *
+ * __________________________
+ * | Monkeys  >|   Gorilla  |
+ * | Gorillas >|   Content  |
+ * | Chimps   >|   Here     |
+ * |___________|____________|
+ *
+ * In the above example, "Gorillas" is selected and its submenu content is
+ * being shown on the right. Imagine that the user's cursor is hovering over
+ * "Gorillas." When they move their mouse into the "Gorilla Content" area, they
+ * may briefly hover over "Chimps." This shouldn't close the "Gorilla Content"
+ * area.
+ *
+ * This problem is normally solved using timeouts and delays. menu-aim tries to
+ * solve this by detecting the direction of the user's mouse movement. This can
+ * make for quicker transitions when navigating up and down the menu. The
+ * experience is hopefully similar to amazon.com/'s "Shop by Department"
+ * dropdown.
+ *
+ * Use like so:
+ *
+ *      $("#menu").menuAim({
+ *          activate: $.noop,  // fired on row activation
+ *          deactivate: $.noop  // fired on row deactivation
+ *      });
+ *
+ *  ...to receive events when a menu's row has been purposefully (de)activated.
+ *
+ * The following options can be passed to menuAim. All functions execute with
+ * the relevant row's HTML element as the execution context ('this'):
+ *
+ *      .menuAim({
+ *          // Function to call when a row is purposefully activated. Use this
+ *          // to show a submenu's content for the activated row.
+ *          activate: function() {},
+ *
+ *          // Function to call when a row is deactivated.
+ *          deactivate: function() {},
+ *
+ *          // Function to call when mouse enters a menu row. Entering a row
+ *          // does not mean the row has been activated, as the user may be
+ *          // mousing over to a submenu.
+ *          enter: function() {},
+ *
+ *          // Function to call when mouse exits a menu row.
+ *          exit: function() {},
+ *
+ *          // Selector for identifying which elements in the menu are rows
+ *          // that can trigger the above events. Defaults to "> li".
+ *          rowSelector: "> li",
+ *
+ *          // You may have some menu rows that aren't submenus and therefore
+ *          // shouldn't ever need to "activate." If so, filter submenu rows w/
+ *          // this selector. Defaults to "*" (all elements).
+ *          submenuSelector: "*",
+ *
+ *          // Direction the submenu opens relative to the main menu. Can be
+ *          // left, right, above, or below. Defaults to "right".
+ *          submenuDirection: "right"
+ *      });
+ *
+ * https://github.com/kamens/jQuery-menu-aim
+*/
+(function($) {
 
+    $.fn.menuAim = function(opts) {
+        // Initialize menu-aim for all elements in jQuery collection
+        this.each(function() {
+            init.call(this, opts);
+        });
 
+        return this;
+    };
 
+    function init(opts) {
+        var $menu = $(this),
+            activeRow = null,
+            mouseLocs = [],
+            lastDelayLoc = null,
+            timeoutId = null,
+            options = $.extend({
+                rowSelector: "> li",
+                submenuSelector: "*",
+                submenuDirection: "right",
+                tolerance: 75,  // bigger = more forgivey when entering submenu
+                enter: $.noop,
+                exit: $.noop,
+                activate: $.noop,
+                deactivate: $.noop,
+                exitMenu: $.noop
+            }, opts);
 
+        var MOUSE_LOCS_TRACKED = 3,  // number of past mouse locations to track
+            DELAY = 300;  // ms delay when user appears to be entering submenu
 
-//Dropdown Menu Coding
+        /**
+         * Keep track of the last few locations of the mouse.
+         */
+        var mousemoveDocument = function(e) {
+                mouseLocs.push({x: e.pageX, y: e.pageY});
 
-var cssdropdown={
-disappeardelay: 250, //set delay in miliseconds before menu disappears onmouseout
-dropdownindicator: '', //'<img src="down.gif" border="0" />', //specify full HTML to add to end of each menu item with a drop down menu
-enablereveal: [false, 1], //enable swipe effect? [true/false, steps (Number of animation steps. Integer between 1-20. Smaller=faster)]
-enableiframeshim: 0, //enable "iframe shim" in IE5.5 to IE7? (1=yes, 0=no)
+                if (mouseLocs.length > MOUSE_LOCS_TRACKED) {
+                    mouseLocs.shift();
+                }
+            };
 
-//No need to edit beyond here////////////////////////
+        /**
+         * Cancel possible row activations when leaving the menu entirely
+         */
+        var mouseleaveMenu = function() {
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
 
-dropmenuobj: null, asscmenuitem: null, domsupport: document.all || document.getElementById, standardbody: null, iframeshimadded: false, revealtimers: {},
+                // If exitMenu is supplied and returns true, deactivate the
+                // currently active row on menu exit.
+                if (options.exitMenu(this)) {
+                    if (activeRow) {
+                        options.deactivate(activeRow);
+                    }
 
-getposOffset:function(what, offsettype){
-	var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
-	var parentEl=what.offsetParent;
-	while (parentEl!=null){
-		totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
-		parentEl=parentEl.offsetParent;
-	}
-	return totaloffset;
-},
+                    activeRow = null;
+                }
+            };
 
-css:function(el, targetclass, action){
-	var needle=new RegExp("(^|\\s+)"+targetclass+"($|\\s+)", "ig")
-	if (action=="check")
-		return needle.test(el.className)
-	else if (action=="remove")
-		el.className=el.className.replace(needle, "")
-	else if (action=="add" && !needle.test(el.className))
-		el.className+=" "+targetclass
-},
+        /**
+         * Trigger a possible row activation whenever entering a new row.
+         */
+        var mouseenterRow = function() {
+                if (timeoutId) {
+                    // Cancel any previous activation delays
+                    clearTimeout(timeoutId);
+                }
 
-showmenu:function(dropmenu, e){
-	if (this.enablereveal[0]){
-		if (!dropmenu._trueheight || dropmenu._trueheight<10)
-			dropmenu._trueheight=dropmenu.offsetHeight
-		clearTimeout(this.revealtimers[dropmenu.id])
-		dropmenu.style.height=dropmenu._curheight=0
-		dropmenu.style.overflow="hidden"
-		dropmenu.style.visibility="visible"
-		this.revealtimers[dropmenu.id]=setInterval(function(){cssdropdown.revealmenu(dropmenu)}, 10)
-	}
-	else{
-		dropmenu.style.visibility="visible"
-	}
-	this.css(this.asscmenuitem, "selected", "add")
-},
+                options.enter(this);
+                possiblyActivate(this);
+            },
+            mouseleaveRow = function() {
+                options.exit(this);
+            };
 
-revealmenu:function(dropmenu, dir){
-	var curH=dropmenu._curheight, maxH=dropmenu._trueheight, steps=this.enablereveal[1]
-	if (curH<maxH){
-		var newH=Math.min(curH, maxH)
-		dropmenu.style.height=newH+"px"
-		dropmenu._curheight= newH + Math.round((maxH-newH)/steps) + 1
-	}
-	else{ //if done revealing menu
-		dropmenu.style.height="auto"
-		dropmenu.style.overflow="hidden"
-		clearInterval(this.revealtimers[dropmenu.id])
-	}
-},
+        /*
+         * Immediately activate a row if the user clicks on it.
+         */
+        var clickRow = function() {
+                activate(this);
+            };
 
-clearbrowseredge:function(obj, whichedge){
-	var edgeoffset=0
-	if (whichedge=="rightedge"){
-		var windowedge=document.all && !window.opera? this.standardbody.scrollLeft+this.standardbody.clientWidth-15 : window.pageXOffset+window.innerWidth-15
-		var dropmenuW=this.dropmenuobj.offsetWidth
-		if (windowedge-this.dropmenuobj.x < dropmenuW)  //move menu to the left?
-			edgeoffset=dropmenuW-obj.offsetWidth
-	}
-	else{
-		var topedge=document.all && !window.opera? this.standardbody.scrollTop : window.pageYOffset
-		var windowedge=document.all && !window.opera? this.standardbody.scrollTop+this.standardbody.clientHeight-15 : window.pageYOffset+window.innerHeight-18
-		var dropmenuH=this.dropmenuobj._trueheight
-		if (windowedge-this.dropmenuobj.y < dropmenuH){ //move up?
-			edgeoffset=dropmenuH+obj.offsetHeight
-			if ((this.dropmenuobj.y-topedge)<dropmenuH) //up no good either?
-				edgeoffset=this.dropmenuobj.y+obj.offsetHeight-topedge
-		}
-	}
-	return edgeoffset
-},
+        /**
+         * Activate a menu row.
+         */
+        var activate = function(row) {
+                if (row == activeRow) {
+                    return;
+                }
 
-dropit:function(obj, e, dropmenuID){
-	if (this.dropmenuobj!=null) //hide previous menu
-		this.hidemenu() //hide menu
-	this.clearhidemenu()
-	this.dropmenuobj=document.getElementById(dropmenuID) //reference drop down menu
-	this.asscmenuitem=obj //reference associated menu item
-	this.showmenu(this.dropmenuobj, e)
-	this.dropmenuobj.x=this.getposOffset(obj, "left")
-	this.dropmenuobj.y=this.getposOffset(obj, "top")
-	this.dropmenuobj.style.left=this.dropmenuobj.x-this.clearbrowseredge(obj, "rightedge")+"px"
-	this.dropmenuobj.style.top=this.dropmenuobj.y-this.clearbrowseredge(obj, "bottomedge")+obj.offsetHeight+1+"px"
-	this.positionshim() //call iframe shim function
-},
+                if (activeRow) {
+                    options.deactivate(activeRow);
+                }
 
-positionshim:function(){ //display iframe shim function
-	if (this.iframeshimadded){
-		if (this.dropmenuobj.style.visibility=="visible"){
-			this.shimobject.style.width=this.dropmenuobj.offsetWidth+"px"
-			this.shimobject.style.height=this.dropmenuobj._trueheight+"px"
-			this.shimobject.style.left=parseInt(this.dropmenuobj.style.left)+"px"
-			this.shimobject.style.top=parseInt(this.dropmenuobj.style.top)+"px"
-			this.shimobject.style.display="block"
-		}
-	}
-},
+                options.activate(row);
+                activeRow = row;
+            };
 
-hideshim:function(){
-	if (this.iframeshimadded)
-		this.shimobject.style.display='none'
-},
+        /**
+         * Possibly activate a menu row. If mouse movement indicates that we
+         * shouldn't activate yet because user may be trying to enter
+         * a submenu's content, then delay and check again later.
+         */
+        var possiblyActivate = function(row) {
+                var delay = activationDelay();
 
-isContained:function(m, e){
-	var e=window.event || e
-	var c=e.relatedTarget || ((e.type=="mouseover")? e.fromElement : e.toElement)
-	while (c && c!=m)try {c=c.parentNode} catch(e){c=m}
-	if (c==m)
-		return true
-	else
-		return false
-},
+                if (delay) {
+                    timeoutId = setTimeout(function() {
+                        possiblyActivate(row);
+                    }, delay);
+                } else {
+                    activate(row);
+                }
+            };
 
-dynamichide:function(m, e){
-	if (!this.isContained(m, e)){
-		this.delayhidemenu()
-	}
-},
+        /**
+         * Return the amount of time that should be used as a delay before the
+         * currently hovered row is activated.
+         *
+         * Returns 0 if the activation should happen immediately. Otherwise,
+         * returns the number of milliseconds that should be delayed before
+         * checking again to see if the row should be activated.
+         */
+        var activationDelay = function() {
+                if (!activeRow || !$(activeRow).is(options.submenuSelector)) {
+                    // If there is no other submenu row already active, then
+                    // go ahead and activate immediately.
+                    return 0;
+                }
 
-delayhidemenu:function(){
-	this.delayhide=setTimeout("cssdropdown.hidemenu()", this.disappeardelay) //hide menu
-},
+                var offset = $menu.offset(),
+                    upperLeft = {
+                        x: offset.left,
+                        y: offset.top - options.tolerance
+                    },
+                    upperRight = {
+                        x: offset.left + $menu.outerWidth(),
+                        y: upperLeft.y
+                    },
+                    lowerLeft = {
+                        x: offset.left,
+                        y: offset.top + $menu.outerHeight() + options.tolerance
+                    },
+                    lowerRight = {
+                        x: offset.left + $menu.outerWidth(),
+                        y: lowerLeft.y
+                    },
+                    loc = mouseLocs[mouseLocs.length - 1],
+                    prevLoc = mouseLocs[0];
 
-hidemenu:function(){
-	this.css(this.asscmenuitem, "selected", "remove")
-	this.dropmenuobj.style.visibility='hidden'
-	this.dropmenuobj.style.left=this.dropmenuobj.style.top="-1000px"
-	this.hideshim()
-},
+                if (!loc) {
+                    return 0;
+                }
 
-clearhidemenu:function(){
-	if (this.delayhide!="undefined")
-		clearTimeout(this.delayhide)
-},
+                if (!prevLoc) {
+                    prevLoc = loc;
+                }
 
-addEvent:function(target, functionref, tasktype){
-	if (target.addEventListener)
-		target.addEventListener(tasktype, functionref, false);
-	else if (target.attachEvent)
-		target.attachEvent('on'+tasktype, function(){return functionref.call(target, window.event)});
-},
+                if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
+                    prevLoc.y < offset.top || prevLoc.y > lowerRight.y) {
+                    // If the previous mouse location was outside of the entire
+                    // menu's bounds, immediately activate.
+                    return 0;
+                }
 
-startchrome:function(){
-	if (!this.domsupport)
-		return
-	this.standardbody=(document.compatMode=="CSS1Compat")? document.documentElement : document.body
-	for (var ids=0; ids<arguments.length; ids++){
-		var menuitems=document.getElementById(arguments[ids]).getElementsByTagName("a")
-		for (var i=0; i<menuitems.length; i++){
-			if (menuitems[i].getAttribute("rel")){
-				var relvalue=menuitems[i].getAttribute("rel")
-				var asscdropdownmenu=document.getElementById(relvalue)
-				this.addEvent(asscdropdownmenu, function(){cssdropdown.clearhidemenu()}, "mouseover")
-				this.addEvent(asscdropdownmenu, function(e){cssdropdown.dynamichide(this, e)}, "mouseout")
-				this.addEvent(asscdropdownmenu, function(){cssdropdown.delayhidemenu()}, "click")
-				try{
-					menuitems[i].innerHTML=menuitems[i].innerHTML+" "+this.dropdownindicator
-				}catch(e){}
-				this.addEvent(menuitems[i], function(e){ //show drop down menu when main menu items are mouse over-ed
-					if (!cssdropdown.isContained(this, e)){
-						var evtobj=window.event || e
-						cssdropdown.dropit(this, evtobj, this.getAttribute("rel"))
-					}
-				}, "mouseover")
-				this.addEvent(menuitems[i], function(e){cssdropdown.dynamichide(this, e)}, "mouseout") //hide drop down menu when main menu items are mouse out
-				this.addEvent(menuitems[i], function(){cssdropdown.delayhidemenu()}, "click") //hide drop down menu when main menu items are clicked on
-			}
-		} //end inner for
-	} //end outer for
-	if (this.enableiframeshim && document.all && !window.XDomainRequest && !this.iframeshimadded){ //enable iframe shim in IE5.5 thru IE7?
-		document.write('<IFRAME id="iframeshim" src="about:blank" frameBorder="0" scrolling="no" style="left:0; top:0; position:absolute; display:none;z-index:90; background: transparent;"></IFRAME>')
-		this.shimobject=document.getElementById("iframeshim") //reference iframe object
-		this.shimobject.style.filter='progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)'
-		this.iframeshimadded=true
-	}
-} //end startchrome
+                if (lastDelayLoc &&
+                        loc.x == lastDelayLoc.x && loc.y == lastDelayLoc.y) {
+                    // If the mouse hasn't moved since the last time we checked
+                    // for activation status, immediately activate.
+                    return 0;
+                }
 
-}
+                // Detect if the user is moving towards the currently activated
+                // submenu.
+                //
+                // If the mouse is heading relatively clearly towards
+                // the submenu's content, we should wait and give the user more
+                // time before activating a new row. If the mouse is heading
+                // elsewhere, we can immediately activate a new row.
+                //
+                // We detect this by calculating the slope formed between the
+                // current mouse location and the upper/lower right points of
+                // the menu. We do the same for the previous mouse location.
+                // If the current mouse location's slopes are
+                // increasing/decreasing appropriately compared to the
+                // previous's, we know the user is moving toward the submenu.
+                //
+                // Note that since the y-axis increases as the cursor moves
+                // down the screen, we are looking for the slope between the
+                // cursor and the upper right corner to decrease over time, not
+                // increase (somewhat counterintuitively).
+                function slope(a, b) {
+                    return (b.y - a.y) / (b.x - a.x);
+                };
+
+                var decreasingCorner = upperRight,
+                    increasingCorner = lowerRight;
+
+                // Our expectations for decreasing or increasing slope values
+                // depends on which direction the submenu opens relative to the
+                // main menu. By default, if the menu opens on the right, we
+                // expect the slope between the cursor and the upper right
+                // corner to decrease over time, as explained above. If the
+                // submenu opens in a different direction, we change our slope
+                // expectations.
+                if (options.submenuDirection == "left") {
+                    decreasingCorner = lowerLeft;
+                    increasingCorner = upperLeft;
+                } else if (options.submenuDirection == "below") {
+                    decreasingCorner = lowerRight;
+                    increasingCorner = lowerLeft;
+                } else if (options.submenuDirection == "above") {
+                    decreasingCorner = upperLeft;
+                    increasingCorner = upperRight;
+                }
+
+                var decreasingSlope = slope(loc, decreasingCorner),
+                    increasingSlope = slope(loc, increasingCorner),
+                    prevDecreasingSlope = slope(prevLoc, decreasingCorner),
+                    prevIncreasingSlope = slope(prevLoc, increasingCorner);
+
+                if (decreasingSlope < prevDecreasingSlope &&
+                        increasingSlope > prevIncreasingSlope) {
+                    // Mouse is moving from previous location towards the
+                    // currently activated submenu. Delay before activating a
+                    // new menu row, because user may be moving into submenu.
+                    lastDelayLoc = loc;
+                    return DELAY;
+                }
+
+                lastDelayLoc = null;
+                return 0;
+            };
+
+        /**
+         * Hook up initial menu events
+         */
+        $menu
+            .mouseleave(mouseleaveMenu)
+            .find(options.rowSelector)
+                .mouseenter(mouseenterRow)
+                .mouseleave(mouseleaveRow)
+                .click(clickRow);
+
+        $(document).mousemove(mousemoveDocument);
+
+    };
+})(jQuery);
+
+$(document).ready(function(){
+  console.log('nav');
+  // mouse enter
+  // mouse leave
+  var $primaryNav = $("#primary-navigation");
+
+  $primaryNav.find('.vertical-nav-item').hover (
+    function() {
+      $(this).parent().prev().addClass('active');
+    },
+    function() {
+      $(this).parent().prev().removeClass('active');
+    }                                               
+  );
+});
