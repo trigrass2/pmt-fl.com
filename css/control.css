@@ -626,6 +626,18 @@ Primary Navigation
 }
 
 /* Level 2 */
+.vertical-nav-heading {
+	background-color: rgba(0, 0, 0, .1);
+	font-weight: bold;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+.horizontal-nav-item .vertical-nav-item > a {
+	display: block;
+	padding: 5px 15px;
+}
+
+/* Chevron*/
 .vertical-nav-item > a {
 	position: relative;
 }
@@ -655,17 +667,6 @@ Primary Navigation
 	display: block;
 }
 
-.vertical-nav-heading {
-	background-color: rgba(0, 0, 0, .1);
-	font-weight: bold;
-	text-transform: uppercase;
-}
-.horizontal-nav-item .vertical-nav-item > a,
-.vertical-nav-heading {
-	display: block;
-	padding: 5px 15px;
-}
-
 /* Level 3 */
 .vertical-nav-item > .vertical-nav {
 	background-color: #0387cd;
@@ -674,11 +675,12 @@ Primary Navigation
 	position: absolute;
 		top: -1px;
 		left: 270px;
-	width: auto;
+		bottom: 0;
+	width: 340px;
 }
 
 .vertical-nav-item > .vertical-nav .vertical-nav-item a { 
-	white-space: nowrap;	
+	/*white-space: nowrap;	*/
 }
 
 
