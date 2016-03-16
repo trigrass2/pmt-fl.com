@@ -198,7 +198,7 @@ if(isset($_POST['submit'])) {
 
 </head>
 
-<body onload="cssdropdown.startchrome('chromemenu');">
+<body>
 
 <div id="downloadform">
 				<h2 class="sub">User Information</h2>
