@@ -23,26 +23,27 @@
       </aside>
 
       <article class="product-details">
-        <h1 class="primary-heading">AS3410 Active Noise Cancellation</h1>
-        <h2 class="secondary-heading">Feedforward ANC solution for accessories</h2>
+        <h1 class="primary-heading">AS3412 Active Noise Cancellation</h1>
+        <h2 class="secondary-heading">Ultra small ANC Speaker Driver</h2>
 
         <p class="intro">
-          Integrated Active Noise Cancellation solution addressing feedforward architecture for Stereo wired headsets, suitable for music, video or mobile use.
-          <img src="../../images/audio/AS3410_Feed-Forward-ANC-Block-Diagram_f380greyscale.jpg" />
+          Integrated Active Noise Cancelling solution improves the quality of music listening, phone conversations etc. by significantly reducing background ambient noise. The first ultra-small IC specially created for the mobile accessory headset implementation. 
+          <img src="../../images/audio/AS3412-block-diagram_f380greyscale.jpg" />
         </p>
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd>>25dB noise reduction achievable</dd>
-          <dd>High quality audio chain</dd>
-          <dd>Fully electronic calibration</dd>
-          <dd>Single Cell (AA/AAA) or 1.0V - 1.8V supply</dd>
+          <dd>30dB noise reduction achievable</dd>
+          <dd>Integrated bypass switches</dd>
+          <dd>Up to 34mW stereo output power</dd>
+          <dd>Full digital control</dd>
+          <dd>Support of Feed Forward Topology</dd>
+          <dd>WL-CSP 2.2x2.2mm package; 0.4mm pitch</dd>
 
           <dt>Key Benefits</dt>
-          <dd>Superior performance</dd>
-          <dd>Pure, unadulterated audio</dd>
-          <dd>No manual intervention during production</dd>
-          <dd>Unparalleled battery life</dd>
+          <dd>No mechanical switch for passive playback</dd>
+          <dd>Reduced hiss noise level</dd>
+          <dd>Ultra small PCB size</dd>
         </dl>
 
         <table class="product-facts">
@@ -54,32 +55,32 @@
             <td>Receive path</td>
           </tr>
           <tr>
-            <td>Topology</td>
-            <td>Feedforward</td>
+          	<td>Topology</td>
+          	<td>Feed Forward</td>
           </tr>
           <tr>
-            <td>Output type</td>
-            <td>Stereo/BTL</td>
+          	<td>Output type</td>
+          	<td>Stereo/BTL</td>
           </tr>
           <tr>
-            <td>Max output power (BTL, 1.8V, 32 Ohm) [mW]</td>
-            <td>125</td>
+          	<td>Max output power (BTL, 1.8V, 32 Ohm) [mW]</td>
+          	<td>90</td>
           </tr>
           <tr>
-            <td>SNR, THD (SE, 34mW, 32Ohm) [dB]</td>
-            <td>>100, <0.1%</td>
+          	<td>SNR, THD (SE, 34mW, 32Ohm) [dB]</td>
+          	<td>>112, 5%</td>
           </tr>
           <tr>
-            <td>ANC performance [dB]</td>
-            <td>>20</td>
+          	<td>ANC performance [dB]</td>
+          	<td>>30</td>
           </tr>
           <tr>
-            <td>Supply voltage [V]</td>
-            <td>1.0 to 1.8</td>
+          	<td>Supply voltage [V]</td>
+          	<td>1.8V - 1.6V</td>
           </tr>
           <tr>
-            <td>Package</td>
-            <td>QFN-24 (4x4)</td>
+          	<td>Package</td>
+          	<td>2.2x2.2mm package; 0.4mm pitch</td>
           </tr>
         </table>
 
