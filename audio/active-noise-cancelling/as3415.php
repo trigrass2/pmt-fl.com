@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
-  <?php include("../includes/head.php"); ?>
+  <?php include("../../includes/head.php"); ?>
 </head>
 <body>
 
@@ -11,33 +11,38 @@
 
   <!-- BEGIN containerIN -->
   <div id="containerIn">
-    <?php include("../includes/header-nav.php"); ?>
+    <?php include("../../includes/header-nav.php"); ?>
 
 
 
     <section role="main" class="product-detail">
       <aside role="complimentary" class="sidebar">
-        <?php include("../includes/subnav-tdc.php"); ?>    
+        <ul class="vertical-nav">
+          <?php include("../../includes/subnav-audio.php"); ?>    
+        </ul>
       </aside>
 
       <article class="product-details">
         <h1 class="primary-heading"></h1>
         <h2 class="secondary-heading"></h2>
 
-        <p class="into">
+        <p class="intro">
           
           <img src="" />
         </p>
 
         <dl class="product-features">
-          <dt></dt>
+          <dt>Key Features</dt>
           <dd></dd>
 
-          <dt></dt>
+          <dt>Key Benefits</dt>
           <dd></dd>
         </dl>
 
         <table class="product-facts">
+          <tr>
+            <th colspan="2">Product Facts</th>
+          </tr>
           <tr>
             <td></td>
             <td></td>
@@ -50,7 +55,7 @@
       
     
     
-    <?php include("../includes/footer.php"); ?>
+    <?php include("../../includes/footer.php"); ?>
   </div>
   <!-- END containerIN -->
 </div>
