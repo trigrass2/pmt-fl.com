@@ -23,20 +23,28 @@
       </aside>
 
       <article class="product-details">
-        <h1 class="primary-heading"></h1>
-        <h2 class="secondary-heading"></h2>
+        <h1 class="primary-heading">AS3435 Active Noise Cancellation</h1>
+        <h2 class="secondary-heading">Active noise cancellation solutions for stereo headsets</h2>
 
         <p class="intro">
-          
-          <img src="" />
+          Integrated Active Noise Cancellation solution with integrated bypass function addressing feedback and hybrid architectures for Stereo wired headsets, suitable for music, video or mobile use.
+          <img src="../../images/audio/AS3435_Block-Diagram_f380greyscale.jpg" />
         </p>
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd></dd>
+          <dd>Bypass function</dd>
+          <dd>>20dB noise reduction achievable</dd>
+          <dd>High quality audio chain</dd>
+          <dd>Fully electronic calibration</dd>
+          <dd>Single Cell (AA/AAA) or 1.0V - 1.8V supply</dd>
 
           <dt>Key Benefits</dt>
-          <dd></dd>
+          <dd>Listen to audio even without power</dd>
+          <dd>Superior performance</dd>
+          <dd>Pure, unadulterated audio</dd>
+          <dd>No manual intervention during production</dd>
+          <dd>Unparalleled battery life</dd>
         </dl>
 
         <table class="product-facts">
@@ -44,8 +52,36 @@
             <th colspan="2">Product Facts</th>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td>Function</td>
+            <td>Receive path</td>
+          </tr>
+          <tr>
+            <td>Topology</td>
+            <td>Feedback</td>
+          </tr>
+          <tr>
+            <td>Output type</td>
+            <td>Stereo/ SE / Mono BTL with Bypass</td>
+          </tr>
+          <tr>
+            <td>Max output power (BTL, 1.8V, 32 Ohm) [mW]</td>
+            <td>125</td>
+          </tr>
+          <tr>
+            <td>SNR, THD (SE, 34mW, 32Ohm) [dB]</td>
+            <td>>106, <0.1%</td>
+          </tr>
+          <tr>
+            <td>ANC performance [dB]</td>
+            <td>>25</td>
+          </tr>
+          <tr>
+            <td>Supply voltage [V]</td>
+            <td>1.0 to 1.8</td>
+          </tr>
+          <tr>
+            <td>Package</td>
+            <td>QFN-36 (5x5)</td>
           </tr>
         </table>
 
