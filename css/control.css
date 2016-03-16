@@ -185,7 +185,11 @@ table.orno td {
 	width:980px;
 	/*height:2000px;*/
 	background-color:#faf8f8;
-
+}
+#containerIn:after {
+	content:"";
+  display:table;
+  clear:both;
 }
 
 #homeHighlight {
@@ -499,40 +503,6 @@ Header
 	display: block;
 	width: 100%;
 }
-
-/* Chevron */
-[data-dropdown="bottom"]:after {
-	border-style: solid;
-	border-width: 0.2em 0.2em 0 0;
-	content: '';
-	display: inline-block;
-	margin-left: 10px;
-	height: 0.45em;
-	left: 0.15em;
-	position: relative;
-	top: 19px;
-	transform: rotate(135deg);
-	vertical-align: top;
-	width: 0.45em;
-}
-[data-dropdown="right"] {
-	position: relative;
-}
-[data-dropdown="right"]:after {
-	border-style: solid;
-	border-width: 0.2em 0.2em 0 0;
-	content: '';
-	display: inline-block;
-	height: 0.45em;
-	float: right;
-	position: absolute;
-		right: 10px;
-		top: 9px;
-	transform: rotate(45deg);
-	vertical-align: top;
-	width: 0.45em;
-}
-
 /* Logo */
 .pmt-logo {
 	float: left;
@@ -577,6 +547,39 @@ Header
 /* --------------------------------------------------------
 Primary Navigation
 --------------------------------------------------------- */
+/* Chevron */
+.primary-nav [data-dropdown="bottom"]:after {
+	border-style: solid;
+	border-width: 0.2em 0.2em 0 0;
+	content: '';
+	display: inline-block;
+	margin-left: 10px;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 19px;
+	transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+.primary-nav [data-dropdown="right"] {
+	position: relative;
+}
+.primary-nav [data-dropdown="right"]:after {
+	border-style: solid;
+	border-width: 0.2em 0.2em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	float: right;
+	position: absolute;
+		right: 10px;
+		top: 9px;
+	transform: rotate(45deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
 /* primary navigation */
 .primary-nav {
 	background-color: #0387cd;
@@ -596,20 +599,20 @@ Primary Navigation
 	background-color: #595a5c;
 }
 
-.horizontal-nav:first-child {
+.primary-nav .horizontal-nav:first-child {
 	float: left;
 }
-.horizontal-nav:last-child {
+.primary-nav .horizontal-nav:last-child {
 	float: right;
 }
 
 /* Level 1 */
-.horizontal-nav-item {
+.primary-nav .horizontal-nav-item {
 	color: #fff;
 	float: left;
 	position: relative;
 }
-.horizontal-nav-item > a {
+.primary-nav .horizontal-nav-item > a {
 	display: block;
 	height: 50px;
 	line-height: 50px;
@@ -617,31 +620,31 @@ Primary Navigation
 	padding: 0 15px;
 	text-transform: uppercase;
 }
-.horizontal-nav-item > a:hover,
-.horizontal-nav-item > a:focus,
-.vertical-nav-item > a:hover,
-.vertical-nav-item > a:focus {
+.primary-nav .horizontal-nav-item > a:hover,
+.primary-nav .horizontal-nav-item > a:focus,
+.primary-nav .vertical-nav-item > a:hover,
+.primary-nav .vertical-nav-item > a:focus {
 	background-color: #595a5c;
 	text-decoration: none;
 }
 
 /* Level 2 */
-.vertical-nav-heading {
+.primary-nav .vertical-nav-heading {
 	background-color: rgba(0, 0, 0, .1);
 	font-weight: bold;
 	padding: 5px 15px;
 	text-transform: uppercase;
 }
-.horizontal-nav-item .vertical-nav-item > a {
+.primary-nav .horizontal-nav-item .vertical-nav-item > a {
 	display: block;
 	padding: 5px 15px;
 }
 
 /* Chevron*/
-.vertical-nav-item > a {
+.primary-nav .vertical-nav-item > a {
 	position: relative;
 }
-.vertical-nav-item > a:before {
+.primary-nav .vertical-nav-item > a:before {
 	background-color: rgba(256,256,256, .2);
 	content: "";
 	display: block;
@@ -652,7 +655,7 @@ Primary Navigation
 		right: 10px;
 }
 
-.horizontal-nav-item > .vertical-nav {
+.primary-nav .horizontal-nav-item > .vertical-nav {
 	background-color: #0387cd;
 	border: 1px solid rgba(256, 256, 256, .2);
 	display: none;
@@ -662,13 +665,13 @@ Primary Navigation
 		z-index: 10;
 	width: 270px;
 }
-.horizontal-nav-item:hover > .vertical-nav,
-.horizontal-nav-item:focus > .vertical-nav {
+.primary-nav .horizontal-nav-item:hover > .vertical-nav,
+.primary-nav .horizontal-nav-item:focus > .vertical-nav {
 	display: block;
 }
 
 /* Level 3 */
-.vertical-nav-item > .vertical-nav {
+.primary-nav .vertical-nav-item > .vertical-nav {
 	background-color: #0387cd;
 	border: 1px solid rgba(256, 256, 256, .2);
 	display: none;
@@ -679,13 +682,13 @@ Primary Navigation
 	width: 340px;
 }
 
-.vertical-nav-item > .vertical-nav .vertical-nav-item a { 
+.primary-nav .vertical-nav-item > .vertical-nav .vertical-nav-item a { 
 	/*white-space: nowrap;	*/
 }
 
 
-.vertical-nav-item:hover > .vertical-nav,
-.vertical-nav-item:focus > .vertical-nav {
+.primary-nav .vertical-nav-item:hover > .vertical-nav,
+.primary-nav .vertical-nav-item:focus > .vertical-nav {
 	display: block;
 }
 
@@ -859,6 +862,109 @@ input.SubmitButton {
 
 #fsRow1458182-2.fsRow.fsFieldRow.fsLastRow{}
 
+/* --------------------------------------------------------
+Product Page Layouts (index, detail)
+--------------------------------------------------------- */
+.product-index:after,
+.product-detail:after {
+	content:"";
+  display:table;
+  clear:both;	
+}
 
+/* Sidebar */
+.product-detail .sidebar {
+	border-right: 1px solid #ccc;
+	float: left;
+	padding: 0 2%;
+	width: 25%;
+}
+.product-detail .sidebar ul {
+	font-weight: bold;
+	list-style: none;
+	padding-left: 5px;
+}
+.product-detail .sidebar > ul {
+	padding: 2% 0;
+}
+.product-detail .sidebar ul ul {
+	font-weight: normal;
+	margin: 0 5px 20px;
+}
+.product-detail .sidebar ul ul a {
+	display: block;
+	padding: 5px 0;
+}
+.product-detail .sidebar a {
+	color: #333;
+}
+.product-detail .sidebar a:hover,
+.product-detail .sidebar a:focus {
+	color: #0387cd;
+}
+.product-detail .vertical-nav-heading {
+	color: #ff6600;
+	font: 21px GillSans;
+	font-weight: normal;
+	text-transform: uppercase;
+}
 
+/* Product Details */
+.product-detail .product-details {
+	float: right;
+	padding: 2% 2% 2% 0;
+	width: 66%;
+}
 
+/* Features */
+.product-details h1 {
+	margin: 0;
+}
+.product-details h2 {
+	margin: 0 0 20px;
+}
+.product-details p {
+	line-height: 1.4;
+	margin: 0 0 20px;
+}
+.product-details .intro {
+
+}
+.product-details .intro img {
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	float: right;
+}
+.product-details table {
+	margin: 0 0 20px;
+}
+.product-details .product-features {
+	margin: 0 0 20px;
+	padding: 0;
+}
+.product-details .product-features dt {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+}
+.product-details .product-features dd {
+	margin: 0;
+}
+
+/* Facts Table */
+.product-details .product-facts {
+	width: 100%;
+}
+.product-details .product-facts th {
+	font-size: 18px;
+	font-weight: bold;
+}
+.product-details .product-facts td {
+	border-bottom: 1px solid #ccc;
+	text-align: right;
+	padding: 5px;
+}
+.product-details .product-facts td:first-child {
+	font-weight: bold;
+	text-align: left;
+}
