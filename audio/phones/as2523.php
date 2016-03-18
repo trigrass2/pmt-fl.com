@@ -21,7 +21,7 @@
       </aside>
 
       <article class="product-details">
-        <h1 class="primary-heading"></h1>
+        <h1 class="primary-heading">AS2523/24 Single Chip Phone</h1>
         <h2 class="secondary-heading"></h2>
 
         <p class="intro">

@@ -43,7 +43,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2"></th>
+            <th colspan="2">Product Facts</th>
           </tr>
           <tr>
             <td>Amplifiers [#]</td>
