@@ -6,6 +6,7 @@
 	<ul class="vertical-nav">
 		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3400.php">AS3400 Single channel (differential) ANC solution for accessories</a></li>
 		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3410.php">AS3410 Feedforward ANC solution for accessories</a></li>
+		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3412.php">AS3412 Ultra small ANC Speaker Driver</a></li>
 		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3415.php">AS3415 Active Noise Cancellation solutions for stereo headsets</a></li>
 		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3420.php">AS3420 Mono bluetooth ANC solution</a></li>
 		<li class="vertical-nav-item"><a href="/audio/active-noise-cancelling/as3421.php">AS3421 Low power ambient noise cancellation speaker driver</a></li>

@@ -21,26 +21,59 @@
       </aside>
 
       <article class="product-details">
-        <h1 class="primary-heading"></h1>
-        <h2 class="secondary-heading"></h2>
+        <h1 class="primary-heading">AS2534 Single Chip Phone</h1>
+        <h2 class="secondary-heading">Single-chip telephone IC with line interface, speech circuit, dialler and ringer</h2>
 
         <p class="intro">
-          
-          <img src="" />
+          The AS2534 is Single-chip Basic Phone integrated circuit and contains all functions needed to build a high performance electronic telephone set with basic features. The AS2534 incorporates a line interface, a speech circuit, a dialler and ringer, and LNR (last number redial).
+          <img src="../../images/audio/AS2533-36-Diagram_f380greyscale.jpg" />
         </p>
 
         <dl class="product-features">
-          <dt></dt>
-          <dd></dd>
+          <dt>Key Features</dt>
+          <dd>Line Interface and Speech circuit with electronic Rx volume control and microphone mute</dd>
+          <dd>31 digit last number redial (LNR)</dd>
+          <dd>3-tone melody generator</dd>
+          <dd>Operating range from 13 to 100 mA (down to 5 mA with reduced performance)</dd>
 
-          <dt></dt>
-          <dd></dd>
+          <dt>Key Benefits</dt>
+          <dd>True single-chip telephone IC with all the functions for a basic telephone</dd>
+          <dd>Unique EMC performance</dd>
+          <dd>No external power supply (line powered)</dd>
         </dl>
 
         <table class="product-facts">
           <tr>
+            <th colspan="2">Product Facts</th>
+          </tr>
+          <tr>
+            <td>Supply voltage [V]</td>
+            <td>3.8 to 5.0</td>
+          </tr>
+          <tr>
+            <td>Operating range [mA]</td>
+            <td>13 to 100</td>
+          </tr>
+          <tr>
+            <td>Temperature range [&deg;C]</td>
+            <td>-25 to +70</td>
+          </tr>
+          <tr>
+            <td>Last number + memory dialing</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Tone ringer</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Handsfree function</td>
             <td></td>
-            <td></td>
+          </tr>
+          <tr>
+            <td>Package</td>
+            <td>SOIC-28,<br />
+            die on foil</td>
           </tr>
         </table>
 
