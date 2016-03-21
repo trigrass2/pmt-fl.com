@@ -33,7 +33,7 @@
 <div id="containerOut">
 	<div id="containerIn">
 	
-<?php include("includes/header-nav.php"); ?>
+		<?php include("includes/header-nav.php"); ?>
 		
 		<div id="homeHighlight">
 		
