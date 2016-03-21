@@ -16,35 +16,38 @@
 
 
     <section role="main" class="product-detail">
-      <aside role="complimentary" class="sidebar">
-        <?php include("../../includes/subnav-tdc.php"); ?>    
-      </aside>
-
       <article class="product-details">
         <h1 class="primary-heading"></h1>
         <h2 class="secondary-heading"></h2>
 
         <p class="intro">
-          
           <img src="" />
         </p>
 
         <dl class="product-features">
-          <dt></dt>
+          <dt>Key Features</dt>
           <dd></dd>
 
-          <dt></dt>
+          <dt>Key Benefits</dt>
           <dd></dd>
         </dl>
 
         <table class="product-facts">
           <tr>
-            <td></td>
+            <th colspan="2">Product Facts</th>
+          </tr>
+          <tr>
             <td></td>
           </tr>
         </table>
 
       </article>
+
+      <aside role="complimentary" class="sidebar">
+        <ul class="vertical-nav">
+          <?php include("../../includes/subnav-.php"); ?>    
+        </ul>
+      </aside>
     </section>
     
       

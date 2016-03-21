@@ -17,7 +17,9 @@
 
     <section role="main" class="product-detail">
       <aside role="complimentary" class="sidebar">
-        <?php include("../../includes/subnav-tdc.php"); ?>    
+        <ul class="vertical-nav">
+          <?php include("../../includes/subnav-audio.php"); ?>    
+        </ul> 
       </aside>
 
       <article class="product-details">
