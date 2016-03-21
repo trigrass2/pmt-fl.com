@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>Sensor Drivel Lighting: Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -45,7 +45,7 @@
 
       <aside role="complimentary" class="sidebar">
         <ul class="vertical-nav">
-          <?php include("../../includes/subnav-.php"); ?>    
+          <?php include("../../includes/subnav-sensor-driven-lighting.php"); ?>    
         </ul>
       </aside>
     </section>
