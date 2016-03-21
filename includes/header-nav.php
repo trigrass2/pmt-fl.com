@@ -1,6 +1,17 @@
 <header class="primary-header">
 	<!-- BEGIN Logo -->
-	<a class="pmt-logo" href="/"><img src="/images/all/PMT-head-logo.jpg" alt="Precision Measurement Technologies Logo" /></a>
+	<a href="/" class="partnership-logos">
+		<ul class="logo-list">
+			<li class="logo-list-item">
+				<img src="/images/all/PMT-head-logo.jpg" alt="Precision Measurement Technologies" />
+			</li>
+			<li class="logo-list-item">
+				<img src="/images/all/ams-logo.gif" alt="AMS" />
+			</li>
+		</ul>	
+		<p class="partnership-tagline">Technology Center for ACAM and AMS Products</p>
+	</a>
+	
 	<!-- END Logo -->
 
 	<!-- BEGIN search -->

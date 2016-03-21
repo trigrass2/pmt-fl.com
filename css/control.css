@@ -504,20 +504,56 @@ Header
 	width: 100%;
 }
 /* Logo */
-.pmt-logo {
+.partnership-logos {
 	float: left;
-	margin: 10px 0;
-	text-indent: -99999px;
 }
-.pmt-logo img {
-	display: block;
+.partnership-logos:hover,
+.partnership-logos:focus {
+	text-decoration: none;
+}
+.logo-list {
+	list-style: none;
+	margin: 10px 00;
+	padding: 0;
+}
+.logo-list-item {
+	float: left;
 	width: 250px;
+}
+.logo-list-item:first-child {
+	position: relative;
+}
+.logo-list-item:first-child:after {
+	border-right: 1px solid #ccc;
+	content: "";
+	position: absolute;
+		top: 10px;
+		right: -3px;
+		bottom: 10px;
+}
+.logo-list-item:last-child {
+	margin-top: 46px;
+	margin-left: 10px;
+	width: 110px;
+}
+.logo-list-item img {
+	display: block;
+	width: 100%;
+}
+.partnership-tagline {
+	color: #999;
+	clear: both;
+	display: block;
+	margin-right: 0;
+	margin-left: 28px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 /* Global Search */
 .global-search {
 	float: right;
-	margin: 38px 10px 0 0;
+	margin: 48px 10px 0 0;
 	position: relative;
 	width: 330px;
 }
