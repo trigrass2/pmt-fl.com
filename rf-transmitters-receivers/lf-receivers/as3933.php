@@ -17,19 +17,26 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading"></h1>
-        <h2 class="secondary-heading"></h2>
+        <h1 class="primary-heading">AS3933 LF Receiver IC</h1>
+        <h2 class="secondary-heading">Programmable 3D LF wake-up receiver</h2>
 
         <p class="intro">
-          <img src="" />
+        The AS3933 is a 3-channel ASK receiver that generates a wake-up signal upon detection of a data signal with a carrier frequency in the range of 15 – 150 kHz. It can be used to wake-up active tags in RTLS, PKE and other similar tracking and access control systems.
+          <img src="../../images/rf-transmitters-receivers/AS3933-Wake-up-Receiver-Block-Diagram_f380greyscale.jpg" />
         </p>
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd></dd>
+          <dd>Reliable wake-up pattern</dd>
+          <dd>80&micro;V wake-up sensivity</dd>
+          <dd>Low power listening mode (2.3&micro;A)</dd>
+          <dd>One, two or three channel operation</dd>
 
           <dt>Key Benefits</dt>
-          <dd></dd>
+          <dd>Eliminates false wake-up</dd>
+          <dd>Provides long range wake-up</dd>
+          <dd>Enables long battery life</dd>  
+          <dd>Works with 3D antenna</dd>
         </dl>
 
         <table class="product-facts">
@@ -37,7 +44,33 @@
             <th colspan="2">Product Facts</th>
           </tr>
           <tr>
-            <td></td>
+            <td>Channels [#]</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Wake-up sensitivity [&micro;Vpp]</td>
+            <td>225</td>
+          </tr>
+          <tr>
+            <td>LF carrier freq. range [kHz]</td>
+            <td>15 - 150</td>
+          </tr>
+          <tr>
+            <td>Data rate (manch.) [kb/s]</td>
+            <td>0.5 - 4</td>
+          </tr>
+          <tr>
+            <td>Dynamic range [dB]</td>
+            <td>64</td>
+          </tr>
+          <tr>
+            <td>RSSI step [dB]</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Package</td>
+            <td>TSSOP-16,<br />
+            QFN-16 (4x4)</td>
           </tr>
         </table>
 

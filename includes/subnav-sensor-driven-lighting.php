@@ -43,20 +43,6 @@
 			<a href="/sensor-driven-lighting/sdl-ambient-light-sensors/tsl25723.php">TSL25723 Light-to-digital converter with 1.8V I2C interface</a>
 			<a href="/sensor-driven-lighting/sdl-ambient-light-sensors/tsl45311.php">TSL45311 Digital ambient light sensor with direct lux output and Vdd I2C</a>
 			<a href="/sensor-driven-lighting/sdl-ambient-light-sensors/tsl45313.php">TSL45313 Digital ambient light sensor with direct lux output and 1.8v I2C</a>
-			<a href="/sensor-driven-lighting/sdl-ambient-light-sensors/tsl45315.php">TSL45315 Digital ambient light sensor with direct lux output and Vdd I2C</a>
-			<a href="/sensor-driven-lighting/sdl-ambient-light-sensors/tsl45317.php">TSL45317 Digital ambient light sensor with direct lux output and 1.8v I2C </a>
-		</li>
-	</ul>
-</li> 
-
-<li class="vertical-nav-item">
-	<a href="/sensor-driven-lighting/smart-lighting-managers/" data-dropdown="right">Smart Lightning Managers</a>
-	<ul class="vertical-nav">
-		<li class="vertical-nav-item">
-			<a href="/sensor-driven-lighting/smart-lighting-managers/as7210.php">AS7210 Standalone daylight sensing and integrated luminaire management</a>
-			<a href="/sensor-driven-lighting/smart-lighting-managers/as7211.php">AS7211 Network-enabled daylight sensing and integrated IoT luminaire management</a>
-			<a href="/sensor-driven-lighting/smart-lighting-managers/as7220.php">AS7220 Standalone color/lux sensing and integrated luminaire management</a>
-			<a href="/sensor-driven-lighting/smart-lighting-managers/as7221.php">AS7221 Network-enabled sensing and integrated IoT luminaire management for spectrally tunable systems</a>
 		</li>
 	</ul>
 </li> 
