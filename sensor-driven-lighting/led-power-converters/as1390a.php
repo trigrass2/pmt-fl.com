@@ -17,19 +17,20 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading"></h1>
-        <h2 class="secondary-heading"></h2>
+        <h1 class="primary-heading">AS1390A LED Power Converter</h1>
+        <h2 class="secondary-heading">High power boost controller and buck converter for LED backlight</h2>
 
         <p class="intro">
-          <img src="" />
+        The AS1390A, is a high-power, constant-frequency boost controller with an integrated buck converter. It can be used for the boost converter in TV sets which are optimized for 2D and 3D mode. The continuous conduction mode of the AS1390A provides superior bandwith and transient response. The two output voltages for the boost controller (2D and 3D mode) can be programmed with an external resistor divider. The buck converter is optimized for suppling a /P with 5V. The AS1390A is available in a 20-Pin QFN (4x4mm) package.
         </p>
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd></dd>
-
-          <dt>Key Benefits</dt>
-          <dd></dd>
+          <dd>High Efficiency: Up to 95%</dd>
+          <dd>Supply Voltage Range: 10V to 30V</dd>
+          <dd>Boost Output Current: up to 3A</dd>
+          <dd>Continuous Conduction Mode</dd>
+          <dd>Undervoltage Lockout with hysteresis</dd>
         </dl>
 
         <table class="product-facts">
@@ -37,7 +38,40 @@
             <th colspan="2">Product Facts</th>
           </tr>
           <tr>
-            <td></td>
+            <td>Input voltage [V]</td>
+            <td>10-30</td>
+          </tr>
+          <tr>
+            <td>Output voltage boost controller [V]</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Output current boost</td>
+            <td>3A</td>
+          </tr>
+          <tr>
+            <td>Output buck converter</td>
+            <td>5V/100mA</td>
+          </tr>
+          <tr>
+            <td>Overvoltage protection</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Overcurrent protection</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Overtemperature protection [ ]</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>3D features</td>
+            <td>&#10003;</td>
+          </tr>
+          <tr>
+            <td>Package</td>
+            <td>QFN-20</td>
           </tr>
         </table>
 
