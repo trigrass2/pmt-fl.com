@@ -260,17 +260,17 @@
 			</li>
 			<!-- END products -->
 
-			<!-- BEGIN support -->
-			<li class="horizontal-nav-item">
-				<a href="#">Support</a>
-			</li>
-			<!-- END support -->
-
-			<!-- BEGIN support -->
+			<!-- BEGIN blog -->
 			<li class="horizontal-nav-item">
 				<a href="http://pmt-fl.blogspot.com/">Blog</a>
 			</li>
-			<!-- END support -->
+			<!-- END blog -->
+
+			<!-- BEGIN careers -->
+			<li class="horizontal-nav-item">
+				<a href="/pmt-careers.php">Careers</a>
+			</li>
+			<!-- END careers -->
 
 			<!-- BEGIN contact -->
 			<li class="horizontal-nav-item">
