@@ -21,7 +21,7 @@
         <h2 class="secondary-heading">Programmable 3D LF wake-up receiver</h2>
 
         <p class="intro">
-        The AS3933 is a 3-channel ASK receiver that generates a wake-up signal upon detection of a data signal with a carrier frequency in the range of 15 – 150 kHz. It can be used to wake-up active tags in RTLS, PKE and other similar tracking and access control systems.
+        The AS3933 is a 3-channel ASK receiver that generates a wake-up signal upon detection of a data signal with a carrier frequency in the range of 15 - 150 kHz. It can be used to wake-up active tags in RTLS, PKE and other similar tracking and access control systems.
           <img src="../../images/rf-transmitters-receivers/AS3933-Wake-up-Receiver-Block-Diagram_f380greyscale.jpg" />
         </p>
 
