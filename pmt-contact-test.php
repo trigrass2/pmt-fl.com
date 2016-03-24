@@ -190,7 +190,7 @@ if(isset($_POST['submit'])) {
 
 </head>
 
-<body onload="cssdropdown.startchrome('chromemenu');">
+<body>
 
 <div id="containerOut">
 	<div id="containerIn">
