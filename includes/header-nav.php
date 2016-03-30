@@ -243,6 +243,13 @@
 					<!-- BEGIN LF Receivers -->
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-rf-receivers.php"); ?>
 					<!-- END LF Receivers -->
+
+					<!-- BEGIN Wireless Connectivity -->
+					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-wireless-connectivity.php"); ?>
+					<!-- END Wireless Connectivity -->
+
+					<!-- BEGIN Magnetic Position Sensors -->
+					<!-- END Magnetic Position Sensors -->
 					
 					<!-- <li class="vertical-nav-item vertical-nav-heading">
 						Audio
