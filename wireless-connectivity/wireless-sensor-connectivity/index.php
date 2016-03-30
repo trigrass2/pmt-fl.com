@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Sensor Connectivity - Wireless Connectivity: Precision Measurement Technologies</title>
-  <?php include("../includes/head.php"); ?>
+  <?php include("../../includes/head.php"); ?>
 </head>
 <body>
 
@@ -11,7 +11,7 @@
 
   <!-- BEGIN containerIN -->
   <div id="containerIn">
-    <?php include("../includes/header-nav.php"); ?>
+    <?php include("../../includes/header-nav.php"); ?>
 
 
 
@@ -35,7 +35,7 @@
       
     
     
-    <?php include("../includes/footer.php"); ?>
+    <?php include("../../includes/footer.php"); ?>
   </div>
   <!-- END containerIN -->
 </div>

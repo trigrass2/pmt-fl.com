@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Smart Lighting - Smart Light Management: Precision Measurement Technologies</title>
-  <?php include("../../includes/head.php"); ?>
+  <title>Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <?php include("../includes/head.php"); ?>
 </head>
 <body>
 
@@ -11,7 +11,7 @@
 
   <!-- BEGIN containerIN -->
   <div id="containerIn">
-    <?php include("../../includes/header-nav.php"); ?>
+    <?php include("../includes/header-nav.php"); ?>
 
 
 
@@ -35,7 +35,7 @@
       
     
     
-    <?php include("../../includes/footer.php"); ?>
+    <?php include("../includes/footer.php"); ?>
   </div>
   <!-- END containerIN -->
 </div>
