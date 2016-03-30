@@ -249,7 +249,12 @@
 					<!-- END Wireless Connectivity -->
 
 					<!-- BEGIN Magnetic Position Sensors -->
+					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-magnetic-position-sensors.php"); ?>
 					<!-- END Magnetic Position Sensors -->
+
+					<!-- BEGIN Smart Light Management -->
+					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-smart-light-management.php"); ?>
+					<!-- END Smart Light Management -->
 					
 					<!-- <li class="vertical-nav-item vertical-nav-heading">
 						Audio
