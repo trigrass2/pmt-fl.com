@@ -21,7 +21,7 @@
         <h2 class="secondary-heading">BoostedNFC analog front end for mobile payment and ticketing</h2>
 
         <p class="intro">
-        ams’ AS39230 boostedNFC IC employs Active Load Modulation to drastically improve NFC performance in challenging environments such as mobile and wearables. By replacing the Analog Front End of existing NFC controllers, AS39230 allows for flexible and low cost design by operating with antenna sizes 20 times smaller than competing solution, or even with metal casing as resonant antenna. Our unique implementation of Active Load Modulation brings NFC user experience to a whole new level, while reducing footprint with no compromise in compliance and interoperability.
+        ams' AS39230 boostedNFC IC employs Active Load Modulation to drastically improve NFC performance in challenging environments such as mobile and wearables. By replacing the Analog Front End of existing NFC controllers, AS39230 allows for flexible and low cost design by operating with antenna sizes 20 times smaller than competing solution, or even with metal casing as resonant antenna. Our unique implementation of Active Load Modulation brings NFC user experience to a whole new level, while reducing footprint with no compromise in compliance and interoperability.
           <img src="../../images/wireless-connectivity/AS39230-block-diagram_f380greyscale.jpg" />
         </p>
 
