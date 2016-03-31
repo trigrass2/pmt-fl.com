@@ -8,7 +8,7 @@
       <a href="/magnetic-position-sensors/angle-position-on-axis/as5030.php">AS5030 8-bit rotary position sensor with digital angle (interface) and PWM output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/as5035.php">AS5035 8-bit rotary position sensor with ABI output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/as5040.php">AS5040 10-bit rotary position sensor with digital angle (interface), ABI, UVW and PWM output</a>
-      <a href="/magnetic-position-sensors/angle-position-on-axis/as5043.php">AS5040 10-bit rotary position sensor with digital angle (interface) and linear analog output</a>
+      <a href="/magnetic-position-sensors/angle-position-on-axis/as5043.php">AS5043 10-bit rotary position sensor with digital angle (interface) and linear analog output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/as5045.php">AS5045 12-bit rotary position sensor with digital angle (interface) and PWM output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/as5045b.php">AS5045B 12-bit rotary position sensor with digital angle (interface) and PWM output and ABI output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5047D.php">AS5047D 14-bit on-axis magnetic rotary position sensor with 11-bit decimal & binary incremental pulse count</a>

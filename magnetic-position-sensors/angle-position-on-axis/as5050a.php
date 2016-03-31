@@ -17,25 +17,24 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5040 Rotary Sensor</h1>
-        <h2 class="secondary-heading">10-bit rotary position sensor with digital angle (interface), ABI, UVW and PWM output</h2>
+        <h1 class="primary-heading">AS5050A Rotary Sensor</h1>
+        <h2 class="secondary-heading">10-bit magnetic position sensor with digital angle (interface) output</h2>
 
         <p class="intro">
-        The AS5040 is a 10-bit rotary position sensor (previously known as encoder) for absolute angular measurement and with an incremental output over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device. The absolute magnet angular position is measured with a resolution of 10 bit = 1024 positions per revolution and it is provided as a digital value on the serial interface (SSI) and on the PWM output signal.
-          <img src="../../images/magnetic-position-sensors/AS5040-block-diagram_f380greyscale.jpg" />
+        The AS5050A is a new version of the AS5050. It is a 10-bit rotary position sensor (previously known as encoder) for absolute angular measurement over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC. The absolute magnet angular position is measured with a resolution of 10 bit = 1024 positions per revolution and it is provided as a digital value on the serial interface (SPI).
+          <img src="../../images/magnetic-position-sensors/AS5050A_Rotary-Magnetic-Position-Sensor_block-diagram_f380greyscale.png" />
         </p>
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd>Contactless absolute angle position measurement and motion sensing</dd>
-          <dd>User programmable resolution, pole pairs and zero position</dd>
-          <dd>Multiple interfaces (SSI, ABI, UVW PWM)</dd>
+          <dd>Contactless absolute angle position measurement</dd>
+          <dd>Very low standby current</dd>
+          <dd>Very small package</dd>
           <dd>Immune to external magnetic stray fields</dd>
 
           <dt>Key Benefits</dt>
           <dd>Highest reliability and durability in harsh environments</dd>
-          <dd>Great flexibility during assembly</dd>
-          <dd>One device for different applications</dd>
+          <dd>Sensor for battery operated devices</dd>
           <dd>Lower material cost (no magnetic shielding needed)</dd>
         </dl>
 
@@ -49,15 +48,15 @@
           </tr>
           <tr>
             <td>Interfaces</td>
-            <td>SSI</td>
+            <td>SPI</td>
           </tr>
           <tr>
             <td>Output</td>
-            <td>Digital Angle (Interface) / ABI / UVW / PWM</td>
+            <td>Digital Angle (Interface)</td>
           </tr>
           <tr>
             <td>Max speed [rpm]</td>
-            <td>30000</td>
+            <td></td>
           </tr>
           <tr>
             <td>Overvoltage protection [ ]</td>
@@ -69,15 +68,15 @@
           </tr>
           <tr>
             <td>Supply voltage [V]</td>
-            <td>3.3 or 5.0</td>
+            <td>3.3</td>
           </tr>
           <tr>
             <td>Temperature range [&deg;C]</td>
-            <td>-40 to +125</td>
+            <td>-40 to +85</td>
           </tr>
           <tr>
             <td>Package</td>
-            <td>SSOP-16</td>
+            <td>QFN-16</td>
           </tr>
           <tr>
             <td>Automotive qualified</td>
