@@ -27,7 +27,7 @@
 
         <dl class="product-features">
           <dt>Key Features</dt>
-          <dd>Contactless absolute angle position measurement and motion sensing</dd>
+          <dd>Contactless angle and motion sensing</dd>
           <dd>User programmable zero position</dd>
           <dd>Power Down Mode and Fast Startup</dd>
           <dd>Immune to external magnetic stray fields</dd>
@@ -65,7 +65,7 @@
           </tr>
           <tr>
             <td>Redundant</td>
-            <td>106</td>
+            <td></td>
           </tr>
           <tr>
             <td>Supply voltage [V]</td>

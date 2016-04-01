@@ -49,7 +49,7 @@
       <a href="/magnetic-position-sensors/linear-position/as5013.php">AS5013 Two-dimensional magnetic position sensor with digital coordinates output</a>
       <a href="/magnetic-position-sensors/linear-position/AS5304.php">AS5304 160-step linear incremental position sensor with ABI output</a>
       <a href="/magnetic-position-sensors/linear-position/AS5306.php">AS5306 160-step linear incremental position sensor with ABI output</a>
-      <a href="/magnetic-position-sensors/linear-position/AS5311.php">AS5013 12-bit linear incremental position sensor with digital interface and ABI, PWM output</a>
+      <a href="/magnetic-position-sensors/linear-position/AS5311.php">AS5311 12-bit linear incremental position sensor with digital interface and ABI, PWM output</a>
       <a href="/magnetic-position-sensors/linear-position/AS5403.php">AS5403 Hall Position Sensor for Linear and Off-Axis Applications</a>
       <a href="/magnetic-position-sensors/linear-position/AS5410.php">AS5410 14-bit linear absolut position sensor with digital (interface) and PWM output</a>
       <a href="/magnetic-position-sensors/linear-position/AS5510.php">AS5510 10-bit linear position sensor with digital position (interface) output</a>
