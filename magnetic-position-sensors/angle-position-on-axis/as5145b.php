@@ -17,19 +17,20 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5161 Rotary Sensor</h1>
-        <h2 class="secondary-heading">12-bit rotary position sensor with PWM output and overvoltage protection</h2>
+        <h1 class="primary-heading">AS5145B Rotary Sensor</h1>
+        <h2 class="secondary-heading">12-bit rotary position sensor with digital angle (Interface), PWM and ABI output</h2>
 
         <p class="intro">
-        The AS5161 is a contactless Hall-based magnetic position sensor for very accurate angular measurement over a full turn of 360&deg;. It is a compact integrated solution which provides the absolute angle measurement with a resolution of 0.09&deg; over a full revolution as PWM output signal. The internal 14-bit core of the AS5161 enables a fine programming of the start and stop positions with a resolution of 0.02&deg; to allow the finest system mechanical adjustments.
-          <img src="../../images/magnetic-position-sensors/AS5161-block-diagram_f380greyscale.jpg" />
+        The AS5145B is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature range of -40&deg;C to 150&deg;C. The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 0.0879&deg; = 4096 positions per revolution via a serial bit stream and as a PWM signal. The incremental output (=ABI-interface) is preprogrammed for 12 bit = 4096 positions.
+          <img src="../../images/magnetic-position-sensors/AS5145B-Automotive-Rotary-Position-Sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
 
         <dl class="product-features">
-          <dt>Key Benefits</dt>
-          <dd>Resolves smaller angular excursions</dd>
-          <dd>Large air gap, low cost magnets</dd>
-          <dd>Increased durability</dd>
+          <dt>Key Features</dt>
+          <dd>Contactless absolute angle position measurement and motion sensing</dd>
+          <dd>User programmable zero position</dd>
+          <dd>Multiple interfaces (SSI, ABI, PWM)</dd>
+          <dd>Immune to external magnetic stray fields</dd>
         </dl>
 
         <table class="product-facts">
@@ -38,19 +39,19 @@
           </tr>
           <tr>
             <td>Resolution</td>
-            <td>14-bit / 12-bit</td>
+            <td>12-bit</td>
           </tr>
           <tr>
             <td>Interfaces</td>
-            <td>SPI</td>
+            <td>SSI</td>
           </tr>
           <tr>
             <td>Output</td>
-            <td>SPI, ABI, UVW, PWM</td>
+            <td>Digital Angle (Interface) / ABI / PWM</td>
           </tr>
           <tr>
             <td>Max speed [rpm]</td>
-            <td>28000</td>
+            <td></td>
           </tr>
           <tr>
             <td>Overvoltage protection [ ]</td>
@@ -70,11 +71,11 @@
           </tr>
           <tr>
             <td>Package</td>
-            <td>TSSOP-14</td>
+            <td>SSOP-16</td>
           </tr>
           <tr>
             <td>Automotive qualified</td>
-            <td></td>
+            <td>Yes</td>
           </tr>
         </table>
 

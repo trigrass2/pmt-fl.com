@@ -18,7 +18,6 @@
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5050A.php">AS5050A 10-bit magnetic position sensor with digital angle (interface) output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5055A.php">AS5055A 12-bit magnetic position sensor with digital angle (interface) output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5115.php">AS5115 Rotary position sensor with sin/cos signal output</a>
-      <a href="/magnetic-position-sensors/angle-position-on-axis/AS5115.php">AS5115 Rotary position sensor with sin/cos signal output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5130.php">AS5130 8-bit rotary position sensor with digital interface and PWM output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5132.php">AS5132 8.5-bit rotary position sensor with digital angle (interface), ABI, UVW (up to 6 pole pairs) and PWM output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5134.php">AS5134 8.5-bit rotary position sensor with digital angle (interface), ABI, UVW and PWM output</a>
@@ -32,7 +31,6 @@
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5162.php">AS5162 12-bit rotary position sensor with linear analog output and overvoltage protection</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5163.php">AS5163 12-bit rotary position sensor with linear analog or PWM output and overvoltage protection</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5215.php">AS5215 Redundant rotary position sensor with Sin/Cos output</a>
-      <a href="/magnetic-position-sensors/angle-position-on-axis/AS5245.php">AS5245 Redundant 12-bit rotary position sensor with digital angle iInterface) and ABI output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5245.php">AS5245 Redundant 12-bit rotary position sensor with digital angle iInterface) and ABI output</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5247.php">AS5247 Redundant 14-bit on-axis magnetic rotary position sensor with 11-bit binary incremental pulse count</a>
       <a href="/magnetic-position-sensors/angle-position-on-axis/AS5261.php">AS5261 Redundant 12-bit rotary position sensor with PWM output and overvoltage protection</a>
