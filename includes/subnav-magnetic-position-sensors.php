@@ -62,30 +62,30 @@
   <a href="/magnetic-position-sensors/magnets/" data-dropdown="right">Magnets</a>
   <ul class="vertical-nav">
     <li class="vertical-nav-item">
-      <a href="/chemical-sensors/magnets/AS5000-MA075H-1.php">AS5000-MA075H-1 Magnet for linear position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MA2H-1.php">AS5000-MA2H-1 Magnet for EasyPoint™ AS501x position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MA4H-1.php">AS5000-MA4H-1 Magnet for linear position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MA4x2H-1.php">AS5000-MA4x2H-1 Magnet for linear position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MA6H-1.php">AS5000-MA6H-1 Magnet for linear position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MA8H-1.php">AS5000-MA8H-1 Magnet for linear position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-1.php">AS5000-MD6H-1 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-2.php">AS5000-MD6H-2 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-3.php">AS5000-MD6H-3 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-4.php">AS5000-MD6H-4 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-5.php">AS5000-MD6H-5 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6H-6.php">AS5000-MD6H-6 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD6SH-1.php">AS5000-MD6SH-1 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD8H-1.php">AS5000-MD8H-1 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD8H-2.php">AS5000-MD8H-2 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MD8H-3.php">AS5000-MD8H-3 Magnet for rotary position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MR10-128.php">AS5000-MR10-128 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MR12-72.php">AS5000-MR12-72 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MR20-44.php">AS5000-MR20-44 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MS10-300.php">AS5000-MS10-300 Multipole magnet strip for linear incremental position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MS12-15.php">AS5000-MS12-15 Multipole magnet strip for linear incremental position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MS12-250.php">AS5000-MS12-250 Multipole magnet strip for linear incremental position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MS20-150.php">AS5000-MS20-150 Multipole magnet strip for linear incremental position sensor</a>
-      <a href="/chemical-sensors/magnets/AS5000-MS20-50.php">AS5000-MS20-50 Multipole magnet strip for linear incremental position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA075H-1.php">AS5000-MA075H-1 Magnet for linear position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA2H-1.php">AS5000-MA2H-1 Magnet for EasyPoint&#0153; AS501x position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA4H-1.php">AS5000-MA4H-1 Magnet for linear position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA4x2H-1.php">AS5000-MA4x2H-1 Magnet for linear position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA6H-1.php">AS5000-MA6H-1 Magnet for linear position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MA8H-1.php">AS5000-MA8H-1 Magnet for linear position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-1.php">AS5000-MD6H-1 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-2.php">AS5000-MD6H-2 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-3.php">AS5000-MD6H-3 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-4.php">AS5000-MD6H-4 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-5.php">AS5000-MD6H-5 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6H-6.php">AS5000-MD6H-6 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD6SH-1.php">AS5000-MD6SH-1 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD8H-1.php">AS5000-MD8H-1 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD8H-2.php">AS5000-MD8H-2 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MD8H-3.php">AS5000-MD8H-3 Magnet for rotary position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MR10-128.php">AS5000-MR10-128 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MR12-72.php">AS5000-MR12-72 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MR20-44.php">AS5000-MR20-44 Multipole magnet ring for linear incremental (off-axis) position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MS10-300.php">AS5000-MS10-300 Multipole magnet strip for linear incremental position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MS12-15.php">AS5000-MS12-15 Multipole magnet strip for linear incremental position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MS12-250.php">AS5000-MS12-250 Multipole magnet strip for linear incremental position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MS20-150.php">AS5000-MS20-150 Multipole magnet strip for linear incremental position sensor</a>
+      <a href="/magnetic-position-sensors/magnets/AS5000-MS20-50.php">AS5000-MS20-50 Multipole magnet strip for linear incremental position sensor</a>
     </li>
   </ul>
 </li>

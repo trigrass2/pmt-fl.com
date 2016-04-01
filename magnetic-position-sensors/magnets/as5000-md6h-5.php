@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+as5000-md6h-5.ph<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
@@ -17,11 +17,13 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5000-MA4H-1 Magnet</h1>
-        <h2 class="secondary-heading">Magnet for linear position sensor</h2>
+        <h1 class="primary-heading">AS5000-MD6H-5 Magnet</h1>
+        <h2 class="secondary-heading">Magnet for rotary position sensor</h2>
 
         <p class="intro">
-        Axial Magnet, D4x2.5mm, Bomatec AG
+        Diametric Magnet NdFeB, Grade N35, D6x2.5mm<br />
+        Sorted Magnet with max. 3&deg; magnetization tilt
+        <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
         </p>
 
       </article>
@@ -43,3 +45,4 @@
 <!-- END containerOut -->
 </body>
 </html>
+p
