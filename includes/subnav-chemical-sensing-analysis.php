@@ -6,7 +6,7 @@
   <ul class="vertical-nav">
     <li class="vertical-nav-item">
       <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/701.php">701 Trace Hydrogen Sensor</a>
-      <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/705.php">701 Ammonia Sensor</a>
+      <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/705.php">705 Ammonia Sensor</a>
       <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/706.php">706 Low Level NO Data Sheet</a>
       <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/707.php">707 VOC Sensor</a>
       <a href="/chemical-sensing-analysis/solid-state-gas-sensors/prokera/711.php">711 Flammable Gas Sensor</a>
