@@ -322,11 +322,11 @@
 })(jQuery);
 
 $(document).ready(function(){
-  console.log('nav');
   // mouse enter
   // mouse leave
   var $primaryNav = $("#primary-navigation");
 
+  // Set classes
   $primaryNav.find('.vertical-nav-item').hover (
     function() {
       $(this).parent().prev().addClass('active');
@@ -335,4 +335,18 @@ $(document).ready(function(){
       $(this).parent().prev().removeClass('active');
     }                                               
   );
+
+  // Hover intent so things don't close too fast
+  function hoverIn () {
+    $(this).addClass('active');
+  }
+  function hoverOut () {
+    $(this).removeClass('active'); 
+  }
+
+  $primaryNav.find('.horizontal-nav-item').hoverIntent({
+    over: hoverIn,
+    out: hoverOut,
+    selector: '.vertical-nav'
+  });
 });

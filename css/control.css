@@ -728,6 +728,10 @@ Primary Navigation
 	display: block;
 }
 
+.vertical-nav.active {
+	display: block !important;
+}
+
 /* Sub nav properties 
 ------------------------------------------------*/
 
