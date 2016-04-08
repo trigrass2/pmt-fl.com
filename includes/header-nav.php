@@ -255,6 +255,10 @@
 					<!-- BEGIN Smart Light Management -->
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-smart-light-management.php"); ?>
 					<!-- END Smart Light Management -->
+
+					<!-- BEGIN Chemical Sensing & Analysis -->
+					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-chemical-sensing-analysis.php"); ?>
+					<!-- END Chemical Sensing & Analysis -->
 					
 					<!-- <li class="vertical-nav-item vertical-nav-heading">
 						Audio
