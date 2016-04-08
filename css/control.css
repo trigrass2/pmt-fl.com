@@ -969,7 +969,10 @@ Product Page Layouts (index, detail)
 .product-details .intro img {
 	border: 1px solid #ccc;
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	float: right;
+	max-width: 300px;
 }
 .product-details table {
 	margin: 0 0 20px;
@@ -984,7 +987,14 @@ Product Page Layouts (index, detail)
 	margin: 20px 0 0 0;
 }
 .product-details .product-features dd {
-	margin: 0;
+	margin: 0 20px 5px 10px;
+	position: relative;
+}
+.product-details .product-features dd:before {
+	content: "-";
+	position: absolute;
+		top: 0;
+		left: -10px;
 }
 
 /* Facts Table */
