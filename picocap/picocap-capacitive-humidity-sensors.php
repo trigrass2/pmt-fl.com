@@ -57,6 +57,13 @@
 				</div>
 			</div>
 
+		<div id="subSecond">
+			<div id="subVideo">
+				<h2 class="sub subVideo__header">Additional Information</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Huxdunu4Q5k" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		
 		</div>
 		<div class="clearboth"></div>
 		

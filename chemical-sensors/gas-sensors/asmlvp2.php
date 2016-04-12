@@ -84,10 +84,7 @@
         </ul>
       </aside>
     </section>
-    
-      
-    
-    
+        
     <?php include("../../includes/footer.php"); ?>
   </div>
   <!-- END containerIN -->

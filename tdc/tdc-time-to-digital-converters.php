@@ -47,6 +47,12 @@
 				<p>Thanks to modern CMOS-technology it is possible to integrate fully digital time-to-digital converters into a single chip. The high precision of the time measurement - down to 14 ps - in combination with the large dynamic range (up to 30 Bit), the high stability over temperature and supply voltage and the possibilty of a low cost production thanks to the CMOS technology make them the first choice for industrial applications.</p>
 			</div>
 
+			<div id="subVideo">
+				<h2 class="sub subVideo__header">Additional Information</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8lqxaqzElI" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/vECJC6Axvf4" frameborder="0" allowfullscreen></iframe>
+			</div>
+
 		</div>
 		<div class="clearboth"></div>
 		
