@@ -67,9 +67,9 @@
 				<div id="sub3right">
 					<h2 class="sub">Transmit and Receive Signal</h2>
 					<a href="/images/ufc/transmit-receive-signal-big.jpg" rel="lightbox[UFC]"><img src="/images/ufc/transmit-receive-signal.jpg" alt="" /></a>
-				
 				</div>
 			</div>
+			
 		</div>
 		<div class="clearboth"></div>
 		

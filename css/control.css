@@ -410,6 +410,27 @@ table.orno td {
 	line-height:130%;
 }
 
+#subVideo {
+	font-size:14px;
+	line-height:130%;
+	margin-left: 15px;
+}
+
+#subVideo.margin-adjust {
+	margin-left: 0;
+	margin-top: 40px;
+}
+
+.subVideo__header {
+	clear: both;
+	float: left;
+	margin: 15px 0;
+}
+
+#subVideo iframe {
+	margin-bottom: 2em;
+}
+
 #subSecond {
 	width:710px;
 	float:left;
@@ -502,6 +523,10 @@ Header
 .primary-header {
 	display: block;
 	width: 100%;
+}
+
+.video-header {
+	margin-top: 3em;
 }
 /* Logo */
 .partnership-logos {
