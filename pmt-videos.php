@@ -54,7 +54,54 @@
 			
 			<h2 class="sub">Screencast: Acam PS09 - Temperature Compensation - Internal</h2>
 			<iframe width="420" height="315" src="//www.youtube.com/embed/-Xtdi1ta1iE" frameborder="0" allowfullscreen></iframe>
-			
+
+			<h2 class="sub">AMS VOC</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/F3j43JXoVXY" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Synkera VOC</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/FuZhfbkauDQ" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Temperature and Humidity Sensor</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/Huxdunu4Q5k" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Franklin Lighting Sensor</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/dlhU13eJL5c" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">TDCs</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/Y8lqxaqzElI" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Lighting Sensors</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/9GsuO1-Sbwg" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">POS Position Sensors</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/D00Or2tF1EI" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">PicoTurn</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/9iGNPEiPPAY" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">GP30 UFC</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/OlYEcm1AJe8" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Power Management ICs</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/-eVRRUAAAA8" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Surface Concept</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/YhYP3HGdw28" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">History of TDCs</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/vECJC6Axvf4" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">The Ring Oscillator</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/TCqO2QJy4dY" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">PicoCap Eval Kit</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/OhoH_wDJcXc" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">GP30 Eval Kit</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/bYCts81W_Gc" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">NFC's Near Field Communications</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/MOfqtEfZTfc" frameborder="0" allowfullscreen></iframe>
 
 			</div>
 
