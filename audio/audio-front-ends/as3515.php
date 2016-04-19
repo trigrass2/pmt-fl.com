@@ -30,7 +30,7 @@
           High performance Analog audio front end with integrated dual channel 18bit DAC(94dB SNR, 48kHz), 14bit ADC(82dB SNR, 16kHz), speaker and headphone drive capability and multiple high power voltage supplies.
           <img src="../../images/audio/AS3515-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3515_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>On chip power management</dd>

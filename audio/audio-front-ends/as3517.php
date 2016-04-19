@@ -30,7 +30,7 @@
           High performance Analog audio front end with integrated dual channel 18bit DAC(94dB SNR, 8-48kHz), 20bit ADC(90dB SNR, 8-48kHz), headphone drive capability and multiple high power voltage supplies.
           <img src="../../images/audio/AS3517_PB_1v1_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3517_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High performance Codec</dd>
