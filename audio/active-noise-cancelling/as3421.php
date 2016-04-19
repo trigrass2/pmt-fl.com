@@ -30,7 +30,7 @@
           Integrated Active Noise Cancellation solution addressing feedforward architecture for Stereo wireless headsets, suitable for music, video or mobile use.
           <img src="" />
         </p>
-
+        <a href="../../downloads/audio/AAS3421_22_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>25dB noise reduction achievable</dd>

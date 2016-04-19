@@ -30,7 +30,7 @@
           Active Noise Cancellation solution addressing feedback architecture for embedded applications such as MP3 and Multimedia players
           <img src="../../images/audio/AS3502-Active-Noise-Cancellation-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3501_02_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>20dB noise reduction achievable</dd>

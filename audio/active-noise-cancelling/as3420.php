@@ -30,7 +30,7 @@
           Integrated Active Noise Cancellation solution addressing feedforward and feedback architectures for Mono wireless headsets, such as unified communications solutions and phone applications.
           <img src="../../images/audio/AS3420-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3420_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>20dB noise reduction achievable</dd>

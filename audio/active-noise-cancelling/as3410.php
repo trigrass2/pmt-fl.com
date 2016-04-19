@@ -30,7 +30,7 @@
           Integrated Active Noise Cancellation solution addressing feedforward architecture for Stereo wired headsets, suitable for music, video or mobile use.
           <img src="../../images/audio/AS3410_Feed-Forward-ANC-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3400_10_30_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>25dB noise reduction achievable</dd>
