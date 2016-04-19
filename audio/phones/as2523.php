@@ -30,7 +30,7 @@
           The AS2523/24 is are speaker phone ICs for enhanced handsfree feature phones with CallerID and extended displays. AS2523 allows to use an off-the-shelf microprocessor without special blocks and functions for telephone applications. The AS2524 and AS2524B are developed to interface with common dialers.
           <img src="../../images/audio/AS2523-24-B_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS2523_24_v1_13.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line/Speakerphone circuit on a 28-pin CMOS-IC</dd>

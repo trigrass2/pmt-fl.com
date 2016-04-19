@@ -30,7 +30,7 @@
           The AS2533 is Single-chip Basic Phone integrated circuit and contains all functions needed to build a high performance electronic telephone set with basic features. The AS2533 incorporates a line interface, a speech circuit, a dialler and ringer, LNR (last number redial), 4 direct (one-touch) memories and 10 indirect (two-touch) memories.
           <img src="../../images/audio/AS2533-36-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS2533-36_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line Interface and Speech circuit with electronic Rx volume control and microphone mute</dd>
