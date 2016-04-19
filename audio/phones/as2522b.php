@@ -25,13 +25,13 @@
       <article class="product-details">
         <h1 class="primary-heading">AS2522B Single Chip Phone</h1>
         <h2 class="secondary-heading">Speakerphone IC with a serial interface to standard CPU</h2>
-
+        
         <p class="intro">
           The AS2522B is speaker phone IC for enhanced handsfree feature phones with CallerID and extended displays and incorporates a DTMF, FSK transmitter, single tone and ringer tone generator.<br />
           AS2522 allows to use an off-the-shelf microprocessor without special blocks and functions for telephone applications. DTMF, FSK transmitter, single tone and ringer tone generator can be controlled via the serial interface as well as the gain settings in handset and handsfree mode
           <img src="../../images/audio/AS2522B-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS2522B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line/Speech circuit, DTMF dialer, FSK transmitter and tone ringere on a 32-pin CMOS-IC</dd>

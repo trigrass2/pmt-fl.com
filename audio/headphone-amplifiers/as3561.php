@@ -30,7 +30,7 @@
           The AS3561 is a true ground Class H headphone amplifier with differential input. Volume is adjustable via I2C.
           <img src="../../images/audio/AS3561-Headphone-Amplifier-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3561_Datasheet_EN_v5.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>H-Class amplifier with integrated DCDC buck converter</dd>

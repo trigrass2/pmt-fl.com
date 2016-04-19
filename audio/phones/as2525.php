@@ -30,7 +30,7 @@
           The AS2525 is a single-chip IC for feature phones, answering machines and fax machines. It contains an analog line interface and speech circuit for a/b terminals, loudhearing, handsfree, enhanced LD/MF dialler, tone ringer with DC-DC converter and serial interface to EEPROM. The circuit is fully line powered and  uses an external EEPROM for a 32 digit last number redial storage and memories for 28 numbers each containing up to 24 digits/data.
           <img src="../../images/audio/AS2525-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS2525B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line/Speakerphone circuit, LD/MF repertory dialler, and tone ringer on one 44 pin CMOS chip</dd>

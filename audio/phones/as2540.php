@@ -30,7 +30,7 @@
           The AS2540 is a CMOS integrated circuit that incorporates a speech circuit (line-adaptation, 2/4-wire conversion, separate Rx and Tx amplifiers for handset and modem), MF dialler, ring frequency detector, ring melody generator and a two wire serial interface. The AS2540 is a/b-line-powered and interfaces with a main-powered CPU to the analog telephone line.
           <img src="../../images/audio/AS2540-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS2540_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line Interface, Speech Circuit, MF Dialler and Tone Ringer on a 28 pin CMOS chip</dd>

@@ -30,7 +30,7 @@
           High performance analog audio front end with integrated dual channel 18bit DAC, 14bit ADC, 0.5W power amplifier and multiple voltage supplies.
           <img src="../../images/audio/AS3510-Diagram_neu_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3510_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>On chip power management</dd>

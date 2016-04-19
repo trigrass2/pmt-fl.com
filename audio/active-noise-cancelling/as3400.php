@@ -25,12 +25,12 @@
       <article class="product-details">
         <h1 class="primary-heading">AS3400 Active Noise Cancellation</h1>
         <h2 class="secondary-heading">Single channel (differential) ANC solution for accessories</h2>
-
+        
         <p class="intro">
           Integrated Active Noise Cancelling solution addressing feedforward and feedback architectures for Mono wired headsets, such as unified communications solutions and wired phone applications. 
           <img src="../../images/audio/AS3400-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/audio/AS3400_10_30_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>20dB noise reduction achievable</dd>
@@ -82,7 +82,7 @@
             <td>QFN-24 (4x4)</td>
           </tr>
         </table>
-
+        
       </article>
     </section>
     
