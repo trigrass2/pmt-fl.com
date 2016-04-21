@@ -6,7 +6,6 @@
 <link rel="shortcut icon" type="image/x-icon" href="http://www.pmt-fl.com/favicon.ico" />
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="/js/hoverIntent.jquery.js" type="text/javascript"></script>
 
 <script src="/js/javascript.js" type="text/javascript"></script>
 <script src="/js/javascript-menu.js" type="text/javascript"></script>

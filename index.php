@@ -12,19 +12,16 @@
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.pmt-fl.com/favicon.ico" />
 		
 	<link rel="stylesheet" href="/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<script src="/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 	
-
-	
 	<script src="/js/javascript.js" type="text/javascript"></script>
-	<script src="/js/javascript-menu.js" type="text/javascript"></script>
-	
+	<script src="/js/javascript-menu.js" type="text/javascript"></script>	
 	
 </head>
 
