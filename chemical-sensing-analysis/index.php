@@ -15,22 +15,13 @@
 
 
 
-    <section role="main" class="product-index">
-      <article class="product-details">
-        <h1 class="primary-heading"></h1>
-        <h2 class="secondary-heading"></h2>
+    <article role="main" class="product-index">
+      <h1 class="primary-heading">Chemical Sensing Analysis</h1>
 
-        <p class="intro"></p>
-
-        <table class="product-list">
-          <tr>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-
-      </article>
-    </section>
+      <ul class="vertical-nav">
+        <?php include("../includes/subnav-chemical-sensing-analysis.php"); ?>
+      </ul>
+    </article>
     
       
     
