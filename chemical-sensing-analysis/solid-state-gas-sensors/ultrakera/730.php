@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/730-ultrakera-to-co-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera-UltraKera-TO-CO-Sensor-Data-Sheet-(730)new.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>New low power design</dd>

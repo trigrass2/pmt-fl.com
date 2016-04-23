@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/705-ultrakera-ammonia-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera_DataSheet_NH3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>Detection range of &lt;25 to 10,000 ppm ammonia (NH<sub>3</sub>).</dd>

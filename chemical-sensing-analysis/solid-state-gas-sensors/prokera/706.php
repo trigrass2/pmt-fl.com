@@ -18,7 +18,7 @@
     <section role="main" class="product-detail">
       <article class="product-details">
         <h1 class="primary-heading">706 Low Level NO<sub>x</sub> Data Sheet</h1>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera_DataSheet_NOx.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>Sensor detects very low NO<sub>x</sub>concentrations(&lt;0.5 ppm to 10 ppm)</dd>
