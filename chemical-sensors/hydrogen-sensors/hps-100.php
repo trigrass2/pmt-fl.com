@@ -23,7 +23,7 @@
         <p class="intro">
           The HPS-100 Hydrogen Process Sensor is an accurate, fastresponding sensor designed for installation in harsh environments such as fuel cells, for example. The HPS-100 Hydrogen Process Sensor features reduced power consumption, provides increased packaging flexibility, and includes a CAN interface with a standard MQS four-pin connector. Self-testing at start up and advanced error handling ensure reliable operation.
         </p>
-
+        <a href="../../downloads/chemical-sensors/HPS-100_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Concentration range of 0-100% H2</dd>

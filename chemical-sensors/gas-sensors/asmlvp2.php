@@ -23,7 +23,7 @@
         <p class="intro">
           The AS-MLV-P2 high-performance sensor component is highly sensitive to volatile organic compounds for superior monitoring of indoor air quality. Produced using a combination of thin-film, thick-film and other patent-pending proprietary technologies. The AS-MLV-P2 component is available in a package with ultimate design efficiency.The heater and inter-digital electrode structures are placed on an approximately one micrometer-thin LPCVD silicon nitride membrane to achieve the lowest possible power consumption.
         </p>
-
+        <a href="../../downloads/cchemical-sensors/AS-MLV-P2_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>2.7 V for 320&deg;C</dd>
