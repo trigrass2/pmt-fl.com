@@ -24,7 +24,7 @@
         The AS3980 UHF reader is based on the latest 3rd Generation architecture for EPC Class 1 Gen2 Reader ICs for single tag reads and cost sensitive applications targeting the fast moving consumer goods market (FMCG). With a very small QFN48 7x7mm package, integration and low power architecture, down to 2.7V with 65mA, enable its use in handhelds and embedded applications while retaining the flexibility, integration and simplicity of the previous generations requiring a very simple 8-bit microcontroller. This makes the AS399x the most flexible UHF Reader ICs on the market. ams is the only UHF RFID IC vendor with in-house design, manufacturing, test, quality and support expertise, allowing ams to have full control of our product life cycles which enable higher performance, integration, lower power, quality and faster time to market.   
           <img src="../../images/wireless-connectivity/AS3980-RFID-Reader-IC-block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3980_Datasheet_shortened_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Optimized for Fast Moving Consumer Goods (FMCG) with ISO18000-6C implemented in HW</dd>

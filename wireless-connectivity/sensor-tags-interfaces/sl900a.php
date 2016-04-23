@@ -24,7 +24,7 @@
         The SL900A is an EPC tag IC operating in semi-passive mode (battery-assisted passive) as well as in fully passive mode. The chip is ideal for applications using thin and flexible batteries (1.5V or 3V) for autonomous logging from the integrated temperature sensor or external sensors with time-stamp from on-chip real-time clock (RTC).
           <img src="../../images/wireless-connectivity/SL900A_Blockdiagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/SL900A_Datasheet_EN_v5.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Energy Harvesting</dd>

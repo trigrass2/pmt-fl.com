@@ -24,7 +24,7 @@
         The AS3992 UHF Gen 2 Reader chip is AMS's 2nd Generation integrated analog frontend with protocol handling for ISO18000-6b/c 900MHz RFID reader systems with DRM. Equipped with multiple built-in programming options, the device is suitable for a wide range of UHF RFID applications and is  pin to pin compatible with the previous AS3990/91 IC's. It offers improved receive sensitivity to -86dB, fully programmable Rx DRM filters on chip and pre-distortion making it fully scalable and suitable for longer range and higher power applications.   
           <img src="../../images/wireless-connectivity/AS3992-UHF-RFID-Reader-IC-with-Dense-Reader-Mode-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3992_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Integrated Gen 2 protocol engine</dd>

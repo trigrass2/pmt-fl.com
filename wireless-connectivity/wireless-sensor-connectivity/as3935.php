@@ -24,7 +24,7 @@
         The Franklin Lightning Sensor&#0153; is the world's 1st lightning sensing IC that was designed for low power, portable or fixed wire-line applications. Utilizing a sensitive RF receiver and integrated proprietary algorithm, the Franklin Lightning Sensor&#0153; detects the electrical emissions from lightning activity and then provides for an estimation of the distance to the head of the storm from 40km away down to 1km, while rejecting disturbances from man-made signals such as motors and microwave ovens. This advanced warning capability alerts users so that the necessary precautions can be taken to protect individuals and equipment from hazardous and deadly lightning strikes.
           <img src="../../images/wireless-connectivity/AS3935-Lightning-Sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3935_datasheet_v1-04.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Detection of both cloud to ground and cloud to cloud lightning activity within a 40km range</dd>
