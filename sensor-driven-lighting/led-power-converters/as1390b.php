@@ -24,7 +24,7 @@
         The AS1390B is a high-power, constant-frequency boost controller with an integrated buck converter. It is designed for single mode operation. The continuous conduction mode of the AS1390B provides superior bandwith and transient response. The two output voltages for the boost controller (2D and 3D mode) can be programmed with an external resistor divider. The buck converter is optimized for suppling a /P with 5V.  AS1390B is available in a 16-pin SOIC package.
           <img src="../../images/sensor-driven-lighting/AS1390B-blockdiagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS1390A-B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High Efficiency: Up to 95%</dd>

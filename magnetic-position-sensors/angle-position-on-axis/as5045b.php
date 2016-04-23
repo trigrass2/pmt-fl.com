@@ -24,7 +24,7 @@
         The AS5045B is a 12-bit rotary position sensor (previously known as encoder) for absolute angular measurement and with an incremental output over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device. The absolute magnet angular position is measured with a resolution of 12 bit = 4096 positions per revolution and it is provided as a digital value on the serial interface (SSI) and on the PWM output signal. 
           <img src="../../images/magnetic-position-sensors/AS5045B-Block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5045B_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement and motion sensing</dd>

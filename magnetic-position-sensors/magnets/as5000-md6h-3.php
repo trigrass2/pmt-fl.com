@@ -24,7 +24,7 @@
         Diametric Magnet NdFeB, Grade N35, D6x2.5mm
         <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MD6H-3_datasheet_v1_0.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

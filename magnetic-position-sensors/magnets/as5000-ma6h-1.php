@@ -23,7 +23,7 @@
         <p class="intro">
         Axial Magnet, D6x2.5mm, Bomatec AG
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet AS5000_MA6H_1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

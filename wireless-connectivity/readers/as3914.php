@@ -24,7 +24,7 @@
         The AS3914 is a high performance NFC/HF Reader IC designed for the automotive market. High output power makes designs in metal environment and small form factors like door handles easy. Unique features include Antenna Auto Tuning, 1W of output power and capacitive Wakeup.
           <img src="../../images/wireless-connectivity/AS3914-AS3915-Blockdiagram_f380greyscale.jpg" />
         </p>
-
+        
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Up to 1W of output power</dd>

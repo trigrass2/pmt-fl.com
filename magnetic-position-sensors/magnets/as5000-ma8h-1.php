@@ -23,7 +23,7 @@
         <p class="intro">
         Axial Magnet, D8x2.5mm, Bomatec AG
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet_AS5000_MA8H_1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

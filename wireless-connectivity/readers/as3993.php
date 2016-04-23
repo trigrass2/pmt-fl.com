@@ -24,7 +24,7 @@
         The AS3993 UHF reader IC is the latest 3rd Generation, EPC Class 1 Gen2 RFID Reader IC from ams in a very small QFN48 7x7mm package.  Its new low power architecture, down to 2.7V with 65mA, along with its small form factor enable its use in handhelds and embedded applications while retaining the flexibility, integration and simplicity of the previous generations requiring a very simple 8-bit microcontroller making the AS399x the most flexible UHF Reader IC's on the market.  AMS is the only UHF RFID IC vendor with in-house design, manufacturing, test, quality and support expertise, allows AMS to have full control of our product life cycles which enable higher performance, integration, lower power and faster time to market.    
           <img src="../../images/wireless-connectivity/AS3993-RFID-Reader-IC-block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3993_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Low voltage architecture 2.7 – 3.6V</dd>

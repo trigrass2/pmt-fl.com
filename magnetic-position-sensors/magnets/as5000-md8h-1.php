@@ -24,7 +24,7 @@
         Diametral Magnet, D8x2.5mm, Bomatec AG
         <img src="../../images/magnetic-position-sensors/MD8H-2_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/MD8H-1_magnet_datasheet.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

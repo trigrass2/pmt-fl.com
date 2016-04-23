@@ -24,7 +24,7 @@
         The AS5245 is a redundant, contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature range of -40&deg;C to 150&deg;C. The absolute angle measurement provides instant indication of the magnet's angular position with a resolution of 0.0879&deg; = 4096 positions per revolution via a serial bit stream and as a PWM signal. 
           <img src="../../images/magnetic-position-sensors/AS5245-automotive-magnetic-angle-position-sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5245_Datasheet.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Built-in redundancy</dd>

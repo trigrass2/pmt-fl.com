@@ -24,7 +24,7 @@
         The TSL2572 device family provides ambient light sensing (ALS) that approximates human eye response to light intensity under a variety of lighting conditions and through a variety of attenuation materials. Accurate ALS measurements are the result of ams’ patented dual-diode technology and the UV rejection filter incorporated in the package. In addition, the operating range is extended to 60,000 lux in sunlight when the low-gain mode is used.
           <img src="../../images/sensor-driven-lighting/Block-diagram-for-TSL2572_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/TSL2572_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Patented dual-diode architecture</dd>

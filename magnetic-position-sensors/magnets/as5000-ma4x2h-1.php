@@ -23,7 +23,7 @@
         <p class="intro">
         Axial magnet, material NdFeB BMN-35H, LxWxH = 4x2x1mm.<br /><br />This magnet can be used with the AS5510 linear position sensor, in order to measure small linear displacements.
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MA4x2H-1_MagnetSpec_1.1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

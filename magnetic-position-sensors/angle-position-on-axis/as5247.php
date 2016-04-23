@@ -24,7 +24,7 @@
         The AS5247 is a high-resolution redundant rotary position sensor for fast absolute angle measurement over a full 360-degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency. The robust design of the device suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5247 and to program non-volatile settings without a dedicated programmer. Incremental movements are indicated on a set of ABI signals with a maximum resolution of 2048 steps / 512 pulses per revolution. The resolution of the ABI signal is programmable to 1024 steps / 256 pulses per revolution. Brushless DC (BLDC) motors are controlled through a standard UVW commutation interface with a programmable number of pole pairs from 1 to 7. The absolute angle position is also provided as PWM-encoded output signal. The AS5247 supports embedded self-diagnostics including magnetic field strength too high, magnetic field strength too low or lost magnet, and other related diagnostic features. The AS5247 is available as a dual die in a compact MLF-40 7x7 package.
           <img src="../../images/magnetic-position-sensors/AS5245-automotive-magnetic-angle-position-sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5247_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#1053; Dynamic angle error compensation</dd>

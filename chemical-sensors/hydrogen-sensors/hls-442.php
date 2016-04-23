@@ -23,7 +23,7 @@
         <p class="intro">
         The HLS-442 Hydrogen Leak Sensor is an accurate, fast-responding sensor designed for installation in vehicles and hydrogen fueling stations.
         </p>
-
+        <a href="../../downloads/chemical-sensors/HLS-442_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Concentration range of 0-4.4% H2</dd>

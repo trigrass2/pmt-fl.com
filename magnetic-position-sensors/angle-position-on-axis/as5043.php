@@ -24,7 +24,7 @@
         The AS5043 is a 10-bit rotary position sensor (previously known as encoder) for absolute angular measurement and with a programmable analog output over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device.The absolute magnet angular position is measured with a resolution of 10 bit = 1024 positions per revolution and it is provided as a digital value on the serial interface (SSI) and on the analog output signal. 
           <img src="../../images/magnetic-position-sensors/AS5043-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5043_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement</dd>

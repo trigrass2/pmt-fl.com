@@ -24,7 +24,7 @@
         The AS5311 is an incremental position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 4096 pulses (12-bit) per 2.0 mm pole pair length on the standardized quadrature output interface with an index pulse (=ABI-interface) with a maximum speed of 650mm/sec.
           <img src="../../images/magnetic-position-sensors/AS5311-block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5311_Datasheet_EN_v6.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>

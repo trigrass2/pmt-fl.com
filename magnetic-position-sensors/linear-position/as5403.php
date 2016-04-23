@@ -26,7 +26,7 @@
         The IC has signal conditioning features, including compensation of temperature effects as well as linearization. The build in diagnostic functions makes the AS5403 suitable for safety critical applications.
           <img src="../../images/magnetic-position-sensors/AS5403-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5403_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High magnetic input range</dd>

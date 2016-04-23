@@ -25,7 +25,7 @@ as5000-md6h-5.ph<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
         Sorted Magnet with max. 3&deg; magnetization tilt
         <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MD6H-5.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

@@ -24,7 +24,7 @@
         The AS3990/91 UHF reader chip is the 1st Generation integrated analog front-end and data framing system for a 900MHz RFID reader system. Built-in programming options make it suitable for a wide range of applications in UHF RFID systems. Designed to simplify the design and implementation of an EPC Class1 Gen2 reader, this IC requires only a standard 8-Bit microcontroller with minimal other components.   
           <img src="../../images/wireless-connectivity/AS3991-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3991_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Integrated Gen 2 protocol engine</dd>

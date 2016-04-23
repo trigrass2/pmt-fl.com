@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/729-ultrakera-to-is-methane-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera-UltraKera-TO-CH4-Sensor-(IS)new.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>New low power design: 42 mA @ 1.18V</dd>

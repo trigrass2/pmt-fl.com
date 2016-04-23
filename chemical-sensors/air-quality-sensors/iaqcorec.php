@@ -23,7 +23,7 @@
         <p class="intro">
         The iAQ-core Indoor Air Quality Module is a low-cost, ultracompact solution for detecting poor air quality. This module uses micromachined metal oxide semiconductor (MOS) technology to detect a broad range of VOCs while correlating directly with CO2 and TVOC levels in the room.
         </p>
-
+        <a href="../../downloads/chemical-sensors/iAQ-core_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>3.3 V &plusmn;0.1 V, max. 20 mV ripple</dd>

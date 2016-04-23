@@ -26,7 +26,7 @@
         Indoor Air Monitor is sensitive to indoor air quality that affects occupants' health, productivity and comfort. Indoor Air Monitor detects even the smallest change in a room's air quality, enabling to take control of the air for a healthier home, office or classroom!
           <img src="../../images/chemical-sensors/iAM-picture_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/cchemical-sensors/iAM_flyer.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Air quality monitor</dd>

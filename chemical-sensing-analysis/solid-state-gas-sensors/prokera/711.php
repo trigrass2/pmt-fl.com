@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/711-ultrakera-flammable-gas-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera_DataSheet_Flammable.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>High sensitivity to a wide range of flammable gases.</dd>

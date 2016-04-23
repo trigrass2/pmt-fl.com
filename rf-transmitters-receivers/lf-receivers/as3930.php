@@ -24,7 +24,7 @@
         The AS3930 is a single-channel ASK receiver that generates a wake-up signal upon detection of a data signal with a carrier frequency in the range of 110 - 150 kHz. It can be used to wake-up active tags in RTLS, PKE and other similar tracking and access control systems.
           <img src="../../images/rf-transmitters-receivers/AS3930-1-D-LF-Wake-up-Receiver-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/rf-transmitters-receivers/AS3930_Datasheet_EN_v5.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Programmable wake-up pattern</dd>

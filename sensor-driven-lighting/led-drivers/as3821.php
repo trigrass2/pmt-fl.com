@@ -24,7 +24,7 @@
         The AS3821 is a 12 channels precision LED for use in LCD-backlight panels. Dynamic power feedback controls the external power supply to guarantee best efficiency. Build in safety features include thermal shutdown as well as open and short LED detection. The device is programmable via serial interface.
           <img src="../../images/sensor-driven-lighting/AS3821_Blockdiagram_f380greyscale.gif" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3821_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>12 Channel LED driver</dd>

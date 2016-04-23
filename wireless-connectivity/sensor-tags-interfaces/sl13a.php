@@ -24,7 +24,7 @@
         The SL13A is a passive/semi-passive ISO 15693 tag chip optimized for single-cell, battery-powered smart labels with sensor functionality. The chip is ideal for applications using thin and flexible batteries (1.5V or 3V) but can also be powered from the RF field (electromagnetic waves from an RFID reader).
           <img src="../../images/wireless-connectivity/SL13A_Blockdiagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/SL13A_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Energy Harvesting</dd>

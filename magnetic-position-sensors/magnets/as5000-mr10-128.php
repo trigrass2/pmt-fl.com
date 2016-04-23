@@ -24,7 +24,7 @@
         Magnetic multipole ring, 1.0mmm pole length, 128 poles, inner diameter 38.5mm, outer diameter =42.5mm, thickness = 1.5mm
         <img src="../../images/magnetic-position-sensors/AS5000-MR10-128_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MR10-128_datasheet.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

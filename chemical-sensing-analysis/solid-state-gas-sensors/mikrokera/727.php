@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/727-mikrokera-4l-hydrogen-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera-MicroKera-H2-Data-Sheet-(724).pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>Reliably detects H<sub>2</sub>S at concentrations from 0.15 to > 100 ppm</dd>

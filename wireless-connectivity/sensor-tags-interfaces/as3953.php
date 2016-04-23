@@ -24,7 +24,7 @@
         The AS3953 NFiC&#0153; enables all applications to interact with an NFC mobile phone in an instant. It is a fast NFC to SPI interface capable of harvesting field energy up to 5mA.
           <img src="../../images/wireless-connectivity/AS3953-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3953_Datasheet_EN_v5.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Direct NFC to SPI interface (up to type 4)</dd>

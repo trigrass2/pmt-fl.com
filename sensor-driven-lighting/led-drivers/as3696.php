@@ -24,7 +24,7 @@
         The AS3696 is a 4 channels precision LED controller with PWM inputs or internal PWM generator for driving external FETs in LCD-backlight panels. Build in safety features include thermal shutdown as well as open and short LED detection.
           <img src="../../images/sensor-driven-lighting/AS3696-Block-Diagramm_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3696_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>2x2 Channel LED driver</dd>

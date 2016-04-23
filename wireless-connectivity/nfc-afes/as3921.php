@@ -26,7 +26,7 @@
         The AS3921 makes the consumer's experience of contactless transactions easy, quick, and completely reliable, whether for payments in shops, ticketing in metro/urban mass transit infrastructure, or access control.
           <img src="../../images/wireless-connectivity/AS3921-block-diagram_f380greyscale.jpg" />
         </p>
-
+        
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>BoostedNFC technology, based on Active Load Modulation</dd>

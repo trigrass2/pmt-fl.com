@@ -24,7 +24,7 @@
         The AS3834B is a 4 channel high precision LED controller with one PWM input for driving external bipolar transistors in LED backlight panels, also optimized for 2D and 3D operation in TV applications. The external PWM signal is automatically phase shifted and applied to all 4 channels in parallel, making the device perfect suitable for all kind of global dimming applications. The integrated step-up controller provides the necessary output voltage for the LED string supply. The SMPS feedback control optimizes the power efficiency by adjusting the LED string supply voltage. Build in safety features include under-voltage and thermal shutdown as well as open and short LED detection.
           <img src="../../images/sensor-driven-lighting/AS3834B-LED-Driver-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3834_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>4 channel LED controller</dd>
