@@ -24,7 +24,7 @@
         The NSE-5310 is position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 4096 positions (12-bit) per 2.0mm pole pair length which are provided as a digital value on the serial interface (I<sup>2</sup>C).
           <img src="../../images/magnetic-position-sensors/NSE-5310-block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/NSE-5310_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>

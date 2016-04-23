@@ -24,7 +24,7 @@
         The AS5047D is a high-resolution rotary position sensor for fast absolute angle measurement over a full 360-degree range. This new position sensor is equipped with revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency and offers a robust design that suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5047D and to program non-volatile settings without a dedicated programmer. The resolution of the incremental ABI interface is programmable with a maximum resolution of 2000 steps / 500 pulses per revolution in decimal mode and 2048 steps / 512 pules per revolution in binary mode. 
           <img src="../../images/magnetic-position-sensors/AS5047D-blockdiagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5047D_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#1053; Dynamic angle error compensation</dd>

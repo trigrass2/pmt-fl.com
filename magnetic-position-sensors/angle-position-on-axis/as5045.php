@@ -26,7 +26,7 @@
           <img src="../../images/magnetic-position-sensors/AS5045-DB-Block-Diagram_f380greyscale.png" />
           <img src="../../images/magnetic-position-sensors/AS5040-AB-Adapterboard-Block-Diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5045_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement</dd>

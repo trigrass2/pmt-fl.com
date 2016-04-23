@@ -24,7 +24,7 @@
         The AS5145A is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature range of -40&deg;C to 150&deg;C. The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 0.0879&deg; = 4096 positions per revolution via a serial bit stream and as a PWM signal. The incremental output (=ABI-interface) is preprogrammed for 10 bit = 1024 positions.
           <img src="../../images/magnetic-position-sensors/AS5145A-Automotive-Rotary-Position-Sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5145_Datasheet_EN_v7.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement and motion sensing</dd>

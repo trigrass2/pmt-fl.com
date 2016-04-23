@@ -26,7 +26,7 @@
         Incremental movements are indicated on a set of ABI signals with a maximum resolution of 4096 steps / 1024 pulses per revolution. The product is defined as SEooC (Safety Element out of Context) according ISO26262 including FMEDA, safety manual and third party qualification.
           <img src="../../images/magnetic-position-sensors/AS5147P-blockdiagram-ams_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5147P_Datasheet-(2).pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#0153; Dynamic angle error compensation</dd>

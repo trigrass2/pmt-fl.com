@@ -24,7 +24,7 @@
         The AS5132 is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360 degrees. The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 8.5 bit = 360 positions per revolution via a serial output over the interface and as a pulse width modulated (PWM) signal. An additional U,V,W output can be used for a block commutation for a brushless DC motor. To improve the torque over speed, a pre-commutation is possible.
           <img src="../../images/magnetic-position-sensors/AS5132-Magnetic-Rotary-Position-Sensor-Block-Diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5132_datasheet_v7.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Serial interface</dd>

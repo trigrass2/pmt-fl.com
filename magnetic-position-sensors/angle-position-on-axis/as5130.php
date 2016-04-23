@@ -24,7 +24,7 @@
         The AS5130 is a contactless magnetic rotary position sensor (previously known as encoder) for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature of -40&deg;C to +150&deg;C. . The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 8 bit = 256 positions per revolution via a serial bit stream and as a PWM signal. The AS5130 can be operated in pulsed mode (Vsupply=off) allowing very low power consumption during polling of the rotary position of the magnet.
           <img src="../../images/magnetic-position-sensors/AS5130-8-bit-Contactless-Automotive-Magnetic-Rotary-Position-Sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5130_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Multi-turn counter</dd>

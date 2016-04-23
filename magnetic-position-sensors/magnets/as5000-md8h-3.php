@@ -25,7 +25,7 @@
         Sorted Magnet with max. 3&deg; magnetization tilt
         <img src="../../images/magnetic-position-sensors/MD8H-2_f380greyscale.jpg" />
         </p>
-
+        
       </article>
 
       <aside role="complimentary" class="sidebar">

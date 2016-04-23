@@ -24,7 +24,7 @@
         The AS5263 is a redundant, contactless Hall-based magnetic position sensor for very accurate angular measurement over a full turn of 360&deg;. It is a compact integrated solution which provides the absolute angle measurement with a resolution of 0.022&deg; = 16384 positions per revolution as a 12-bit PWM or analog signal. 
           <img src="../../images/magnetic-position-sensors/AS5263-Rotary-Automotive-Position-Sensor-Block-Diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5263_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Automotive protections</dd>

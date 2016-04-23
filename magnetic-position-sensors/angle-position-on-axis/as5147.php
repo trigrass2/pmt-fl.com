@@ -24,7 +24,7 @@
         The AS5147 is a high-resolution rotary position sensor for fast absolute angle measurement over a full 360-degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency. The robust design of the device suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5147 and to program non-volatile settings without a dedicated programmer. The resolution of the ABI signal is programmable to 2048 steps / 512 pulses per revolution or 1024 steps / 256 pulses per revolution. The AS5147 has also a programmable UVW output and supports embedded self-diagnostics features.
           <img src="../../images/magnetic-position-sensors/AS5147-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5147_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#0153; Dynamic angle error compensation</dd>

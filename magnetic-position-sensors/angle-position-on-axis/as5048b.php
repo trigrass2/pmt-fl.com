@@ -24,7 +24,7 @@
         The AS5048B is a 14-bit rotary position sensor (previously known as encoder) for absolute angular measurement and with a PWM (=pulse width modulation) output over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device simply with a I<sup>2</sup>C command. The absolute magnet angular position is measured with a resolution of 14 bit = 16384 positions per revolution and it is provided as a digital value on the serial interface (I<sup>2</sup>C).
           <img src="../../images/magnetic-position-sensors/AS5048_Blockdiagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5048_Datasheet.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement</dd>

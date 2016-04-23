@@ -24,7 +24,7 @@
         The AS5134 is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360 degrees and over an extended ambient temperature of -40&deg;C to +150&deg;C. . The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 8.5 bit = 360 positions per revolution via a serial output over the interface and as a pulse width modulated (PWM) signal. 
           <img src="../../images/magnetic-position-sensors/AS5134-High-Speed-BLDC-Motor-Commutation-Automotive-Magnetic-Rotary-Position-Sensor-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5134_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Selectable pole pairs</dd>

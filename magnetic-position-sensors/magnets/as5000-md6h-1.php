@@ -24,7 +24,7 @@
         Diametric Magnet, D6x2.5mm, Arnold Magnetics
         <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet_AS5000_MD6H_1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

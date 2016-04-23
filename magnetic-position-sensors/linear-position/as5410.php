@@ -24,7 +24,7 @@
         The AS5410 is an absolute position sensor for linear movements. To measure a long strocke (+/-25mm) with a large airgap (~10mm) a contactless magnetic sensor technology is used.To measure the absolute position of the motion a simple 2-pole magnet is required. The absolute information of the magnet position is measured with a 14-bit resolution and the digital value is provided via the serial interface (SPI) and PWM output signal.
           <img src="../../images/magnetic-position-sensors/AS5410-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5410_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>

@@ -23,7 +23,7 @@
         <p class="intro">
         Axial Magnet, D0.75x1.50mm
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MA075H-1_MagnetSpec_1.1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

@@ -24,7 +24,7 @@
         The AS5161 is a contactless Hall-based magnetic position sensor for very accurate angular measurement over a full turn of 360&deg;. It is a compact integrated solution which provides the absolute angle measurement with a resolution of 0.09&deg; over a full revolution as PWM output signal. The internal 14-bit core of the AS5161 enables a fine programming of the start and stop positions with a resolution of 0.02&deg; to allow the finest system mechanical adjustments.
           <img src="../../images/magnetic-position-sensors/AS5161-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5161_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Benefits</dt>
           <dd>Resolves smaller angular excursions</dd>

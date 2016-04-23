@@ -24,7 +24,7 @@
         Axial Magnet, D2x0.8mm
         <img src="../../images/magnetic-position-sensors/AS5000-MA2H-1_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/SpecMagnet_MA2H-1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

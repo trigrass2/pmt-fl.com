@@ -24,7 +24,7 @@
         Magnetic multipole strip, 1.2mm pole length, 250 poles, strontium ferrite bonded, l=300, w=10, h=1.3
         <img src="../../images/magnetic-position-sensors/Magnet-Strip_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MS-12-250_Spec_v0_1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

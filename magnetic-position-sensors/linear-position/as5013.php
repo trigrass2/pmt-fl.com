@@ -24,7 +24,7 @@
         The AS5013 is an absolute position sensor for miniature joystick applications  with maximum strokes of +/-2.0mm in x- and y-direction based on contactless magnetic sensor technology. To measure xy-movement the sensor needs a simple 2-pole magnet. The absolute xy-position is measured with a resolution of 8-bit = 256 positions and it is provided as a digital value on the serial interface (I<sup>2</sup>C).
           <img src="../../images/magnetic-position-sensors/AS5013-EasyPoint-block-diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5013_Datasheet_EN_v9.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>

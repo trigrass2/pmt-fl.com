@@ -24,7 +24,7 @@
         The AS5115 is a contactless rotary position sensor for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature of -40&deg;C to +150&deg;C. Based on an integrated Hall element array the angular position of a simple two-pole magnet is translated into analog output voltages. The angle information is provided by means of buffered sine and consine voltages via a SSI Interface. 
           <img src="../../images/magnetic-position-sensors/AS5115-Automotive-Rotary-Position-Sensor-Block-Diagram_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5115_Datasheet_EN_v8.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High precision analog output</dd>

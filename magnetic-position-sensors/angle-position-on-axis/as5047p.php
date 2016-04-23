@@ -24,7 +24,7 @@
         The AS5047P is a high-resolution rotary position sensor for high speed (up to 28krpm) angle measurement over a full 360-degree range. This new position sensor is equipped with revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency and offers a robust design that suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5047P and to program non-volatile settings without a dedicated programmer. Incremental movements are indicated on a set of ABI signals with a maximum resolution of 4000 steps / 1000 pulses per revolution in decimal mode and 4096 steps / 1024 pulses per revolution in binary mode. The resolution of the ABI signal is programmable and can be reduced to 100 steps per revolution, or 25 pulses per revolution. 
           <img src="../../images/magnetic-position-sensors/AS5047P-Block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5047P_Datasheet.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Up to 28krpm</dd>

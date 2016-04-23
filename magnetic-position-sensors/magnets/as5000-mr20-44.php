@@ -24,7 +24,7 @@
         Magnetic Multipole Ring, 2.0mm pole length, 44 poles, plastic bonded strontium ferrite, inner diameter = 24mm, outer diameter = 32mm, thickness = 1.5mm
         <img src="../../images/magnetic-position-sensors/AS5000-MR-Magnet_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/SpecMagneticRing_final.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

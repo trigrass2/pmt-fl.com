@@ -24,7 +24,7 @@ as5000-md6h-5.ph<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
         Diametric Magnet, NdFeB, Grade N35SH, D6x2.5mm
         <img src="../../images/magnetic-position-sensors/AS5000-MD6SH-1_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet MD6SH-1_ALLIANCE.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

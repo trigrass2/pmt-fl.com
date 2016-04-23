@@ -24,7 +24,7 @@
         Multipole magnetic strips for linear position sensor, Arnold Magnetics Inc.
         <img src="../../images/magnetic-position-sensors/AS5000-MS12-15-Magnet_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/SpecMagnetStrip_MS12-15.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">
