@@ -24,7 +24,7 @@
         The AS3691 features four high precision current sources for driving up to four LED strings (RGB or single color leds). Each of the four currents sources can be controlled independently by PWM inputs. The full scale current value is set by external resistors.
           <img src="../../images/sensor-driven-lighting/AS3691-Features_01_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3691_datasheet_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>4 x 400mA constant current outputs</dd>

@@ -24,7 +24,7 @@
         The AS3693B is a 16 channels high precision LED controller with built-in PWM generators for driving external FETs in LCD-backlight panels. External clock and synchronizing inputs allow the synchronization of the LCD backlight with the TV picture. Local dimming and scan dimming is supported by 16 independent PWM generators with programmable delay, period and duty cycle. Three free configurable dynamic power feedback circuits make the device usable for white LED as well as RGB backlights. Built-in safety features include thermal shutdown as well as open and short LED detection. All circuit parameters are programmable via I<sup>2</sup>C or SPI interface.
           <img src="../../images/sensor-driven-lighting/AS3693-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3693B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>16 independent LED channels</dd>

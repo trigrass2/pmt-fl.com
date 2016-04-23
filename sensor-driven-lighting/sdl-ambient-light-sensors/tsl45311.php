@@ -24,7 +24,7 @@
         The TSL4531 family of devices provides ambient light sensing (ALS), giving direct lux output that approximates human eye response under a variety of lighting conditions. While useful for general purpose light sensing, the device is particularly useful for sensing light in applications where the device is exposed directly to the ambient light such as street lighting where bright sunlight can produce very high lux readings. Other applications include display management with the purpose of extending battery life and providing optimum viewing in diverse lighting conditions.
           <img src="../../images/sensor-driven-lighting/Block-diagram-for-TSL4531_f380greyscale.png" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/TSL4531_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Direct lux output</dd>

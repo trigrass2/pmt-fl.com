@@ -27,7 +27,7 @@
           The local dimming enabled by the AS3824 also provides for additional system power savings compared to global backlight controllers.
           <img src="../../images/sensor-driven-lighting/AS3824-Blockdiagram_f380greyscale.jpg" />
         </p>
-
+        
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>No limit of VLED or ILED, controller not exposed to high voltage/current</dd>

@@ -24,7 +24,7 @@
           The AS3695A is a 16 channels precision LED driver for use in LCD-backlight panels. Dynamic power feedback controls the external power supply to guarantees best efficiency. Build in safety features include thermal shutdown as well as open and short LED detection. The device is programmable via serial interface
           <img src="../../images/sensor-driven-lighting/AS3695A_Block_Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3695A_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>16 Channel LED driver</dd>
