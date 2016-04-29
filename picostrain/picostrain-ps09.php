@@ -82,8 +82,18 @@
 					</ul>
 			</div>
 
+			<div id="subVideo">
+				<h2 class="sub subVideo__header">Additional Information</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/dyYecnxjjz4" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/O8uE3LUWLM0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/-Xtdi1ta1iE" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5YCvZa6ilZA" frameborder="0" allowfullscreen></iframe>
+			</div>
+
 		</div>
 		<div class="clearboth"></div>
+
+
 		
 		
 <?php include("../includes/footer.php"); ?>
