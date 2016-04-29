@@ -95,8 +95,8 @@
 				</div>
 				<div id="featRightB">
 					<a href="/pmt-videos.php" title="Precision Measurement Technologies Videos"><img src="/images/home/product-turbocharger-hl.jpg" class="fleft" /></a>
-					<h3 class="home">PMT Videos</h3>
-					<p>Walk through our PICOTURN system and view screencasts from Acam.</p>
+					<h3 class="home">Product Videos</h3>
+					<p>PMT Product and Evaluation Kit Videos</p>
 				</div>
 			</div>
 			<div id="home2right">

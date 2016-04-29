@@ -89,6 +89,11 @@
           </tr>
         </table>
 
+      <div id="subVideo" class="margin-adjust">
+        <h2 class="sub">Additional Information</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MOfqtEfZTfc" frameborder="0" allowfullscreen></iframe>
+      </div>
+
       </article>
 
       <aside role="complimentary" class="sidebar">

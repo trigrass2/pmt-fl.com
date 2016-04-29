@@ -67,6 +67,7 @@
 			<div id="subVideo">
 				<h2 class="sub subVideo__header">Additional Information</h2>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/9iGNPEiPPAY" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/x0O1qAYfs1M" frameborder="0" allowfullscreen></iframe>
 			</div>
 
 		</div>

@@ -2,6 +2,14 @@
   Magnetic Position Sensors
 </li>
 <li class="vertical-nav-item">
+  <a href="/magnetic-position-sensors/" data-dropdown="right">Overview</a>
+  <ul class="vertical-nav">
+    <li class="vertical-nav-item">
+      <a href="/magnetic-position-sensors/overview.php">Magnetic Position Sensors Overview</a>
+    </li>
+  </ul>
+</li> 
+<li class="vertical-nav-item">
   <a href="/magnetic-position-sensors/angle-position-on-axis/" data-dropdown="right">Angle Position On-Axis</a>
   <ul class="vertical-nav">
     <li class="vertical-nav-item">
