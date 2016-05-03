@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Chemical Sensors: Precision Measurement Technologies</title>
+  <title>iAQ-core P Indoor Air Quality Sensor - Chemical Sensors | PMT</title>
+  <meta name="description" content="The iAQ-Core P sensor module is used to measure VOC levels and provide CO2 equivalent and TVOC equivalent predictions. The data is available via I²C bus." />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,7 +18,7 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">iAQ-core C</h1>
+        <h1 class="primary-heading">iAQ-core P Indoor Air Quality Sensor</h1>
         <h2 class="secondary-heading">Indoor air quality module, I2C interface, continuous operation mode</h2>
 
         <p class="intro">
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">iAQ-Core P Product Facts</h2></th>
           </tr>
           <tr>
             <td>Interface</td>
@@ -76,6 +77,8 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <p>Building automation and consumer air quality monitoring applications.</p>
 
       </article>
 

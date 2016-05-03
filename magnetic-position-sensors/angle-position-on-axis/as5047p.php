@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5047P Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+   <meta name="description" content="The AS5047P is a high-resolution rotary position sensor for high speed (up to 28krpm) angle measurement over a full 360 degree range. This new position sensor is equipped with revolutionary integrated dynamic angle error compensation (DAEC™) with almost 0 latency and offers a robust design that suppresses the influence of any homogenous external stray magnetic field."> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -22,7 +23,7 @@
 
         <p class="intro">
         The AS5047P is a high-resolution rotary position sensor for high speed (up to 28krpm) angle measurement over a full 360-degree range. This new position sensor is equipped with revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency and offers a robust design that suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5047P and to program non-volatile settings without a dedicated programmer. Incremental movements are indicated on a set of ABI signals with a maximum resolution of 4000 steps / 1000 pulses per revolution in decimal mode and 4096 steps / 1024 pulses per revolution in binary mode. The resolution of the ABI signal is programmable and can be reduced to 100 steps per revolution, or 25 pulses per revolution. 
-          <img src="../../images/magnetic-position-sensors/AS5047P-Block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5047P-Block-diagram_f380greyscale.jpg" alt="AS5047P High Resolution Rotary Position Sensor"/>
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5047P_Datasheet.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -37,7 +38,7 @@
           <dd>Independent output interfaces: SPI, ABI, UVW, PWM</dd>
 
           <dt>Key Benefits</dt>
-          <dd>Easy to use â€“ saving costs on DSP</dd>
+          <dd>Easy to use Ð saving costs on DSP</dd>
           <dd>Simple optical encoder replacement</dd>
           <dd>Lower system costs (no shielding)</dd>
           <dd>No programmer needed (via SPI command)</dd>
@@ -48,7 +49,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5047P Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -91,6 +92,16 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>BLDC motors</li>
+          <li>Stepper motors</li>
+          <li>Factory automation</li>
+          <li>Building automation</li>
+          <li>Robotic joint position</li>
+          <li>PMSM (permanent magnet synchronous motor)</li>
+          <li>Optical encoder replacement</li>
+        </ul>
 
       </article>
 

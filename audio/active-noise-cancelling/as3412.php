@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3412 Active Noise Cancellation - Audio | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           Integrated Active Noise Cancelling solution improves the quality of music listening, phone conversations etc. by significantly reducing background ambient noise. The first ultra-small IC specially created for the mobile accessory headset implementation. 
-          <img src="../../images/audio/AS3412-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3412-block-diagram_f380greyscale.jpg" alt="AS3412 Speaker Driver Diagram"/>
         </p>
 
         <dl class="product-features">
@@ -48,7 +48,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3412 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Function</td>

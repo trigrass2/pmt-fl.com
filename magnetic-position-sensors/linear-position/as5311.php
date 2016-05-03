@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5311 Linear Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5311 is a contactless high resolution magnetic linear sensor for accurate linear motion and off-axis rotary sensing with a resolution down to <0.5µm.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,12 +18,12 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5311 Linear Sensor</h1>
+        <h1 class="primary-heading">AS5311 Linear Position Sensor</h1>
         <h2 class="secondary-heading">12-bit linear incremental position sensor with digital interface and ABI, PWM output</h2>
 
         <p class="intro">
         The AS5311 is an incremental position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 4096 pulses (12-bit) per 2.0 mm pole pair length on the standardized quadrature output interface with an index pulse (=ABI-interface) with a maximum speed of 650mm/sec.
-          <img src="../../images/magnetic-position-sensors/AS5311-block-diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/AS5311-block-diagram_f380greyscale.png" alt="Block diagram of the AS5311 linear incremental position sensor with digital interface"/>
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5311_Datasheet_EN_v6.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -39,7 +40,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5311 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -83,6 +84,13 @@
             for off-axis: use ring magnet</td>
           </tr>
         </table>
+         <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Robotic joint position</li>
+          <li>Motor speed and motion control for off-axis applications</li>
+          <li>Control of XYZ - tables</li>
+          <li>Replacement of linear and rotary optical sensor systems</li>
+        </ul>
 
       </article>
 
