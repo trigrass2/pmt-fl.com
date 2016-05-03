@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>AS3421 Active Noise Cancellation - Audio: Precision Measurement Technologies</title>
+  <title>AS3421 Active Noise Cancellation - Audio | Precision Measurement Tech</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           Integrated Active Noise Cancellation solution addressing feedforward architecture for Stereo wireless headsets, suitable for music, video or mobile use.
-          <img src="" />
+          <!--<img src="" />-->
         </p>
         <a href="../../downloads/audio/AAS3421_22_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -49,7 +49,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3421 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Function</td>
