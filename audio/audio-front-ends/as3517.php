@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3517 Stereo Audio Codec - Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           High performance Analog audio front end with integrated dual channel 18bit DAC(94dB SNR, 8-48kHz), 20bit ADC(90dB SNR, 8-48kHz), headphone drive capability and multiple high power voltage supplies.
-          <img src="../../images/audio/AS3517_PB_1v1_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3517_PB_1v1_f380greyscale.jpg" alt="AS3517 Stereo Audio Codec with advanced power management diagram"/>
         </p>
         <a href="../../downloads/audio/AS3517_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -45,7 +45,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3517 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Power Management</td>

@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5000-ma075h-1 Magnet - Magnetic Position Sensors | Precision Measurement Technologies</title>
+  <meta name="description" content="The AS5000-MA075H-1 is an axial magnet used with the AS5510 linear magnetic position sensor, in order to measure small linear displacements.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>

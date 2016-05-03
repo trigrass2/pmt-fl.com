@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3515 Stereo Audio Codec - Analog Audio Front-End | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           High performance Analog audio front end with integrated dual channel 18bit DAC(94dB SNR, 48kHz), 14bit ADC(82dB SNR, 16kHz), speaker and headphone drive capability and multiple high power voltage supplies.
-          <img src="../../images/audio/AS3515-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3515-Diagram_f380greyscale.jpg" alt="AS3515 Analog Audio Front-End Block Diagram"/>
         </p>
         <a href="../../downloads/audio/AS3515_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -45,7 +45,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3515 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Power Management</td>

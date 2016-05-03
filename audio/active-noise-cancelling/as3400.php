@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Audio - AS3400 Active Noise Cancellation: Precision Measurement Technologies</title>
+  <title>AS3400 Active Noise Cancellation - Audio | Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -25,10 +25,10 @@
       <article class="product-details">
         <h1 class="primary-heading">AS3400 Active Noise Cancellation</h1>
         <h2 class="secondary-heading">Single channel (differential) ANC solution for accessories</h2>
-        
+
         <p class="intro">
           Integrated Active Noise Cancelling solution addressing feedforward and feedback architectures for Mono wired headsets, such as unified communications solutions and wired phone applications. 
-          <img src="../../images/audio/AS3400-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3400-block-diagram_f380greyscale.jpg" alt="AS3400 speaker driver diagram"/>
         </p>
         <a href="../../downloads/audio/AS3400_10_30_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -47,7 +47,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3400 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Function</td>
@@ -82,7 +82,7 @@
             <td>QFN-24 (4x4)</td>
           </tr>
         </table>
-        
+
       </article>
     </section>
     

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3501 Active Noise Cancellation - Audio | Precision Measurement Tech</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           Active Noise Cancellation solution addressing feedforward architecture for embedded applications such as MP3 and Multimedia players
-          <img src="../../images/audio/AS3501-Active-Noise-Cancellation-Block-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3501-Active-Noise-Cancellation-Block-Diagram_f380greyscale.jpg" alt="AS3501 Active Noise Cancellation diagram"/>
         </p>
         <a href="../../downloads/audio/AS3501_02_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -47,7 +47,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3501 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Function</td>

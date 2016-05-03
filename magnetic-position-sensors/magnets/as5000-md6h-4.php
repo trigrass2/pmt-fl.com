@@ -1,8 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>AS5000-MA075H-1 Magnet - Magnetic Position Sensors | PMT</title>
-  <meta name="description" content="The AS5000-MA2H-1 magnet defines the dimensional and magnetic properties of an axial magnet for use with the AS5013 two-dimensional magnetic position sensor.">
+  <title>AS5000-MD6H-4 Magnet - Magnetic Position Sensors | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -18,13 +17,15 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5000-MA2H-1 Magnet</h1>
-        <h2 class="secondary-heading">Magnet for EasyPoint&#0153; AS501x position sensor</h2>
+        <h1 class="primary-heading">AS5000-MD6H-4 Magnet</h1>
+        <h2 class="secondary-heading">Magnet for rotary position sensor</h2>
 
-        <p class="intro">Axial Magnet, D2x0.8mm</p>
-        <p><img src="../../images/magnetic-position-sensors/AS5000-MA2H-1_f380greyscale.jpg" alt="AS5000-MA2H-1 magnet image"/>
+        <p class="intro">
+        Diametric Magnet NdFeB, Grade N35, D6x2.5mm<br/>
+Sorted Magnet with max. 3° magnetization tilt. </p>
+       <p><img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" alt="AS5000-MD6H-4 Magnet for rotary position sensor">
         </p>
-        <a href="../../downloads/magnetic-position-sensors/SpecMagnet_MA2H-1.pdf"><button>Download Datasheet</button></a>
+
       </article>
 
       <aside role="complimentary" class="sidebar">

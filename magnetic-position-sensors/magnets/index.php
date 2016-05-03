@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>Magnets - Magnetic Position Sensors | Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -15,13 +15,22 @@
 
 
 
-    <article role="main" class="product-index">
-      <h1 class="primary-heading">Magnets</h1>
+    <section role="main" class="product-detail">
+      <article class="product-details">
+        <h1 class="primary-heading">Magnets</h1>
+        <p class="intro"><br/>
+        Precision Measurement Techologties offers a selection of ams magnets for sample shipment. ams is not a producer of these magnets, so larger quantities can only be ordered at the respective manufacturer.
+        </p>
 
-      <ul class="vertical-nav">
-        <?php include("../../includes/subnav-magnetic-position-sensors.php"); ?>
-      </ul>
-    </article>
+      </article>
+
+      <aside role="complimentary" class="sidebar">
+        <ul class="vertical-nav">
+          <?php include("../../includes/subnav-magnetic-position-sensors.php"); ?>    
+        </ul>
+      </aside>
+    </section>
+    
     
       
     

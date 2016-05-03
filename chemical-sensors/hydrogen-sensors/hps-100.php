@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Chemical Sensors: Precision Measurement Technologies</title>
+  <title>HPS-100 Hydrogen Sensor - Chemical Sensors | PMT</title>
+   <meta name="description" content="The HPS-100 is an automotive hydrogen sensor that monitors hydrogen concentrations of 0 – 100 Vol%." />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,7 +18,7 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">HPS-100</h1>
+        <h1 class="primary-heading">HPS-100 Hydrogen Sensor</h1>
         <h2 class="secondary-heading">Hydrogen process sensor, 0-100% H2, CAN interface, baud rate 500k</h2>
 
         <p class="intro">
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">HPS-100 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Interface</td>
@@ -61,7 +62,7 @@
           </tr>
           <tr>
             <td>Dimension [mm]</td>
-            <td>Ã˜29.9mm x 93.4mm</td>
+            <td>Ø29.9mm x 93.4mm</td>
           </tr>
           <tr>
             <td>Ambient temperatur range [&deg;C]</td>
@@ -80,6 +81,8 @@
             <td>20000ppm</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <p>Hydrogen gas measurement in fuel cell systems and other in-process applications.</p>
 
       </article>
 
