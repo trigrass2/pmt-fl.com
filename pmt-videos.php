@@ -56,7 +56,7 @@
 			<iframe width="420" height="315" src="//www.youtube.com/embed/-Xtdi1ta1iE" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">AMS VOC</h2>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/F3j43JXoVXY" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/CJrjzbxqUPk" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">Synkera VOC</h2>
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/FuZhfbkauDQ" frameborder="0" allowfullscreen></iframe>
@@ -83,19 +83,19 @@
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/OlYEcm1AJe8" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">Power Management ICs</h2>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/-eVRRUAAAA8" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/ANzsLzCtHzE" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">Surface Concept</h2>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/YhYP3HGdw28" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/rpCqrs_gGFs" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">History of TDCs</h2>
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/vECJC6Axvf4" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">The Ring Oscillator</h2>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/TCqO2QJy4dY" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/AzjzsghGOWk" frameborder="0" allowfullscreen></iframe>
 
-			<h2 class="sub">PicoCap Eval Kit</h2>
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/OhoH_wDJcXc" frameborder="0" allowfullscreen></iframe>
+			<h2 class="sub">PCap04 Eval Kit</h2>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/akTiQcORBEA" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">GP30 Eval Kit</h2>
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/bYCts81W_Gc" frameborder="0" allowfullscreen></iframe>
