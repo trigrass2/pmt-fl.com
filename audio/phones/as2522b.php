@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS2522B Single Chip Phone - Audio | Precision Measurement Tech</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -25,11 +25,11 @@
       <article class="product-details">
         <h1 class="primary-heading">AS2522B Single Chip Phone</h1>
         <h2 class="secondary-heading">Speakerphone IC with a serial interface to standard CPU</h2>
-        
+
         <p class="intro">
           The AS2522B is speaker phone IC for enhanced handsfree feature phones with CallerID and extended displays and incorporates a DTMF, FSK transmitter, single tone and ringer tone generator.<br />
           AS2522 allows to use an off-the-shelf microprocessor without special blocks and functions for telephone applications. DTMF, FSK transmitter, single tone and ringer tone generator can be controlled via the serial interface as well as the gain settings in handset and handsfree mode
-          <img src="../../images/audio/AS2522B-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS2522B-Diagram_f380greyscale.jpg" alt="AS2522B Single Chip Speakerphone Circuit Block Diagram"/>
         </p>
         <a href="../../downloads/audio/AS2522B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -48,7 +48,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS2522B Product Facts</h2></th>
           </tr>
           <tr>
             <td>Supply voltage [V]</td>

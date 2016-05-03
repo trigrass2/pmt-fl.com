@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3410 Active Noise Cancellation - Audio: Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -23,7 +23,7 @@
       </aside>
 
       <article class="product-details">
-        <h1 class="primary-heading">AS3422 Active Noise Cancellation</h1>
+        <h1 class="primary-heading">AS3410 Active Noise Cancellation</h1>
         <h2 class="secondary-heading">Low power ambient noise cancellation speaker driver</h2>
 
         <p class="intro">

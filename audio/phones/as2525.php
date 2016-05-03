@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS2525 Feature Phone - Audio | Precision Measurement Technologies</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,7 +28,7 @@
 
         <p class="intro">
           The AS2525 is a single-chip IC for feature phones, answering machines and fax machines. It contains an analog line interface and speech circuit for a/b terminals, loudhearing, handsfree, enhanced LD/MF dialler, tone ringer with DC-DC converter and serial interface to EEPROM. The circuit is fully line powered and  uses an external EEPROM for a 32 digit last number redial storage and memories for 28 numbers each containing up to 24 digits/data.
-          <img src="../../images/audio/AS2525-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS2525-Diagram_f380greyscale.jpg" alt="AS2525 Single Chip Speakerphone Diagram"/>
         </p>
         <a href="../../downloads/audio/AS2525B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -47,7 +47,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS2525 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Supply voltage [V]</td>
