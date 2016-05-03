@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5403 Linear Position Sensor - Magnetic Position Sensors - PMT</title>
+  <meta name="description" content="The AS5403 can measure magnetic fields components in all three dimensions and converts the magnetic field information into absolute position information.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5403 Linear Sensor</h1>
+        <h1 class="primary-heading">AS5403 Linear Position Sensor</h1>
         <h2 class="secondary-heading">Hall Position Sensor for Linear and Off-Axis Applications</h2>
 
         <p class="intro">
         The AS5403 is a Hall sensor which detect linear or rotary off-axis movement of a 2-pole magnet.<br /><br />
         Using two Hall cells allows absolute (single pixel) as well as differential (double pixel) magnetic field measurement. The differential measurement makes the AS5403 ideal for use in rough automotive position sensing applications that include not only dust, dirt or moisture but also unwanted magnetic stray fields.<br /><br />
         The IC has signal conditioning features, including compensation of temperature effects as well as linearization. The build in diagnostic functions makes the AS5403 suitable for safety critical applications.
-          <img src="../../images/magnetic-position-sensors/AS5403-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5403-block-diagram_f380greyscale.jpg" alt="Block diagram of the AS5403 Hall Linear Position Sensor"/>
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5403_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -70,7 +71,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5403 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -113,6 +114,13 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Clutch/brake pedal</li>
+          <li>Gearbox sensor</li>
+          <li>Steering angle sensor</li>
+          <li>Gearbox shift link</li>
+        </ul>
 
       </article>
 

@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5304 Linear Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5304 is a single-chip IC with integrated Hall elements for measuring linear or rotary motion using multi-pole magnetic strips or rings.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,12 +18,12 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5304 Linear Sensor</h1>
+        <h1 class="primary-heading">AS5304 Linear Position Sensor</h1>
         <h2 class="secondary-heading">160-step linear incremental position sensor with ABI output</h2>
 
         <p class="intro">
         The AS5304 is an incremental position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 160 pulses per 4.0 mm pole pair length on the standardized quadrature output interface with an index pulse (=ABI-interface) with a maximum speed of 20m/sec.
-          <img src="../../images/magnetic-position-sensors/AS5304-block-diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/AS5304-block-diagram_f380greyscale.png" alt="Block diagram of the AS5304 linear incremental position sensor"/>
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5304-06_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -39,7 +40,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5304 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -82,6 +83,13 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Replacement of linear and rotary optical sensor systems</li>
+          <li>Control of XYZ - tables</li>
+          <li>Motor speed and motion control  for off-axis applications</li>
+          <li>CNC machines</li>
+        </ul>
 
       </article>
 

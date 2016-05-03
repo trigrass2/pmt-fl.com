@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5132 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5132 is a contactless magnetic position sensor for accurate angular measurement over a full turn of 360 degrees. It is a system-on-chip, combining integrated Hall elements, analog frontend and digital signal processing in a single device."> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,12 +18,12 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5132 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5132 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">8.5-bit rotary position sensor with digital angle (interface), ABI, UVW (up to 6 pole pairs) and PWM output</h2>
 
         <p class="intro">
-        The AS5132 is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360 degrees. The absolute angle measurement provides instant indication of the magnet’s angular position with a resolution of 8.5 bit = 360 positions per revolution via a serial output over the interface and as a pulse width modulated (PWM) signal. An additional U,V,W output can be used for a block commutation for a brushless DC motor. To improve the torque over speed, a pre-commutation is possible.
-          <img src="../../images/magnetic-position-sensors/AS5132-Magnetic-Rotary-Position-Sensor-Block-Diagram_f380greyscale.png" />
+        The AS5132 is a contactless magnetic rotary position sensor for accurate angular measurement over a full turn of 360 degrees. The absolute angle measurement provides instant indication of the magnet&rsquo;s angular position with a resolution of 8.5 bit = 360 positions per revolution via a serial output over the interface and as a pulse width modulated (PWM) signal. An additional U,V,W output can be used for a block commutation for a brushless DC motor. To improve the torque over speed, a pre-commutation is possible.
+          <img src="../../images/magnetic-position-sensors/AS5132-Magnetic-Rotary-Position-Sensor-Block-Diagram_f380greyscale.png" alt="AS5132 8.5 bit Rotary Position Sensor with digital angle"/>
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5132_datasheet_v7.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -39,7 +40,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5132 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -82,6 +83,11 @@
             <td>Yes</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>AC/DC motor position controls</li>
+          <li>Brushless DC motors</li>
+        </ul>
 
       </article>
 

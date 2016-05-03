@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5601 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5601 is an easy-to-program magnetic rotary position sensor with incremental quadrature (A/B) and 12-bit digital outputs.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,12 +18,12 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5601 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5601 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">12-bit On-Axis Magnetic Rotary Position Sensor with quadrature incremental and push-button output</h2>
 
         <p class="intro">
         The AS5601 is an easy-to-program magnetic rotary position sensor with incremental quadrature (A/B) and 12-bit digital output. This contactless system measures the absolute angle of a diametric magnetized on-axis magnet. Additionally, the PUSH output indicates fast airgap changes between the AS5601 and magnet which can be used to implement a contactless push-button function in which the knob can be pressed to move the magnet toward the AS5601. It is designed for contactless magnetic position sensor applications and its robust design eliminates the influence of any homogenous external stray magnetic fields. The industry-standard I<sup>2</sup>C interface supports simple user programming of non-volatile parameters without requiring a dedicated programmer. The AS5601 is also equipped with a smart low power mode feature to automatically reduce the power consumption. The device is available in a small form factor, compact 8-pin SOIC package.
-          <img src="../../images/magnetic-position-sensors/AS5601-Block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5601-Block-diagram_f380greyscale.jpg" alt="Diagram of the AS5601 Magnetic Rotary Position Sensor" />
         </p>
         <a href="../../downloads/magnetic-position-sensors/AS5601_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
@@ -47,7 +48,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5601 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -90,6 +91,14 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Rotary knobs</li>
+          <li>Contactless magnetic position sensors</li>
+          <li>Jog wheels</li>
+          <li>Angular position measurement solutions</li>
+        </ul>
+
 
       </article>
 
