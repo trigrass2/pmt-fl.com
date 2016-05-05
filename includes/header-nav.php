@@ -282,7 +282,7 @@
 			
 			<!-- BEGIN videos -->
 			<li class="horizontal-nav-item">
-				<a href="/pmt-videos.php">Blog</a>
+				<a href="/pmt-videos.php">Video</a>
 			</li>
 			<!-- END videos -->
 			
