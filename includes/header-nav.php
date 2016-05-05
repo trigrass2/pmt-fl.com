@@ -279,7 +279,13 @@
 				</ul>
 			</li>
 			<!-- END products -->
-
+			
+			<!-- BEGIN videos -->
+			<li class="horizontal-nav-item">
+				<a href="/pmt-videos.php">Video</a>
+			</li>
+			<!-- END videos -->
+			
 			<!-- BEGIN blog -->
 			<li class="horizontal-nav-item">
 				<a href="http://pmt-fl.blogspot.com/">Blog</a>
