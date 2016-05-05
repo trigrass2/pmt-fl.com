@@ -94,6 +94,12 @@
 			<h2 class="sub">The Ring Oscillator</h2>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/AzjzsghGOWk" frameborder="0" allowfullscreen></iframe>
 
+			<h2 class="sub">PicoStrain</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/AdtffZATor4" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">PicoCap</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/517KzlgGx30" frameborder="0" allowfullscreen></iframe>
+
 			<h2 class="sub">PCap04 Eval Kit</h2>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/akTiQcORBEA" frameborder="0" allowfullscreen></iframe>
 
