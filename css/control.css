@@ -525,9 +525,9 @@ Utility
 	padding-left: 1.5em;
 }
 
-// Remove margin from h2 video headers on video page so they
-// line up with embedded videos
-.pad-left h2 {
+/* Remove margin from h2 video headers on video page so they
+line up with embedded videos */
+#subSecond.pad-left h2 {
 	margin-left: 0;
 }
 
