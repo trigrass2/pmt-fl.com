@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/731-ultrakera-to-co-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/UltraKera-TO-VOC-Sensor-(731).pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>New low power designn: 40 mA @ 1 V</dd>

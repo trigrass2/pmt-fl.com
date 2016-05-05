@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5000-MD6H-2 Magnet - Magnetic Position Sensors - PMT</title>
+  <meta name="description" content="The AS5000-MD6H-2 magnet is an NdFeB sintered magnet.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -21,10 +22,10 @@
         <h2 class="secondary-heading">Magnet for rotary position sensor</h2>
 
         <p class="intro">
-        Diametric Magnet, D6x2.5mm, Arnold Magnetics
-        <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
+        Diametric Magnet, D6x2.5mm, Arnold Magnetics</p>
+        <p><img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" alt="AS5000-MD6H-2 magnet"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet_AS5000_MD6H_2.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3543 Audio Codec - Analog audio front end | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,9 +28,9 @@
 
         <p class="intro">
           High performance, low power, Analog audio front end with integrated dual channel 18bit DAC(102dB SNR, 8-48kHz), 20bit ADC(83dB SNR, 8-24kHz), headphone drive capability and multiple voltage supplies.
-          <img src="../../images/audio/AS3543-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3543-Diagram_f380greyscale.jpg" "alt=AS3543 High End Stereo Audio Codec diagram" />
         </p>
-
+        <a href="../../downloads/audio/AS3543_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>5mW playback power consumption</dd>
@@ -45,7 +45,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3543 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Power Management</td>

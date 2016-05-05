@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3510 Audio Codec - Audio | Precision Measurement Tech</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,9 +28,9 @@
 
         <p class="intro">
           High performance analog audio front end with integrated dual channel 18bit DAC, 14bit ADC, 0.5W power amplifier and multiple voltage supplies.
-          <img src="../../images/audio/AS3510-Diagram_neu_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3510-Diagram_neu_f380greyscale.jpg" alt="AS3510 Audio Front-End Block Diagram"/>
         </p>
-
+        <a href="../../downloads/audio/AS3510_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>On chip power management</dd>
@@ -46,7 +46,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3510 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Power Management</td>

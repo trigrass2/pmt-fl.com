@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>NSE-5310 Linear Position Sensor- Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The TRACKER NSE-5310 is an incremental position sensor with onchip encoding for direct digital output.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">NSE-5310 Linear Sensor</h1>
+        <h1 class="primary-heading">NSE-5310 Linear Position Sensor</h1>
         <h2 class="secondary-heading">12-bit linear position sensor with digital interface and PWM output</h2>
 
         <p class="intro">
         The NSE-5310 is position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 4096 positions (12-bit) per 2.0mm pole pair length which are provided as a digital value on the serial interface (I<sup>2</sup>C).
-          <img src="../../images/magnetic-position-sensors/NSE-5310-block-diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/NSE-5310-block-diagram_f380greyscale.png" alt="NSE-5310 linear position sensor block diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/NSE-5310_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">NSE-5310 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -85,6 +86,13 @@
             for off-axis: use ring magnet</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Micro-actuator and servo drive feedback</li>
+          <li>Motor speed and motion control for off-axis applications</li>
+          <li>Micro-actuator and servo drive feedback</li>
+          <li>Piezo motor closed-loop motion control</li>
+        </ul>
 
       </article>
 

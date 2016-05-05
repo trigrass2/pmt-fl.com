@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <meta name="description" content="The AS5306 is a single-chip IC with integrated Hallelements for measuring linear or rotary motion using multi-pole magnetic strips or rings. This allows the AS5306 to be used in applications where the Sensor IC cannot be mounted at the end of a rotating device">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5306 Linear Sensor</h1>
+        <h1 class="primary-heading">AS5306 Linear Position Sensor</h1>
         <h2 class="secondary-heading">160-step linear incremental position sensor with ABI output</h2>
 
         <p class="intro">
         The AS5306 is an incremental position sensor for linear and rotary off-axis applications based on contactless magnetic sensor technology. To measure position and motion a multi-pole magnet strip or ring has to be used. There are 160 pulses per 2.4 mm pole pair length on the standardized quadrature output interface with an index pulse (=ABI-interface) with a maximum speed of 15m/sec.
-          <img src="../../images/magnetic-position-sensors/AS5304-block-diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/AS5304-block-diagram_f380greyscale.png" alt="Diagram of the AS5306 Linear Position Sensor"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5304-06_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5306 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -85,6 +86,13 @@
             for off-axis: use ring magnet</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Replacement of linear and rotary optical sensor systems</li>
+          <li>Control of XYZ - tables</li>
+          <li>Motor speed and motion control  for off-axis applications</li>
+          <li>CNC machines</li>
+        </ul>
 
       </article>
 

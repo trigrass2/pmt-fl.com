@@ -410,6 +410,27 @@ table.orno td {
 	line-height:130%;
 }
 
+#subVideo {
+	font-size:14px;
+	line-height:130%;
+	margin-left: 15px;
+}
+
+#subVideo.margin-adjust {
+	margin-left: 0;
+	margin-top: 40px;
+}
+
+.subVideo__header {
+	clear: both;
+	float: left;
+	margin: 15px 0;
+}
+
+#subVideo iframe {
+	margin-bottom: 2em;
+}
+
 #subSecond {
 	width:710px;
 	float:left;
@@ -495,6 +516,20 @@ table.orno td {
 	border:0; 
 }
 
+/* --------------------------------------------------------
+Utility 
+--------------------------------------------------------- */
+
+.pad-left {
+	box-sizing: border-box;
+	padding-left: 1.5em;
+}
+
+/* Remove margin from h2 video headers on video page so they
+line up with embedded videos */
+#subSecond.pad-left h2 {
+	margin-left: 0;
+}
 
 /* --------------------------------------------------------
 Header 
@@ -502,6 +537,10 @@ Header
 .primary-header {
 	display: block;
 	width: 100%;
+}
+
+.video-header {
+	margin-top: 3em;
 }
 /* Logo */
 .partnership-logos {
@@ -703,10 +742,13 @@ Primary Navigation
 }
 .primary-nav .horizontal-nav-item:hover > .vertical-nav,
 .primary-nav .horizontal-nav-item:focus > .vertical-nav {
-	display: block;
+	/*display: block;*/
 }
 
 /* Level 3 */
+.primary-nav .vertical-nav-item {
+	position: relative;
+}
 .primary-nav .vertical-nav-item > .vertical-nav {
 	background-color: #0387cd;
 	border: 1px solid rgba(256, 256, 256, .2);
@@ -714,8 +756,16 @@ Primary Navigation
 	position: absolute;
 		top: -1px;
 		left: 270px;
-		bottom: 0;
-	width: 340px;
+		/*bottom: 0;*/
+	/*width: 360px;*/
+	max-width: 425px;
+	overflow: hidden;
+}
+.primary-nav .vertical-nav-item > .vertical-nav a {
+	display: block;
+	white-space:nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .primary-nav .vertical-nav-item > .vertical-nav .vertical-nav-item a { 
@@ -725,7 +775,7 @@ Primary Navigation
 
 .primary-nav .vertical-nav-item:hover > .vertical-nav,
 .primary-nav .vertical-nav-item:focus > .vertical-nav {
-	display: block;
+	/*display: block;*/
 }
 
 .vertical-nav.active {
@@ -912,6 +962,59 @@ Product Page Layouts (index, detail)
   clear:both;	
 }
 
+/* Product Index */
+.product-index {
+	padding: 20px;
+}
+.product-index .primary-heading {
+	color: #ff6600;
+	font: 21px GillSans;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.product-index ul {
+	font-weight: bold;
+	list-style: none;
+	padding-left: 5px;
+}
+.product-index > ul > li:first-child {
+	display: none;
+}
+.product-index > ul > li > a {
+	background-color: #efefef;
+	display: block;
+	padding: 10px;
+}
+.product-index > ul > li > a,
+.product-index > ul > li > a:hover,
+.product-index > ul > li > a:focus {
+	color: #333333;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.product-index > ul > li > ul {
+	background-color #efefef;
+}
+.product-index > ul {
+	padding: 2% 0;
+}
+.product-index ul ul {
+	font-weight: normal;
+	margin: 0 5px 20px;
+}
+.product-index ul ul a {
+	display: block;
+	padding: 5px 0;
+}
+.product-index a {
+	color: #333;
+}
+.product-index a:hover,
+.product-index a:focus {
+	color: #0387cd;
+}
+
 /* Sidebar */
 .product-detail .sidebar {
 	border-right: 1px solid #ccc;
@@ -1017,4 +1120,19 @@ Product Page Layouts (index, detail)
 .product-details .product-facts td:first-child {
 	font-weight: bold;
 	text-align: left;
+}
+
+.product-detail .product-details a button {
+	background-color: #0387CD;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 12px;
+	text-transform: uppercase;
+}
+.product-detail .product-details a button:hover,
+.product-detail .product-details a button:focus {
+	background-color: #565759;
 }

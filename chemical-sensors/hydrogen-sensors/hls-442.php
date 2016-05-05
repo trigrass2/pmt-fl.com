@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Chemical Sensors: Precision Measurement Technologies</title>
+  <title>HLS-442 Hydrogen Sensor - Chemical Sensors | PMT</title>
+  <meta name="description" content="The HLS-442 automotive hydrogen leak sensor monitors hydrogen concentrations of 0 – 4.4% in air." />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,13 +18,13 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">HLS-442</h1>
+        <h1 class="primary-heading">HLS-442 Hydrogen Sensor</h1>
         <h2 class="secondary-heading">Hydrogen leak sensor, 0-4.4% H2, CAN interface, baud rate 500k</h2>
 
         <p class="intro">
         The HLS-442 Hydrogen Leak Sensor is an accurate, fast-responding sensor designed for installation in vehicles and hydrogen fueling stations.
         </p>
-
+        <a href="../../downloads/chemical-sensors/HLS-442_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Concentration range of 0-4.4% H2</dd>
@@ -42,7 +43,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">HLS-442 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Interface</td>
@@ -82,6 +83,14 @@
             <td>3000ppm</td>
           </tr>
         </table>
+       <h2 class="sub">Applications</h2>
+       <p>Detection of hydrogen gas leaks in hydrogen powered vehicles by installing the sensor in the following:</p>
+       <ul class="sub">
+          <li>Cabin ceiling</li>
+          <li>Under the hood of the engine compartment</li>
+          <li>Beneath the trunk lid of hydrogen powered vehicles</li>
+        </ul>
+        <p>The sensor also detects hydrogen gas in and around hydrogen fueling stations</p>
 
       </article>
 

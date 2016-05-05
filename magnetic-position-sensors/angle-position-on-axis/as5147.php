@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5147 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5147 is a high-resolution rotary position sensor for fast absolute angle measurement over a full 360-degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC™) with almost 0 latency."> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5147 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5147 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">14-bit on-axis magnetic rotary position sensor with 11-bit binary incremental pulse count</h2>
 
         <p class="intro">
         The AS5147 is a high-resolution rotary position sensor for fast absolute angle measurement over a full 360-degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency. The robust design of the device suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5147 and to program non-volatile settings without a dedicated programmer. The resolution of the ABI signal is programmable to 2048 steps / 512 pulses per revolution or 1024 steps / 256 pulses per revolution. The AS5147 has also a programmable UVW output and supports embedded self-diagnostics features.
-          <img src="../../images/magnetic-position-sensors/AS5147-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5147-block-diagram_f380greyscale.jpg" alt="AS5147 14-bit on-axis magnetic rotary position sensor block diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5147_Datasheet_EN_v3.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#0153; Dynamic angle error compensation</dd>
@@ -45,7 +46,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5147 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -88,6 +89,15 @@
             <td>Yes</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+        <p>The AS5147 has been designed to support BLDC motors such as:</p>
+          <li>Electric power steering (EPS)</li>
+          <li>Transmission (gearbox, actuator)</li>
+          <li>Pump</li>
+          <li>Brake (actuator)</li>
+          <li>Starter & Alternator</li>
+        </ul>
 
       </article>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS3410 Active Noise Cancellation - Audio | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,9 +28,9 @@
 
         <p class="intro">
           Integrated Active Noise Cancellation solution addressing feedforward architecture for Stereo wired headsets, suitable for music, video or mobile use.
-          <img src="../../images/audio/AS3410_Feed-Forward-ANC-Block-Diagram_f380greyscale.jpg" />
+          <img src="../../images/audio/AS3410_Feed-Forward-ANC-Block-Diagram_f380greyscale.jpg" alt="AS3410 speaker driver diagram "/>
         </p>
-
+        <a href="../../downloads/audio/AS3400_10_30_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>>25dB noise reduction achievable</dd>
@@ -47,7 +47,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS3410 Product Facts</th>
           </tr>
           <tr>
             <td>Function</td>

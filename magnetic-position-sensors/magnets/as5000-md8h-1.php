@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5000-MD8H-1 Magnet - Magnetic Position Sensors | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -21,10 +21,10 @@
         <h2 class="secondary-heading">Magnet for rotary position sensor</h2>
 
         <p class="intro">
-        Diametral Magnet, D8x2.5mm, Bomatec AG
-        <img src="../../images/magnetic-position-sensors/MD8H-2_f380greyscale.jpg" />
+        Diametral Magnet, D8x2.5mm, Bomatec AG</p>
+       <p><img src="../../images/magnetic-position-sensors/MD8H-2_f380greyscale.jpg" alt="AS5000-MD8H-1 Magnet for rotary position sensor"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/MD8H-1_magnet_datasheet.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

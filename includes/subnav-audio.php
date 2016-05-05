@@ -45,15 +45,13 @@
 <li class="vertical-nav-item">
 	<a href="/audio/phones/" data-dropdown="right">Phones (Feature/Basic)</a>
 	<ul class="vertical-nav">
-		<li class="vertical-nav-item">
-			<a href="/audio/phones/as2522b.php">AS2522B Speakerphone IC with a serial interface to standard CPU</a>
-			<a href="/audio/phones/as2523.php">AS2523/24 Speakerphone IC with a serial and parallel interface</a>
-			<a href="/audio/phones/as2525.php">AS2525 Single-chip speakerphone IC with a serial interface to a EEPROM</a>
-			<a href="/audio/phones/as2533.php">AS2533 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a>
-			<a href="/audio/phones/as2534.php">AS2534 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a>
-			<a href="/audio/phones/as2535.php">AS2535 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a>
-			<a href="/audio/phones/as2536.php">AS2536 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a>
-			<a href="/audio/phones/as2540.php">AS2540 Remote controlled single-chip telephone IC with a 2-wire serial interface</a>
-		</li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2522b.php">AS2522B Speakerphone IC with a serial interface to standard CPU</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2523.php">AS2523/24 Speakerphone IC with a serial and parallel interface</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2525.php">AS2525 Single-chip speakerphone IC with a serial interface to a EEPROM</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2533.php">AS2533 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2534.php">AS2534 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2535.php">AS2535 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2536.php">AS2536 Single-chip telephone IC with line interface, speech circuit, dialler and ringer</a></li>
+		<li class="vertical-nav-item"><a href="/audio/phones/as2540.php">AS2540 Remote controlled single-chip telephone IC with a 2-wire serial interface</a></li>
 	</ul>
 </li>

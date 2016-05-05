@@ -22,7 +22,7 @@
         <p class="intro">
           <img src="../../../images/chemical-sensing-analysis/701-ultrakera-trace-hydrogen-sensor.png" />
         </p>
-
+        <a href="../../downloads/chemical-sensing-analysis/Synkera-Trace-H2 Data-Sheet-(701).pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Sensor Features</dt>
           <dd>High sensitivity to low hydrogen concentrations (10 - 1000 ppm)</dd>

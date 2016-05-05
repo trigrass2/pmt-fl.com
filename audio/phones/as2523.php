@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Time-to-Digital Converters: Precision Measurement Technologies</title>
+  <title>AS2523 & AS2524 Single Chip Phone - Audio | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,9 +28,9 @@
 
         <p class="intro">
           The AS2523/24 is are speaker phone ICs for enhanced handsfree feature phones with CallerID and extended displays. AS2523 allows to use an off-the-shelf microprocessor without special blocks and functions for telephone applications. The AS2524 and AS2524B are developed to interface with common dialers.
-          <img src="../../images/audio/AS2523-24-B_f380greyscale.jpg" />
+          <img src="../../images/audio/AS2523-24-B_f380greyscale.jpg" alt="AS2523 & AS2524 Speakerphone Circuit Block Diagram"/>
         </p>
-
+        <a href="../../downloads/audio/AS2523_24_v1_13.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Line/Speakerphone circuit on a 28-pin CMOS-IC</dd>
@@ -47,7 +47,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS2523 & AS2524 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Supply voltage [V]</td>

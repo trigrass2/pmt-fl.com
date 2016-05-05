@@ -23,7 +23,7 @@
         <p class="intro">
         The AS1390A, is a high-power, constant-frequency boost controller with an integrated buck converter. It can be used for the boost converter in TV sets which are optimized for 2D and 3D mode. The continuous conduction mode of the AS1390A provides superior bandwith and transient response. The two output voltages for the boost controller (2D and 3D mode) can be programmed with an external resistor divider. The buck converter is optimized for suppling a /P with 5V. The AS1390A is available in a 20-Pin QFN (4x4mm) package.
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS1390A-B_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High Efficiency: Up to 95%</dd>

@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+<title>AS5030 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+<meta name="description" content="Precision Measurement Technologies sells the AS5030 which is a contactless magnetic rotary encoder for accurate angular measurement over a full turn of 360°. It is a system-on-chip, combining integrated Hall elements, analog front end and digital signal processing in a single device." /> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5030 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5030 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">8-bit rotary position sensor with digital angle (interface) and PWM output</h2>
 
         <p class="intro">
         The AS5030 is an 8-bit rotary position sensor (previously known as encoder) for absolute angular measurement over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device. The absolute magnet angular position is measured with a resolution of 8 bit = 256 positions per revolution and is provided as a digital value on the serial interface (SSI) and on the PWM output signal. 
-          <img src="../../images/magnetic-position-sensors/AS5030-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5030-block-diagram_f380greyscale.jpg" alt="AS5030 Rotary Sensor IC Block Diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5030_Datasheet_EN_v5.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless angle and motion sensing</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -84,7 +85,13 @@
             <td></td>
           </tr>
         </table>
-
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Motor position and motion sensor</li>
+          <li>Rotary knobs</li>
+          <li>Position sensor for battery operated equipment</li>
+          <li>Robotic Joint Position</li>
+        </ul>
       </article>
 
       <aside role="complimentary" class="sidebar">

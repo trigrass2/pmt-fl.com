@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Chemical Sensors: Precision Measurement Technologies</title>
+  <title>HLS-440P B Hydrogen Sensor - Chemical Sensors | PMT</title>
+  <meta name="description" content="The HLS-440P automotive hydrogen sensor monitors hydrogen leakage concentrations of 0 - 10% in air." />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,13 +18,13 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">HLS-440P B</h1>
+        <h1 class="primary-heading">HLS-440P B Hydrogen Sensor</h1>
         <h2 class="secondary-heading">Hydrogen leak sensor, 0-10% H2, CAN interface, baud rate 500k, without termination resistor</h2>
 
         <p class="intro">
           The HLS-440P Hydrogen Leak Sensor is an accurate, fast responding sensor designed for installation in harsh environments such as fuel cell exhausts, for example. The HLS-440P Hydrogen Leak Sensor features reduced power consumption, provides increased packaging flexibility, and includes a CAN interface with a standard MQS four-pin connector. Self-testing at start up and advanced error handling ensure reliable operation.
         </p>
-
+        <a href="../../downloads/chemical-sensors/HLS-440P_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Concentration range of 0-10% H2</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">HLS-440P B Product Facts</h2></th>
           </tr>
           <tr>
             <td>Interface</td>
@@ -61,7 +62,7 @@
           </tr>
           <tr>
             <td>Dimension [mm]</td>
-            <td>Ã˜29.9mm x 93.4mm</td>
+            <td>Ø29.9mm x 93.4mm</td>
           </tr>
           <tr>
             <td>Ambient temperatur range [&deg;C]</td>
@@ -80,6 +81,8 @@
             <td>5000ppm</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <p>Hydrogen gas measurement in fuel cell systems and other in-process applications.</p>
 
       </article>
 

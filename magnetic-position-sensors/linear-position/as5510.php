@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5510 Linear Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5510 is a Linear Hall Sensor with 10 bit resolution and I²C interface. It can measure absolute position of lateral movement of a simple 2-pole magnet.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5510 Position Sensor</h1>
+        <h1 class="primary-heading">AS5510 Linear Position Sensor</h1>
         <h2 class="secondary-heading">10-bit linear position sensor with digital position (interface) output</h2>
 
         <p class="intro">
         The AS5510 is an absolute position sensor for linear applications with short strokes (0.5 to 2.0mm) based on contactless magnetic sensor technology. To measure a lateral movement the sensor needs a simple 2-pole magnet and the measured distance depends on the magnet geometry. The absolute position is measured with a resolution of 10-bit = 1024 positions and it is provided as a digital value on the serial interface (I<sup>2</sup>C).
-          <img src="../../images/magnetic-position-sensors/AS5510-block-diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5510-block-diagram_f380greyscale.jpg" alt="Block diagram of the AS5510 10-bit linear position sensor"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5510_Datasheet_EN_v7.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless position measurement</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5510 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -84,6 +85,13 @@
             <td>standard axial magnet</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Mini pumps</li>
+          <li>Camera modules and lense systems in mobile phones</li>
+          <li>Cash counter and checking machines</li>
+        </ul>
+
 
       </article>
 

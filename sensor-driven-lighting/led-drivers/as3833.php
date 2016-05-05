@@ -24,7 +24,7 @@
         The AS3833 is a 6 channel high precision LED controller with PWM input for driving external bipolar transistors in LED backlight panels, also optimized for 2D and 3D operation in TV applications. The integrated step-up controller provides the necessary output voltage for the LED string supply. The SMPS feedback control optimizes the power efficiency by adjusting the LED string supply voltage.
           <img src="../../images/sensor-driven-lighting/AS3833_Blockdiagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/sensor-driven-lighting/AS3833_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>6 channel LED controller</dd>

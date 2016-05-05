@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5215 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="The AS5215 is a redundant, contactless rotary position sensor for accurate angular measurement over a full turn of 360º and over an extended ambient temperature range of -40ºC to +150ºC.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,14 +18,14 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5215 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5215 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">Redundant rotary position sensor with Sin/Cos output</h2>
 
         <p class="intro">
         The AS5215 is a redundant, contactless rotary position sensor for accurate angular measurement over a full turn of 360&deg; and over an extended ambient temperature of -40&deg;C to +150&deg;C. Based on an integrated Hall element array the angular position of a simple two-pole magnet is translated into analog output voltages. The angle information is provided by means of buffered sine and consine voltages via a SSI Interface.
-          <img src="../../images/magnetic-position-sensors/AS5215-Block-Diagram_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5215-Block-Diagram_f380greyscale.jpg" alt="AS5215 a redundant contactless rotary position sensor diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5215_Datasheet_EN_v2.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High precision analog output</dd>
@@ -79,6 +80,12 @@
             <td>Yes</td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Power steering</li>
+          <li>Rotary switches</li>
+          <li>General industrial applications</li>
+        </ul>
 
       </article>
 

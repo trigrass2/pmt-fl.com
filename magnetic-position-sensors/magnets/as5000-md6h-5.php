@@ -1,7 +1,7 @@
-as5000-md6h-5.ph<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5000-MD6H-5 Magnet - Magnetic Position Sensors | PMT</title>
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -22,10 +22,10 @@ as5000-md6h-5.ph<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "
 
         <p class="intro">
         Diametric Magnet NdFeB, Grade N35, D6x2.5mm<br />
-        Sorted Magnet with max. 3&deg; magnetization tilt
-        <img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" />
+        Sorted Magnet with max. 3&deg; magnetization tilt</p>
+        <p><img src="../../images/magnetic-position-sensors/AS5000-MD6H_f380greyscale.jpg" alt="AS5000-MD6H-5 Magnet for rotary position sensor"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5000-MD6H-5.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

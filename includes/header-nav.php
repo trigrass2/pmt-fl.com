@@ -256,6 +256,10 @@
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-smart-light-management.php"); ?>
 					<!-- END Smart Light Management -->
 
+					<!-- BEGIN Power Management ICs -->
+					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-power-management-ics.php"); ?>
+					<!-- END Power Management ICs -->
+
 					<!-- BEGIN Chemical Sensing & Analysis -->
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-chemical-sensing-analysis.php"); ?>
 					<!-- END Chemical Sensing & Analysis -->

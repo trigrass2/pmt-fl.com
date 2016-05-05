@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Linear Position - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5013 EasyPoint Miniature Joystick - Magnetic Position Sensors | PMT</title>
+   <meta name="description" content="The AS5013 is a complete Hall Sensor IC for smart navigation key applications to meet the low power requirements and host SW integration challenges for products such as cell phones and smart handheld devices.">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -22,9 +23,9 @@
 
         <p class="intro">
         The AS5013 is an absolute position sensor for miniature joystick applications  with maximum strokes of +/-2.0mm in x- and y-direction based on contactless magnetic sensor technology. To measure xy-movement the sensor needs a simple 2-pole magnet. The absolute xy-position is measured with a resolution of 8-bit = 256 positions and it is provided as a digital value on the serial interface (I<sup>2</sup>C).
-          <img src="../../images/magnetic-position-sensors/AS5013-EasyPoint-block-diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/AS5013-EasyPoint-block-diagram_f380greyscale.png" alt="Diagram of the AS5013 absolute position sensor for joystick applications"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5013_Datasheet_EN_v9.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless motion and position sensing</dd>
@@ -41,7 +42,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5013 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -84,6 +85,12 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Miniature joystick</li>
+          <li>Gaming device</li>
+          <li>Remote control</li>
+        </ul>
 
       </article>
 

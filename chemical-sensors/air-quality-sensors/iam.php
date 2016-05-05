@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Chemical Sensors: Precision Measurement Technologies</title>
+  <title>iAM Indoor Air Quality Sensor - Chemical Sensors | PMT</title>
+  <meta name="description" content="Indoor Air Monitor (iAM) is sensitive to indoor air quality that affects occupants’ health, productivity and comfort – alerting you to odors and VOCs to help maintain high-quality environments for home, office, classroom, etc" />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -24,9 +25,9 @@
         Indoor air quality module with USB interface for a quick air quality test.<br /><br />
 
         Indoor Air Monitor is sensitive to indoor air quality that affects occupants' health, productivity and comfort. Indoor Air Monitor detects even the smallest change in a room's air quality, enabling to take control of the air for a healthier home, office or classroom!
-          <img src="../../images/chemical-sensors/iAM-picture_f380greyscale.jpg" />
+          <img src="../../images/chemical-sensors/iAM-picture_f380greyscale.jpg" alt="Indoor Air Sensor with USB Interface"/>
         </p>
-
+        <a href="../../downloads/cchemical-sensors/iAM_flyer.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Air quality monitor</dd>

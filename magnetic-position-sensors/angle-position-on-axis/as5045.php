@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5045 Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+  <meta name="description" content="Precision Measurement Technologies sells the AS5045 which is a contactless magnetic rotary encoder for accurate angular measurement over a full turn of 360°. It is a system-on-chip, combining integrated Hall elements,analog front end and digital signal processing in a single device."> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -17,16 +18,16 @@
 
     <section role="main" class="product-detail">
       <article class="product-details">
-        <h1 class="primary-heading">AS5045 Rotary Sensor</h1>
+        <h1 class="primary-heading">AS5045 Rotary Position Sensor</h1>
         <h2 class="secondary-heading">12-bit rotary position sensor with digital angle (interface) and PWM output</h2>
 
         <p class="intro">
         The AS5045 is a 12-bit rotary position sensor (previously known as encoder) for absolute angular measurement and with a PWM (=pulse width modulation) output over a full turn of 360&deg; based on contactless magnetic sensor technology. This device fits perfectly for on-axis applications where a simple 2-pole magnet rotates above or below the sensor IC and the zero position can be programmed into the device. The absolute magnet angular position is measured with a resolution of 12 bit = 4096 positions per revolution and it is provided as a digital value on the serial interface (SSI) and on the PWM output signal. 
-          <img src="../../images/magnetic-position-sensors/AS5045-block-diagram_f380greyscale.jpg" />
-          <img src="../../images/magnetic-position-sensors/AS5045-DB-Block-Diagram_f380greyscale.png" />
-          <img src="../../images/magnetic-position-sensors/AS5040-AB-Adapterboard-Block-Diagram_f380greyscale.png" />
+          <img src="../../images/magnetic-position-sensors/AS5045-block-diagram_f380greyscale.jpg" alt="AS5045 12-bit programmable magnetic rotary position sensor block diagram"/>
+          <img src="../../images/magnetic-position-sensors/AS5045-DB-Block-Diagram_f380greyscale.png" alt="AS5045 12-bit programmable magnetic rotary position sensor demoboard diagram"/>
+          <img src="../../images/magnetic-position-sensors/AS5040-AB-Adapterboard-Block-Diagram_f380greyscale.png" alt="AS5045 Adapter Board diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5045_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Contactless absolute angle position measurement</dd>
@@ -43,7 +44,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5045 Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -86,6 +87,13 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>Angle sensor</li>
+          <li>Rotary knobs</li>
+          <li>Replacement of potentiometers</li>
+          <li>Robotic joint position</li>
+        </ul>
 
       </article>
 

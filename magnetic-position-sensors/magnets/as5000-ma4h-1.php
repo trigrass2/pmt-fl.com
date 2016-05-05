@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Magnets - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5000-MA4H-1 Magnet - Magnetic Position Sensors | PMT</title>
+   <meta name="description" content="NdFeB sintered magnet">
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -23,7 +24,7 @@
         <p class="intro">
         Axial Magnet, D4x2.5mm, Bomatec AG
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/Datasheet AS5000_MA4H_1_v1.1.pdf"><button>Download Datasheet</button></a>
       </article>
 
       <aside role="complimentary" class="sidebar">

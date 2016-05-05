@@ -1,6 +1,15 @@
 <li class="vertical-nav-item vertical-nav-heading">
 	Sensor Driven Lighting
 </li>
+
+<li class="vertical-nav-item">
+	<a href="/sensor-driven-lighting/overview.php" data-dropdown="right">Overview</a>
+	<ul class="vertical-nav">
+		<li class="vertical-nav-item">
+			<a href="/sensor-driven-lighting/overview.php">Sensor Driven Lighting Overview</a>
+		</li>
+	</ul>
+</li> 
 <li class="vertical-nav-item">
 	<a href="/sensor-driven-lighting/led-drivers/" data-dropdown="right">LED Drivers</a>
 	<ul class="vertical-nav">

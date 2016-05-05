@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Angle Position On-Axis - Magnetic Position Sensors: Precision Measurement Technologies</title>
+  <title>AS5147P Rotary Position Sensor - Magnetic Position Sensors | PMT</title>
+   <meta name="description" content="The AS5147P is a high-resolution rotary position sensor for high speed (up to 28krpm) angle measurement over a full 360 degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC™) with almost 0 latency."> 
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -24,9 +25,9 @@
         The AS5147P is a high-resolution rotary position sensor for high speed (up to 28krpm) angle measurement over a full 360 degree range. This new position sensor is equipped with a revolutionary integrated dynamic angle error compensation (DAEC&#0153;) with almost 0 latency.<br /><br />
         The robust design of the device suppresses the influence of any homogenous external stray magnetic field. A standard 4-wire SPI serial interface allows a host microcontroller to read 14-bit absolute angle position data from the AS5147P and to program non-volatile settings without a dedicated programmer.<br /><br />
         Incremental movements are indicated on a set of ABI signals with a maximum resolution of 4096 steps / 1024 pulses per revolution. The product is defined as SEooC (Safety Element out of Context) according ISO26262 including FMEDA, safety manual and third party qualification.
-          <img src="../../images/magnetic-position-sensors/AS5147P-blockdiagram-ams_f380greyscale.jpg" />
+          <img src="../../images/magnetic-position-sensors/AS5147P-blockdiagram-ams_f380greyscale.jpg" alt="AS5147P high resolution rotary position sensor block diagram"/>
         </p>
-
+        <a href="../../downloads/magnetic-position-sensors/AS5147P_Datasheet-(2).pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>DAEC&#0153; Dynamic angle error compensation</dd>
@@ -45,7 +46,7 @@
 
         <table class="product-facts">
           <tr>
-            <th colspan="2">Product Facts</th>
+            <th colspan="2"><h2 class="sub">AS5147P Product Facts</h2></th>
           </tr>
           <tr>
             <td>Resolution</td>
@@ -88,6 +89,14 @@
             <td></td>
           </tr>
         </table>
+        <h2 class="sub">Applications</h2>
+        <ul class="sub">
+          <li>BLDC/PMSM motor commutation (Pumps, DCT, Starter, Alternator, Wiper, etc.)</li>
+          <li>Safety Critical Automotive Systems (EPS, Brake, etc.)</li>
+          <li>Resolver replacement</li>
+          <li>Discrete Hall commutation feedback replacement</li>
+          <li>Servo motor position control</li>
+        </ul>
 
       </article>
 

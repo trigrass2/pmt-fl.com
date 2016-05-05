@@ -25,7 +25,7 @@
         AS3911B covers all required and still active ISO14443 A & ISO14443 B license as visible in the official ISO standard document ISO/IEC 14443-3
           <img src="../../images/wireless-connectivity/AS3911B-integrated-NFC-initiator_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3911B_Datasheet_EN_v4.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Up to 1W of output power</dd>

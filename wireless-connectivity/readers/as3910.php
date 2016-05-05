@@ -24,7 +24,7 @@
         The AS3910 is a high performance HF Reader IC ideal for challenging applications. Unique features include Antenna Auto Tuning, 700mW of output power.
           <img src="../../images/wireless-connectivity/AS3909_10-High-Performance-HF-RFID-Reader-IC-Block-Diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3909-10_Datasheet_v6.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>Up to 700mW of output power</dd>

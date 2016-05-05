@@ -24,7 +24,7 @@
         AS3955 NFC Dynamic Tag IC is the ultimate solution to easily add NFC functionality to electronic devices, pair them with NFC phones and transfer data. Thanks to a high sensitivity ISO14443A frontend and high integrated resonance capacitor, AS3955 offers standalone NFC passive tag functionality in a small footprint. Fast system integration and high speed data transfer are guaranteed by the available SPI and I<sup>2</sup>C interfaces and by optimized protocols (Tunneling mode and extended mode), allowing bidirectional communication between the device microcontroller and an external NFC compliant device or ISO14443A reader device. AS3955 is able to operate fully powered by the RF field, without any external supply. This, combined with an advanced energy harvesting feature, greatly increases battery life time or even allows battery-less designs.
           <img src="../../images/wireless-connectivity/AS3955-block-diagram_f380greyscale.jpg" />
         </p>
-
+        <a href="../../downloads/wireless-connectivity/AS3955_Datasheet_EN_v1.pdf"><button>Download Datasheet</button></a>
         <dl class="product-features">
           <dt>Key Features</dt>
           <dd>High sensitivity ISO14443A frontend</dd>
@@ -88,6 +88,11 @@
             <td>Die, MLPD-10, WL-CSP</td>
           </tr>
         </table>
+
+      <div id="subVideo" class="margin-adjust">
+        <h2 class="sub">Additional Information</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MOfqtEfZTfc" frameborder="0" allowfullscreen></iframe>
+      </div>
 
       </article>
 
