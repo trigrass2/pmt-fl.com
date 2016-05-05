@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>iAM Indoor Air Quality Sensor - Chemical Sensors | PMT</title>
-  <meta name="description" content="Indoor Air Monitor (iAM) is sensitive to indoor air quality that affects occupants’ health, productivity and comfort – alerting you to odors and VOCs to help maintain high-quality environments for home, office, classroom, etc" />
+  <meta name="description" content="Indoor Air Monitor (iAM) is sensitive to indoor air quality that affects occupantsâ€™ health, productivity and comfort â€“ alerting you to odors and VOCs to help maintain high-quality environments for home, office, classroom, etc" />
   <?php include("../../includes/head.php"); ?>
 </head>
 <body>
@@ -28,16 +28,18 @@
           <img src="../../images/chemical-sensors/iAM-picture_f380greyscale.jpg" alt="Indoor Air Sensor with USB Interface"/>
         </p>
         <a href="../../downloads/cchemical-sensors/iAM_flyer.pdf"><button>Download Datasheet</button></a>
-        <dl class="product-features">
-          <dt>Key Features</dt>
-          <dd>Air quality monitor</dd>
-          <dd>Promotion tool with data logging software for Windows</dd>
+       <h2 class="sub">Key Features</h2>
+       <ul class="sub">
+          <li>Air quality monitor</li>
+          <li>Promotion tool with data logging software for Windows</li>
+       </ul>
 
-          <dt>Key Benefits</dt>
-          <dd>Plugs into any USB port</dd>
-          <dd>Alerts you to changes in air quality</dd>
-          <dd>Detects VOCs quickly and reliably</dd>
-        </dl>
+       <h2 class="sub">Key Benefits</h2>
+       <ul class="sub">
+          <li>Plugs into any USB port</li>
+          <li>Alerts you to changes in air quality</li>
+          <li>Detects VOCs quickly and reliably</li>
+        </ul>
 
         <table class="product-facts">
           <tr>
