@@ -516,6 +516,20 @@ table.orno td {
 	border:0; 
 }
 
+/* --------------------------------------------------------
+Utility 
+--------------------------------------------------------- */
+
+.pad-left {
+	box-sizing: border-box;
+	padding-left: 1.5em;
+}
+
+// Remove margin from h2 video headers on video page so they
+// line up with embedded videos
+.pad-left h2 {
+	margin-left: 0;
+}
 
 /* --------------------------------------------------------
 Header 
