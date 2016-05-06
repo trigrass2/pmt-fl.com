@@ -188,9 +188,9 @@
 							<li class="vertical-nav-item">
 								<a href="/picoturn/picoturn-ordering-numbers.php" title="">Ordering Numbers</a>
 							</li>
-							<li class="vertical-nav-item">
+							<!-- <li class="vertical-nav-item">
 								<a href="/pmt-videos.php" title="">Videos</a>
-							</li>
+							</li> -->
 						</ul>
 					</li>
 
