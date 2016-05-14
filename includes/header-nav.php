@@ -35,6 +35,7 @@
 			<li class="horizontal-nav-item">
 				<a href="#" data-dropdown="bottom">Products</a>
 				<ul class="vertical-nav">
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/tdc/tdc-time-to-digital-converters.php" data-dropdown="right">Time To Digital Converters</a>
 						<ul class="vertical-nav">
@@ -73,7 +74,9 @@
 							</li>
 						</ul>
 					</li>
+					</span>
 
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/picostrain/picostrain-strain-gage-circuits.php" data-dropdown="right">Digital Scales / Load Cell</a>
 						<ul class="vertical-nav">
@@ -112,7 +115,9 @@
 							</li>
 						</ul>
 					</li>
+					</span>
 
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/picocap/picocap-capacitance-measurement.php" data-dropdown="right">Capacitance Measurement</a>
 						<ul class="vertical-nav">
@@ -139,7 +144,9 @@
 							</li>
 						</ul>
 					</li>
+					</span>
 
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/ufc/ufc-ultrasonic-flow-converters.php" data-dropdown="right">Ultrasonic Flow Converters</a>
 						<ul class="vertical-nav">
@@ -163,7 +170,9 @@
 							</li>
 						</ul>
 					</li>
+					</span>
 
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/picoturn/picoturn-rotational-speed-sensor.php" data-dropdown="right">Rotational Speed Sensing</a>
 						<ul class="vertical-nav">
@@ -193,7 +202,9 @@
 							</li> -->
 						</ul>
 					</li>
+					</span>
 
+					<span>
 					<li class="vertical-nav-item">
 						<a href="/surface-concept/surface-concept-measurement.php" data-dropdown="right">Surface Concept Measurement Systems</a>
 						<ul class="vertical-nav">
@@ -226,43 +237,62 @@
 							</li>
 						</ul>
 					</li>
+					</span>
 
 					<!-- BEGIN ams -->
 					<!-- BEGIN audio -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-audio.php"); ?>
 					<!-- end audio -->
+					</span>
 					
 					<!-- BEGIN chemical sensors -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-chemical-sensors.php"); ?>
 					<!--  END chemical sensors-->
+					</span>
 
 					<!-- BEGIN sensor driven lighting -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-sensor-driven-lighting.php"); ?>
 					<!-- END sensor driven lighting -->
+					</span>
 
 					<!-- BEGIN LF Receivers -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-rf-receivers.php"); ?>
 					<!-- END LF Receivers -->
+					</span>
 
 					<!-- BEGIN Wireless Connectivity -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-wireless-connectivity.php"); ?>
 					<!-- END Wireless Connectivity -->
+					</span>
 
 					<!-- BEGIN Magnetic Position Sensors -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-magnetic-position-sensors.php"); ?>
 					<!-- END Magnetic Position Sensors -->
+					</span>
 
 					<!-- BEGIN Smart Light Management -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-smart-light-management.php"); ?>
 					<!-- END Smart Light Management -->
+					</span>
 
 					<!-- BEGIN Power Management ICs -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-power-management-ics.php"); ?>
 					<!-- END Power Management ICs -->
+					</span>
 
 					<!-- BEGIN Chemical Sensing & Analysis -->
+					<span class="accordion" data-state="closed">
 					<?php include("{$_SERVER['DOCUMENT_ROOT']}/includes/subnav-chemical-sensing-analysis.php"); ?>
 					<!-- END Chemical Sensing & Analysis -->
+					</span>
 					
 					<!-- <li class="vertical-nav-item vertical-nav-heading">
 						Audio

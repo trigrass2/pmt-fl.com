@@ -710,6 +710,7 @@ Primary Navigation
 	padding: 5px 15px;
 	text-transform: uppercase;
 }
+
 .primary-nav .horizontal-nav-item .vertical-nav-item > a {
 	display: block;
 	padding: 5px 15px;
@@ -780,6 +781,40 @@ Primary Navigation
 
 .vertical-nav.active {
 	display: block !important;
+}
+
+/* Accordion */
+.accordion[data-state] > .vertical-nav-heading {
+	border-top: 1px solid rgba(255, 255, 255, .3);
+	cursor: pointer;
+	display: block !important;
+	position: relative;
+}
+.accordion[data-state] > .vertical-nav-heading:before {
+	border-style: solid;
+	border-width: 0.2em 0.2em 0 0;
+	content: '';
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 10px;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 4px;
+	transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+.accordion[data-state="open"] > .vertical-nav-heading:before {
+	transform: rotate(-45deg);
+	top: 6px;
+}
+
+.accordion[data-state="closed"] > .vertical-nav-item {
+	display: none;
+}
+.accordion[data-state="open"] > .vertical-nav-item {
+	display: block;
 }
 
 /* Sub nav properties 
