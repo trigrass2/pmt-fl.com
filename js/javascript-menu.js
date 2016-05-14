@@ -13,12 +13,23 @@ $(document).ready(function(){
   // console.log('nav');
   var $primaryNav = $("#primary-navigation"),
       $t1Dropdown = $primaryNav.find('.horizontal-nav-item > .vertical-nav'),
+      $accordionAction = $primaryNav.find('.vertical-nav-heading'),
       t1DropdownPosition,
-      t2DropdownPosition;
+      t2DropdownPosition,
+      $thisNavItem;
 
   // Set classes so active parents
   // have a state change when hovering over children
   $primaryNav.find('.vertical-nav-item').hover (
+    function() {
+      $(this).parent().parent().prev().addClass('active');
+    },
+    function() {
+      $(this).parent().parent().prev().removeClass('active');
+    }                                               
+  );
+
+  $t1Dropdown.find('.vertical-nav-item').hover (
     function() {
       $(this).parent().prev().addClass('active');
     },
@@ -47,29 +58,57 @@ $(document).ready(function(){
     timeout: 50
   });
 
+  // function getMenuOffset () {
+  //   // Suppress JS error when hovering over .vertical-nav-heading
+  //   if ($thisNavItem.offset() != null) {
+  //     t2DropdownPosition = $thisNavItem.offset().top + $thisNavItem.height();  
+  //   }
+    
+  //   // console.log(t2DropdownPosition);
+
+  //   if (t2DropdownPosition >= t1DropdownPosition) {
+  //     // console.log('too tall, reset position');
+  //     $thisNavItem.parent().css({
+  //       position: 'initial'
+  //     });
+  //     $thisNavItem.css({
+  //       top: 'inherit',
+  //       bottom: "-1px"
+  //     });
+  //   } else {
+  //     // console.log('let it go');
+  //     $thisNavItem.parent().removeAttr('style');
+  //     t2DropdownPosition = '';
+  //     // $thisNavItem.removeAttr('style');
+  //   }
+  // }
+
+  // Accordion
+  $accordionAction.on('click', function(el) {
+    // Cache the accordion parent clicked on with
+    // it's current state
+    var $thisAccordion = $(this).parent(),
+        accordionState = $thisAccordion.data('state');
+
+    // Close all other accordions that may be open
+    $primaryNav.find('.accordion').data('state', 'closed').attr('data-state', 'closed');
+
+    // Toggle the state open/closed
+    if (accordionState == 'closed') {
+      $thisAccordion.data('state', 'open').attr('data-state', 'open');
+    } else {
+      $thisAccordion.data('state', 'closed').attr('data-state', 'closed');
+    }
+
+    // getMenuOffset();
+  });
+
   // Level 2 Nav
   function menuOut () {
-    var $thisNavItem = $(this).find('> .vertical-nav');
+    $thisNavItem = $(this).find('> .vertical-nav');
     $thisNavItem.fadeIn(250);
 
-    t2DropdownPosition = $thisNavItem.offset().top + $thisNavItem.height();
-    // console.log(t2DropdownPosition);
-
-    if (t2DropdownPosition >= t1DropdownPosition) {
-      // console.log('too tall, reset position');
-      $thisNavItem.parent().css({
-        position: 'initial'
-      });
-      $thisNavItem.css({
-        top: 'inherit',
-        bottom: "-1px"
-      });
-    } else {
-      // console.log('let it go');
-      $thisNavItem.parent().removeAttr('style');
-      t2DropdownPosition = '';
-      // $thisNavItem.removeAttr('style');
-    }
+    // getMenuOffset();
   }
   function menuIn (e) {
     $(this).find('> .vertical-nav').fadeOut(250);
@@ -78,8 +117,8 @@ $(document).ready(function(){
   $primaryNav.find('.vertical-nav-item').hoverIntent({
     over: menuOut,
     out: menuIn,
-    sensitivity: 10, 
-    interval: 175, 
-    timeout: 175
+    sensitivity: 8, 
+    interval: 150, 
+    timeout: 200
   });
 });
