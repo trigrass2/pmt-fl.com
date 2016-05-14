@@ -40,20 +40,6 @@
 				
 			</div>
 			<div id="subSecond" class="pad-left">
-			<h2 class="sub">Acam's Picoturn by PMT</h2>
-			<iframe width="560" height="315" src="//www.youtube.com/embed/x0O1qAYfs1M" frameborder="0" allowfullscreen></iframe>
-			
-			<h2 class="sub">Screencast: Intro to the PS09 Evaluation Kit</h2>
-			<iframe width="560" height="315" src="//www.youtube.com/embed/dyYecnxjjz4" frameborder="0" allowfullscreen></iframe>
-			
-			<h2 class="sub">Screencast: Acam PS081/PS09 DLC Interweighing</h2>
-			<iframe width="560" height="315" src="//www.youtube.com/embed/O8uE3LUWLM0" frameborder="0" allowfullscreen></iframe>
-			
-			<h2 class="sub">Screencast: Acam PS09 - Temperature Compensation - External</h2>
-			<iframe width="560" height="315" src="//www.youtube.com/embed/5YCvZa6ilZA" frameborder="0" allowfullscreen></iframe>
-			
-			<h2 class="sub">Screencast: Acam PS09 - Temperature Compensation - Internal</h2>
-			<iframe width="560" height="315" src="//www.youtube.com/embed/-Xtdi1ta1iE" frameborder="0" allowfullscreen></iframe>
 
 			<h2 class="sub">AMS VOC</h2>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/CJrjzbxqUPk" frameborder="0" allowfullscreen></iframe>
@@ -108,6 +94,21 @@
 
 			<h2 class="sub">NFC's Near Field Communications</h2>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/MOfqtEfZTfc" frameborder="0" allowfullscreen></iframe>
+
+			<h2 class="sub">Acam's Picoturn by PMT</h2>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/x0O1qAYfs1M" frameborder="0" allowfullscreen></iframe>
+			
+			<h2 class="sub">Screencast: Intro to the PS09 Evaluation Kit</h2>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/dyYecnxjjz4" frameborder="0" allowfullscreen></iframe>
+			
+			<h2 class="sub">Screencast: Acam PS081/PS09 DLC Interweighing</h2>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/O8uE3LUWLM0" frameborder="0" allowfullscreen></iframe>
+			
+			<h2 class="sub">Screencast: Acam PS09 - Temperature Compensation - External</h2>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/5YCvZa6ilZA" frameborder="0" allowfullscreen></iframe>
+			
+			<h2 class="sub">Screencast: Acam PS09 - Temperature Compensation - Internal</h2>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/-Xtdi1ta1iE" frameborder="0" allowfullscreen></iframe>
 
 			</div>
 
